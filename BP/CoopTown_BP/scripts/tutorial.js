@@ -1,4 +1,5 @@
 import {world,system} from '@minecraft/server';
+import {announce} from './hud-channel.js';
 
 // The first steps of a job (asked 2026-10-27): the first time a player has a job (main or second), its three basics
 // come as titles and chat lines a few seconds apart. Done jobs are kept on the player (TUT_KEY).
@@ -25,7 +26,7 @@ export function installTutorial({game}){
    const done=doneOf(player),job=pendingTutorials(p,done)[0];if(!job)continue;
    busy.add(player.id);try{player.setDynamicProperty(TUT_KEY,JSON.stringify([...done,job]));}catch{}
    TUTORIALS[job].forEach((text,i)=>system.runTimeout(()=>{
-    try{player.onScreenDisplay.setTitle(`§e${job}のはじめかた ${i+1}/3`,{subtitle:text,fadeInDuration:5,stayDuration:90,fadeOutDuration:10});
+    try{announce(player,`§e${job}のはじめかた ${i+1}/3`,text,5250);
      player.sendMessage(`§e【${job}のはじめかた ${i+1}/3】§f${text}`);player.playSound('random.orb',{pitch:1+i*.2,volume:.5});}catch{}
     if(i===2)busy.delete(player.id);
    },40+i*120));

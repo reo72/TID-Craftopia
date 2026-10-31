@@ -1,4 +1,5 @@
 import {world,system} from '@minecraft/server';
+import {announce} from './hud-channel.js';
 
 // The final-day awards (design: イベント｜最終日イベント): the season's records by category, top five each, points 5-1, the
 // most points overall wins the grand prize. Each first place gets the category's commemorative title. Announced by
@@ -61,7 +62,7 @@ export function announceAwards(game,{everyTicks=160,hideNeta=false}={}){
  let db;try{db=game.peek(d=>d.players);}catch{return 'データを読めませんでした。';}
  const {results,order}=computeAwards(db);
  const say=text=>{try{world.sendMessage(text);}catch{}};
- const title=(main,sub)=>{for(const p of world.getAllPlayers())try{p.onScreenDisplay.setTitle(main,{subtitle:sub,fadeInDuration:10,stayDuration:80,fadeOutDuration:10});p.playSound('random.levelup',{pitch:1.2,volume:.6});}catch{}};
+ const title=(main,sub)=>{for(const p of world.getAllPlayers())try{announce(p,main,sub,5000);p.playSound('random.levelup',{pitch:1.2,volume:.6});}catch{}};
  const steps=[()=>{title('§6最終日アワード','シーズンの記録を発表します');say('§6§l===== 最終日アワード =====');}];
  const GROUP={standard:'定番',job:'職業ネタ',neta:'ネタ枠'};
  for(const r of results){

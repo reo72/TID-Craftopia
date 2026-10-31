@@ -6,6 +6,7 @@ import {SHELF} from './food-config.js';
 import {ANIMALS} from './ranch-runtime.js';
 import {questFor,countItem} from './hud-info.js';
 import {playMinigame} from './minigame.js';
+import {announce} from './hud-channel.js';
 
 // What the magic commands do in the world (Notion「刻印エンチャント50案」, 動作・悪用対策). Every effect is on the
 // wearer, the target of the event, or (support) one other player close by in view; nothing creates items or currency,
@@ -17,7 +18,7 @@ const CD_KEY='cooptown:rune_cd',WAYPOINT_KEY='cooptown:rune_waypoint';
 const read=(o,k,d={})=>{try{const v=JSON.parse(o.getDynamicProperty(k)??'null');return v??d;}catch{return d;}};
 const write=(o,k,v)=>{try{o.setDynamicProperty(k,JSON.stringify(v));}catch{}};
 const say=(p,t)=>{try{p.sendMessage(t);}catch{}};
-const hud=(p,t)=>{try{p.onScreenDisplay.setTitle(' ',{subtitle:t,fadeInDuration:0,stayDuration:50,fadeOutDuration:10});}catch{say(p,t);}};
+const hud=(p,t)=>{try{announce(p,'',t,3000);}catch{say(p,t);}};
 const sound=(p,id,pitch=1)=>{try{p.playSound(id,{pitch,volume:.6});}catch{}};
 const particle=(dim,id,loc)=>{try{dim.spawnParticle(id,loc);}catch{}};
 const ticks=s=>Math.max(1,Math.round(s*20));

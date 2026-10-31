@@ -74,6 +74,23 @@ export const BENCH_TABS=[
  {label:'生活',icon:'textures/cooptown/items/furnace',categories:['storage','misc']},
  {label:'装飾',icon:'textures/cooptown/items/poppy',categories:['decor']},
  {label:'職業',icon:'textures/cooptown/items/anvil',job:true}];
+// ore blocks: [block, ore, ore per block, block name, ore name, block icon, ore icon] (the 4-piece ones cannot be undone)
+const OMC='minecraft:',OCT='textures/cooptown/items/',OVB='textures/blocks/',OVI='textures/items/';
+const ORE_BLOCKS=[
+ ['emerald_block','emerald',9,'エメラルドブロック','エメラルド',OCT+'emerald_block',OCT+'emerald'],
+ ['lapis_block','lapis_lazuli',9,'ラピスラズリブロック','ラピスラズリ',OVB+'lapis_block',OCT+'lapis_lazuli'],
+ ['redstone_block','redstone',9,'レッドストーンブロック','レッドストーンダスト',OVB+'redstone_block',OVI+'redstone_dust'],
+ ['copper_block','copper_ingot',9,'銅ブロック','銅インゴット',OVB+'copper_block',OCT+'copper_ingot'],
+ ['raw_iron_block','raw_iron',9,'鉄の原石ブロック','鉄の原石',OVB+'raw_iron_block',OCT+'raw_iron'],
+ ['raw_gold_block','raw_gold',9,'金の原石ブロック','金の原石',OVB+'raw_gold_block',OCT+'raw_gold'],
+ ['raw_copper_block','raw_copper',9,'銅の原石ブロック','銅の原石',OVB+'raw_copper_block',OCT+'raw_copper'],
+ ['netherite_block','netherite_ingot',9,'ネザライトブロック','ネザライトインゴット',OVB+'netherite_block',OCT+'netherite_ingot'],
+ ['quartz_block','quartz',4,'クォーツブロック','ネザークォーツ',OVB+'quartz_block_side',OCT+'quartz'],
+ ['amethyst_block','amethyst_shard',4,'アメジストブロック','アメジストの欠片',OVB+'amethyst_block',OCT+'amethyst_shard'],
+ // the four already above (鉄・金・ダイヤ・石炭ブロック) only get the way back
+ ...[['iron_block','iron_ingot','鉄ブロック','鉄インゴット'],['gold_block','gold_ingot','金ブロック','金インゴット'],['diamond_block','diamond','ダイヤモンドブロック','ダイヤモンド'],['coal_block','coal','石炭ブロック','石炭']]
+  .map(([b,o,bl,ol])=>[b,o,9,bl,ol,OCT+b,OCT+o,true])
+];
 export const BASIC_RECIPES=[
  ...[...tools('wooden','木',g('planks')),...tools('stone','石',g('cobble'))].map(r=>({...r,category:'tools'})),
  ...[
@@ -128,7 +145,11 @@ export const BASIC_RECIPES=[
   {name:'バックパック（黄色）',output:['cooptown:backpack_yellow',1],inputs:[['minecraft:leather',7],['minecraft:chest',1],['minecraft:yellow_dye',1]],icon:'textures/cooptown/backpack/icon_yellow'}
  ].map(r=>({...r,category:'storage'})),
  // the food catalogue's cup for hot drinks (food-catalog.js); given back after drinking
- {name:'共通カップ',output:['cooptown:cup',1],inputs:[['minecraft:brick',3]],category:'misc',icon:'textures/cooptown/food/cup'}
+ {name:'共通カップ',output:['cooptown:cup',1],inputs:[['minecraft:brick',3]],category:'misc',icon:'textures/cooptown/food/cup'},
+ // ore blocks (asked 2026-11-01): every ore block, and back to the ore (9 each) for the ones the game can undo. In 建築.
+ // reversible: no craft XP (so crafting back and forth gives none). Kept last (recipes are saved by their index).
+ ...ORE_BLOCKS.filter(b=>!b[7]).map(([block,ore,n,label,oreLabel,blockIcon])=>({name:label,reversible:true,output:[OMC+block,1],inputs:[[OMC+ore,n]],icon:blockIcon,category:'blocks'})),
+ ...ORE_BLOCKS.filter(b=>b[2]===9).map(([block,ore,,label,oreLabel,,oreIcon])=>({name:oreLabel+'（ブロックから）',reversible:true,output:[OMC+ore,9],inputs:[[OMC+block,1]],icon:oreIcon,category:'blocks'}))
 ];
 
 // The smith's anvil recipes open with the job level (asked 2026-10-23): jobLevel = the 職業 Lv needed (engine
@@ -185,5 +206,6 @@ export const JOB_VANILLA_RECIPES=[
 
 export const WORKBENCH_NAMES={
  ...Object.fromEntries(WOODS.map(([w,label])=>['minecraft:'+w+'_planks',label+'の板材'])),
- 'minecraft:string':'糸','minecraft:flint':'火打石','minecraft:feather':'羽根','minecraft:white_wool':'白の羊毛','minecraft:stone':'石','minecraft:smooth_stone':'滑らかな石','minecraft:smooth_stone_slab':'滑らかな石のハーフブロック','minecraft:glass':'ガラス','minecraft:sugar_cane':'サトウキビ','minecraft:gold_ingot':'金インゴット','minecraft:diamond':'ダイヤモンド','minecraft:redstone':'レッドストーン','minecraft:redstone_torch':'レッドストーントーチ','minecraft:quartz':'ネザークォーツ','minecraft:iron_block':'鉄ブロック','minecraft:chest':'チェスト','minecraft:furnace':'かまど','minecraft:bow':'弓','minecraft:blaze_rod':'ブレイズロッド','minecraft:milk_bucket':'牛乳入りバケツ','minecraft:sugar':'砂糖','minecraft:egg':'卵','minecraft:apple':'リンゴ','minecraft:obsidian':'黒曜石','minecraft:bucket':'バケツ','minecraft:cobblestone':'丸石'
+ 'minecraft:string':'糸','minecraft:flint':'火打石','minecraft:feather':'羽根','minecraft:white_wool':'白の羊毛','minecraft:stone':'石','minecraft:smooth_stone':'滑らかな石','minecraft:smooth_stone_slab':'滑らかな石のハーフブロック','minecraft:glass':'ガラス','minecraft:sugar_cane':'サトウキビ','minecraft:gold_ingot':'金インゴット','minecraft:diamond':'ダイヤモンド','minecraft:redstone':'レッドストーン','minecraft:redstone_torch':'レッドストーントーチ','minecraft:quartz':'ネザークォーツ','minecraft:iron_block':'鉄ブロック','minecraft:chest':'チェスト','minecraft:furnace':'かまど','minecraft:bow':'弓','minecraft:blaze_rod':'ブレイズロッド','minecraft:milk_bucket':'牛乳入りバケツ','minecraft:sugar':'砂糖','minecraft:egg':'卵','minecraft:apple':'リンゴ','minecraft:obsidian':'黒曜石','minecraft:bucket':'バケツ','minecraft:cobblestone':'丸石',
+ ...Object.fromEntries(ORE_BLOCKS.flatMap(([b,o,,bl,ol])=>[[OMC+b,bl],[OMC+o,ol]]))
 };

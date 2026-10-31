@@ -4,7 +4,7 @@ import {GATHER_BLOCKS} from './gather-config.js';
 import {markPlaced,importLegacy} from './placed-store.js';
 import {installGather} from './gather-runtime.js';
 import {installHudLog} from './hud-log.js';
-import {infoLines,setPartyLines} from './hud-info.js';
+import {infoLines,infoMarks,setPartyLines} from './hud-info.js';
 import {membersFor,partyMarks,partyText} from './party.js';
 import {installNameTags} from './name-tag.js';
 import {prefs,notify,installEventNotices} from './prefs.js';
@@ -254,7 +254,7 @@ const MATERIALS=new Set(CODEX.filter(v=>v[2]==='素材').map(v=>v[0]));
 // a codex discovery, with a chat notice for a new entry (unless turned off in the book's settings)
 function discover(p,type){const m=game.execute(p.id,'codex.discover',{type});if(String(m).startsWith('図鑑に登録'))notify(p,'codex',`§a図鑑に「${CODEX.find(v=>v[0]===type)?.[1]??type}」を登録しました。`);}
 export function installGame(){
- installHudLog({info:player=>infoLines(player,game.peek(d=>d.players[player.id]))});installPickupLog();
+ installHudLog({info:player=>infoLines(player,game.peek(d=>d.players[player.id])),marks:infoMarks});installPickupLog();
  installAdmin({game,refreshGame,itemName,backups});
  installMinimap({game});installNameTags({game});installEventNotices(game);installPlayTime();
  installWorkbench({game,refreshGame,itemName});

@@ -6,10 +6,13 @@ import {PROFILE_JOBS,PROFILE_TITLES,titleRankNumber} from './profile-config.js';
 import {questFor,offhandItem} from './hud-info.js';
 import {prefs} from './prefs.js';
 import {noticeMarks,setNotifyResend} from './notify.js';
+import {setHudPayload} from './hud-channel.js';
 
 // Top-right minimap. Each map cell is a glyph (block-top texture / marker) from font page E0; the map
 // is sent as an action bar message "ctmap:" + rows, which the RP's hud_screen.json draws top right.
-export const MINIMAP={size:21,zooms:[1,2,4],updateTicks:10,resendMs:1000,lookupBudget:600,cacheLimit:60000,cacheMs:180000,settingsKey:'cooptown:minimap'};
+// resendMs: the same map is drawn again only this often (the action bar needed it every second to stay on screen; the
+// subtitle stays, and hud-log.js resends it every 2 s anyway)
+export const MINIMAP={size:21,zooms:[1,2,4],updateTicks:10,resendMs:30000,lookupBudget:600,cacheLimit:60000,cacheMs:180000,settingsKey:'cooptown:minimap'};
 // updateTicks 10 (was 5 until 2026-10-30, "ラグい"): every action bar message rebuilds the whole HUD box on the client
 const G=key=>MAP_GLYPHS[key]??MAP_GLYPHS['tile:void'];
 
@@ -88,7 +91,7 @@ export function mapSettings(player){
   return {on:v.on!==false,zoom:MINIMAP.zooms.includes(v.zoom)?v.zoom:1,shape:SHAPES.some(([k])=>k===v.shape)?v.shape:'square',size:[0,1,2].includes(v.size)?v.size:1};}
  catch{return {on:true,zoom:1,shape:'square',size:1};}
 }
-export function saveMapSettings(player,s){player.setDynamicProperty(MINIMAP.settingsKey,JSON.stringify(s));if(!s.on)player.onScreenDisplay.setActionBar('ctmap:');}
+export function saveMapSettings(player,s){player.setDynamicProperty(MINIMAP.settingsKey,JSON.stringify(s));} // turned off: the next update sends the map-less text
 const saveSettings=saveMapSettings;
 
 // ---- drawing ----
@@ -157,8 +160,10 @@ export const lastStats=new Map();
 export function installMinimap({game}){
  const last=new Map(),base=new Map();
  // base: the last map text without the notification marks, so a moving bar can be re-sent every tick (notify.js)
- const sendBar=(player,text,key)=>{player.onScreenDisplay.setActionBar(text+noticeMarks(player));base.set(player.id,text);last.set(player.id,{key,at:Date.now()});};
- setNotifyResend(player=>{if(mapPaused.has(player.id))return;const t=base.get(player.id);if(t!==undefined)player.onScreenDisplay.setActionBar(t+noticeMarks(player));});
+ // the map text goes with the HUD's subtitle (hud-channel.js / hud-log.js; was the action bar until 2026-11-01, whose
+ // controls the game builds again for every message: the whole HUD flickered)
+ const sendBar=(player,text,key)=>{setHudPayload(player,text+noticeMarks(player));base.set(player.id,text);last.set(player.id,{key,at:Date.now()});};
+ setNotifyResend(player=>{if(mapPaused.has(player.id))return;const t=base.get(player.id);if(t!==undefined)setHudPayload(player,t+noticeMarks(player));});
  system.runInterval(()=>{
   budget=MINIMAP.lookupBudget;
   // a light read-only view of what the map needs (no copy of the whole save every half second)
@@ -197,7 +202,7 @@ export async function openMapSettings(player,{locationText}={}){
  const i=await dialog(player,{title:'地図',body:`ミニマップ：${s.on?'表示中':'非表示'}\n倍率：1マス＝${s.zoom}ブロック\n形：${SHAPES.find(([k])=>k===s.shape)[1]}\nサイズ：${SIZES[s.size]}\n\n${locationText??''}`
   ,buttons:[{text:s.on?'ミニマップを隠す':'ミニマップを表示'},{text:'倍率を変える（1・2・4ブロック）'},{text:'形を変える（四角・丸）'},{text:'サイズを変える（小・中・大）'},{text:'戻る',style:'no'}]});
  if(i===undefined||i===4)return;
- if(i===0){s.on=!s.on;saveSettings(player,s);if(!s.on)player.onScreenDisplay.setActionBar('ctmap:');}
+ if(i===0){s.on=!s.on;saveSettings(player,s);}
  else if(i===1){s.zoom=MINIMAP.zooms[(MINIMAP.zooms.indexOf(s.zoom)+1)%MINIMAP.zooms.length];saveSettings(player,s);}
  else if(i===2){s.shape=s.shape==='circle'?'square':'circle';saveSettings(player,s);}
  else{s.size=(s.size+1)%SIZES.length;saveSettings(player,s);}

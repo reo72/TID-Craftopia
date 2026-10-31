@@ -1,4 +1,5 @@
 import {system} from '@minecraft/server';
+import {setHudPayload} from './hud-channel.js';
 
 // The fishing minigame (asked): keep the fish inside the green frame by reeling, without breaking the line.
 // Reeling = holding sneak (forms cannot tell a held button; sneaking can be read every tick, also on phones).
@@ -90,7 +91,7 @@ export function playReel(player,rank=0,{name,onStart,onEnd,stats=()=>'',level=1,
     // every other tick (the game itself still runs every tick), at once when the sneak key changes: every action bar
     // message rebuilds the whole HUD box on the client, and 20 a second made the game lag behind the key (2026-10-30)
     const text=r?'ctmap:'+stats():'ctfsh:'+stats()+reelMarks(s,held);
-    if(r||held!==lastHeld||(s.tick%REEL.drawEvery===0&&text!==lastText)||s.tick-lastSent>=REEL.resendTicks){try{player.onScreenDisplay.setActionBar(text);}catch{}lastText=text;lastSent=s.tick;}
+    if(r||held!==lastHeld||(s.tick%REEL.drawEvery===0&&text!==lastText)||s.tick-lastSent>=REEL.resendTicks){try{setHudPayload(player,text);}catch{}lastText=text;lastSent=s.tick;}
     lastHeld=held;
    }
    if(r){system.clearRun(id);onEnd?.();resolve({ok:r==='win',result:r,score:s.tick?s.inside/s.tick:0});}

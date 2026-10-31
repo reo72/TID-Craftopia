@@ -3,17 +3,19 @@ import {PARTY_GLYPHS} from './party-glyphs.js';
 import {deliverable} from './item-desc.js';
 import {ORDERS,ITEM_NAMES,dayKey} from './game-config.js';
 import {noticeText} from './notify.js';
+import {announcementOf} from './hud-channel.js';
 
 // Text for the HUD info panels: profile name, biome / coordinates (under the minimap), money / bank and the tracked
-// quest (under the profile). hud-log.js sends these lines after the log icons in the title's subtitle; the RP
-// (build-hud-log.mjs) shows each through a one-line window, counted from the last line, so keep the order.
+// quest (under the profile). hud-log.js sends these lines first in the title's subtitle; the RP (build-hud-log.mjs)
+// shows each through a one-line window, counted from the first line (since 2026-11-01), so keep the order.
 // offCount: the off-hand item's count for the hotbar's F box (empty for 1; the picture itself comes as a hidden mark
 // with the map text, see statTokens in minimap.js)
 export const INFO_LINES=['name','offCount','biome','coords','wallet','bank','questTitle','questGoal','questCount','notice','title', // title: the worn title on the profile's ribbon
- 'p1name','p1title','p1hp','p2name','p2title','p2hp','p3name','p3title','p3hp']; // the party panels (party.js partyText)
+ 'p1name','p1title','p1hp','p2name','p2title','p2hp','p3name','p3title','p3hp', // the party panels (party.js partyText)
+ 'annMain','annSub']; // the announcement in the middle of the screen (hud-channel.js announce; was a vanilla title)
 // lines that may have no value: they get a see-through character instead (an empty line has no height in game,
 // which moved the F box's window up onto the name line)
-const MAY_BE_EMPTY=new Set(['offCount','notice','title','p1name','p1title','p1hp','p2name','p2title','p2hp','p3name','p3title','p3hp']); // notice: the top notification bar's text (notify.js)
+const MAY_BE_EMPTY=new Set(['annMain','annSub','offCount','notice','title','p1name','p1title','p1hp','p2name','p2title','p2hp','p3name','p3title','p3hp']); // notice: the top notification bar's text (notify.js)
 const BLANK=MAP_GLYPHS['tile:blank'];
 // line check: true starts every line with its number ("[3]12,480 G") to see in game which line each panel shows
 export const INFO_DEBUG=false;
@@ -99,13 +101,17 @@ export const setPartyLines=f=>{partyLines=f;};
  *  and the RP shows the music sign (build-hud-log.mjs bgmSign; 2026-10-30). */
 export let bgmPlaying=()=>false;
 export const setBgmPlaying=f=>{bgmPlaying=f;};
+/** Hidden marks that go with the HUD text (hud-log.js puts them after the payload): the welcome frame and the town music
+ *  (they were on the name line until 2026-11-01; the info lines are now counted from the top, so it keeps its height). */
+export const infoMarks=player=>(welcomeVisible(player)||'')+(bgmPlaying(player)?PARTY_GLYPHS['token:bgm']??'':'');
 export let welcomeVisible=()=>false;
 export const setWelcomeVisible=f=>{welcomeVisible=f;};
 export function infoLines(player,p){
- const q=questFor(player,p);
+ const q=questFor(player,p),ann=announcementOf(player);
  const off=offhandItem(player);
- const v={name:player.name+(welcomeVisible(player)||'')+(bgmPlaying(player)?PARTY_GLYPHS['token:bgm']??'':''),offCount:off&&off.amount>1?String(off.amount):'',biome:placeAt(player.dimension.id,player.location)??biomeName(biomeAt(player)),coords:coords(player.location),wallet:money(p?.coins),bank:money(p?.bank),
-  questTitle:q?.title,questGoal:q?.goal,questCount:q&&`${q.have} / ${q.need}`,notice:noticeText(player),title:p?.title??'',...partyLines(player)};
+ const v={name:player.name,offCount:off&&off.amount>1?String(off.amount):'',biome:placeAt(player.dimension.id,player.location)??biomeName(biomeAt(player)),coords:coords(player.location),wallet:money(p?.coins),bank:money(p?.bank),
+  questTitle:q?.title,questGoal:q?.goal,questCount:q&&`${q.have} / ${q.need}`,notice:noticeText(player),title:p?.title??'',...partyLines(player),
+  annMain:ann?.main,annSub:ann?.sub};
  return INFO_LINES.map((k,i)=>{
   let t=String(v[k]??'').replace(/\s*\n\s*/g,' ').trim();
   if(JAPANESE.has(k))t=!t?'なし':KANA_KANJI.test(t)?t:t+'（不明）'; // e.g. a biome missing from BIOMES

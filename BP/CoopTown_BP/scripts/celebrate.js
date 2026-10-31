@@ -1,4 +1,5 @@
 import {world,system} from '@minecraft/server';
+import {announce} from './hud-channel.js';
 
 // Fireworks for achievements: when a player gets a title or a level (the player level or a skill: 採掘 / 採取 /
 // クラフト), a few rockets of light rise over them and burst, with the firework sounds, and the players nearby get a
@@ -54,6 +55,6 @@ export function cheer(player,level='small',text=''){
  try{player.playSound(c.sound,{pitch:c.pitch,volume:.7});}catch{}
  const l=player.location;for(let i=0;i<c.n;i++)try{player.dimension.spawnParticle(c.particle,{x:l.x+(Math.random()-.5)*1.4,y:l.y+.5+Math.random()*1.6,z:l.z+(Math.random()-.5)*1.4});}catch{}
  if(level==='small'){if(text)try{player.onScreenDisplay.setActionBar(text);}catch{}return;}
- if(level==='medium'){if(text)try{player.onScreenDisplay.setTitle('§r',{subtitle:text,fadeInDuration:5,stayDuration:40,fadeOutDuration:10});}catch{}return;}
+ if(level==='medium'){if(text)announce(player,'',text,2750);return;} // the HUD's announcement (a vanilla title hid the HUD)
  fireworks(player,'title',3);if(text)tellNearby(player,text);
 }

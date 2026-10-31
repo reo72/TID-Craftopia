@@ -2,6 +2,7 @@ import * as mc from '@minecraft/server';
 import {dialog,noticeDialog,chooseDialog,confirmDialog} from './dialog.js';
 import {announceAwards} from './awards.js';
 import {chestCommand,LOCKABLE,lockAt,mayOpen} from './chest-lock.js';
+import {peekChest} from './chest-peek.js';
 
 // Handy commands anyone can use (asked 2026-10-23: no OP needed): custom slash commands /cooptown:<name>, registered at
 // startup with permission level 0 (any player) and no cheats. The screens they open are handed over by the modules
@@ -145,6 +146,7 @@ const COMMANDS={
  awards:{run:p=>{if(!p.hasTag('cooptown_admin')){p.sendMessage('§c運営用のコマンドです。');return;}p.sendMessage(announceAwards(H.game));},description:'最終日アワードを発表する（運営）'},
  awards_hide:{run:p=>{if(!p.hasTag('cooptown_admin')){p.sendMessage('§c運営用のコマンドです。');return;}p.sendMessage(announceAwards(H.game,{hideNeta:true}));},description:'最終日アワードを発表する・ネタ枠は名前を伏せる（運営）'},
  debug:{run:p=>H.debug?.(p),description:'テスト用メニュー（運営）'},
+ peek:{run:p=>peekChest(p),description:'見ているチェストの中身を開けずに見る（運営）'},
  pet:{run:p=>H.pet?.(p),description:'ペットを開く'},bgm:{run:p=>H.bgm?.(p),description:'街のBGMのオン・オフ'},skin:{run:p=>H.skin?.(p),description:'きせかえ（スキン・防具の表示）'},
  onbu:{run:(p,targets)=>onbu(p,targets),description:'近くの人をおんぶする',player:true},orosu:{run:orosu,description:'おんぶをやめる'}};
 export const COMMAND_NAMES=Object.keys(COMMANDS);

@@ -1,6 +1,7 @@
 import {world,system,ItemStack} from '@minecraft/server';
 import {titleTrack} from './job-count.js';
 import {cheer} from './celebrate.js';
+import {announce} from './hud-channel.js';
 
 // 探索戦 (asked 2026-10-27, the dungeon idea): using a 協力探索セット (sneak + use) starts a fight at that spot for the
 // players within DUNGEON.party blocks: DUNGEON.waves of monsters come one after another around the spot; clearing the
@@ -13,7 +14,7 @@ export const DUNGEON={party:12,area:32,radius:7,seconds:300,cooldownMs:10*60000,
 export function ringSpots(center,n,radius=DUNGEON.radius){return Array.from({length:n},(_,i)=>{const a=i/n*Math.PI*2;return {x:center.x+Math.cos(a)*radius,y:center.y,z:center.z+Math.sin(a)*radius};});}
 const runs=new Map(),last=new Map();let ctx;
 const msg=(players,text)=>{for(const p of players)try{p.sendMessage(text);}catch{}};
-const title=(players,main,sub)=>{for(const p of players)try{p.onScreenDisplay.setTitle(main,{subtitle:sub,fadeInDuration:5,stayDuration:40,fadeOutDuration:10});}catch{}};
+const title=(players,main,sub)=>{for(const p of players)announce(p,main,sub,2750);};
 function startDungeon(player){
  if(runs.size&&[...runs.values()].some(r=>r.party.some(p=>p.id===player.id))){player.sendMessage('§e探索戦の最中です。');return;}
  const now=Date.now(),wait=(last.get(player.id)??0)+DUNGEON.cooldownMs-now;if(wait>0){player.sendMessage(`§e次の探索戦まで あと${Math.ceil(wait/60000)}分`);return;}

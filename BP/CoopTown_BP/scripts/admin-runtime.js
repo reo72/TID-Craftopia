@@ -4,7 +4,7 @@ import {ADMIN_RULES,SKILLS} from './admin-engine.js';
 import {JOBS} from './game-config.js';
 import {BUILDINGS,STAGES,KINDS,TOWN_RULES,stageOf,stageSlots,buildingRatio,ranking} from './town-config.js';
 import {ITEM_ICONS} from './item-icons.js';
-import {holdTitles} from './hud-log.js';
+import {announce} from './hud-channel.js';
 import {notify,notifyAll,NOTIFY,NOTIFY_KINDS} from './notify.js';
 import {postNotice,NOTICE} from './notice-config.js';
 import {priceOf} from './sell-price.js';
@@ -251,7 +251,7 @@ V.notice=({db,player})=>({section:'notice',title:'お知らせ',crumb:'全員に
   {text:'通知バーで出す',go:async ctx=>{const v=await ask(player,'画面上の通知バーで全員に表示',[{label:'種類',options:NOTIFY_KINDS.map(k=>k.label)},{label:`内容（${NOTIFY.maxText}文字以内）`,placeholder:'例：20時から収穫祭！'},{label:'表示する秒数（1～30）',value:5}]);
    if(!v||!String(v[1]).trim())return;const t=String(v[1]).trim().slice(0,NOTIFY.maxText);notifyAll(t,Number(v[0])+1,Number(v[2])||5);return note(ctx,`お知らせ（通知バー・${NOTIFY_KINDS[v[0]]?.label}）：`+t);}},
   {text:'画面中央に出す',go:async ctx=>{const v=await ask(player,'画面中央に全員へ表示',[{label:'大きい文字（30文字以内）',placeholder:'例：収穫祭 開催！'},{label:'小さい文字（60文字以内）',placeholder:'例：広場に集まろう'}]);if(!v||!String(v[0]).trim())return;
-   const t=String(v[0]).trim().slice(0,30),sub=String(v[1]??'').trim().slice(0,60);holdTitles(8000);for(const p of world.getAllPlayers())p.onScreenDisplay.setTitle(t,{subtitle:sub,fadeInDuration:10,stayDuration:100,fadeOutDuration:20});return note(ctx,'お知らせ（画面中央）：'+t);}},
+   const t=String(v[0]).trim().slice(0,30),sub=String(v[1]??'').trim().slice(0,60);for(const p of world.getAllPlayers())announce(p,t,sub,6500);return note(ctx,'お知らせ（画面中央）：'+t);}},
   {text:'お知らせを投稿（手帳）',go:ctx=>postFlow(ctx,player,db,false)},
   {text:'個人に送る（アイテム付き可）',go:ctx=>postFlow(ctx,player,db,true)}
  ]});
