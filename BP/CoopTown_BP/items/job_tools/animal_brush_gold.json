@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:animal_brush_gold",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "金の飼育ブラシ"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_animal_brush_gold"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 160,
+        "damage_chance": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "minecraft:interact_button": "ブラッシング",
+      "cooptown:job_tool": {}
+    }
+  }
+}

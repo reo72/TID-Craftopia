@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:planting_bag",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "木こりの植林袋"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_planting_bag"
+        }
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

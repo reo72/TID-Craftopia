@@ -1,0 +1,59 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.cooptown_backpack.hand": {
+   "loop": true,
+   "bones": {
+    "backpack": {
+     "position": [
+      6.6,
+      0.0,
+      -1.4
+     ],
+     "scale": 1.0,
+     "rotation": [
+      0,
+      90,
+      0
+     ]
+    }
+   }
+  },
+  "animation.cooptown_backpack.hand_fp": {
+   "loop": true,
+   "bones": {
+    "backpack": {
+     "position": [
+      6.6,
+      0.0,
+      -1.4
+     ],
+     "scale": 1.0,
+     "rotation": [
+      0,
+      90,
+      0
+     ]
+    }
+   }
+  },
+  "animation.cooptown_backpack.back": {
+   "loop": true,
+   "bones": {
+    "backpack": {
+     "position": [
+      0.0,
+      12.0,
+      4.05
+     ],
+     "scale": 1.0,
+     "rotation": [
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  }
+ }
+}

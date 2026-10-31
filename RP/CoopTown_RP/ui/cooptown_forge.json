@@ -1,0 +1,3470 @@
+{
+ "namespace": "cooptown_forge",
+ "root": {
+  "type": "panel",
+  "size": [
+   "177.68331562167907%y",
+   "92%"
+  ],
+  "anchor_from": "center",
+  "anchor_to": "center",
+  "layer": 10,
+  "bindings": [
+   {
+    "binding_name": "#title_text"
+   },
+   {
+    "binding_type": "view",
+    "source_property_name": "(#title_text = 'ct:forge')",
+    "target_property_name": "#visible"
+   }
+  ],
+  "controls": [
+   {
+    "shade": {
+     "type": "image",
+     "texture": "textures/cooptown/solid",
+     "keep_ratio": false,
+     "size": [
+      "70.275%",
+      "43.571%"
+     ],
+     "layer": 0,
+     "color": [
+      0.05,
+      0.03,
+      0.02
+     ],
+     "alpha": 0.55,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "14.952%",
+      "20.191%"
+     ]
+    }
+   },
+   {
+    "frame": {
+     "type": "image",
+     "texture": "textures/cooptown/forge/main_frame",
+     "keep_ratio": false,
+     "size": [
+      "72.667%",
+      "82.359%"
+     ],
+     "layer": 1,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "13.756%",
+      "5.526%"
+     ]
+    }
+   },
+   {
+    "title_plate": {
+     "type": "image",
+     "texture": "textures/cooptown/forge/count_frame",
+     "keep_ratio": false,
+     "size": [
+      "22.428%",
+      "7.97%"
+     ],
+     "layer": 2,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "38.876%",
+      "2.338%"
+     ]
+    }
+   },
+   {
+    "title": {
+     "type": "panel",
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "38.876%",
+      "1.7%"
+     ],
+     "size": [
+      "22.428%",
+      "7.97%"
+     ],
+     "layer": 3,
+     "controls": [
+      {
+       "t": {
+        "type": "label",
+        "text": "鍛造",
+        "font_type": "unicode",
+        "size": [
+         "default",
+         "default"
+        ],
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "font_scale_factor": 1.55,
+        "color": [
+         0.95,
+         0.92,
+         0.85
+        ],
+        "shadow": true,
+        "localize": false,
+        "text_alignment": "center",
+        "layer": 5
+       }
+      }
+     ]
+    }
+   },
+   {
+    "timer_frame": {
+     "type": "image",
+     "texture": "textures/cooptown/forge/timer_frame",
+     "keep_ratio": false,
+     "size": [
+      "8.852%",
+      "10.84%"
+     ],
+     "layer": 2,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "75.478%",
+      "11.158%"
+     ]
+    }
+   },
+   {
+    "timer_head": {
+     "type": "panel",
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "75.478%",
+      "12.434%"
+     ],
+     "size": [
+      "8.852%",
+      "3.401%"
+     ],
+     "layer": 3,
+     "controls": [
+      {
+       "t": {
+        "type": "label",
+        "text": "残り",
+        "font_type": "unicode",
+        "size": [
+         "default",
+         "default"
+        ],
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "font_scale_factor": 0.85,
+        "color": [
+         0.95,
+         0.92,
+         0.85
+        ],
+        "shadow": true,
+        "localize": false,
+        "text_alignment": "center",
+        "layer": 5
+       }
+      }
+     ]
+    }
+   },
+   {
+    "anvil": {
+     "type": "image",
+     "texture": "textures/cooptown/forge/anvil",
+     "keep_ratio": true,
+     "size": [
+      "29.306%",
+      "15.409%"
+     ],
+     "layer": 2,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "33.792%",
+      "42.508%"
+     ]
+    }
+   },
+   {
+    "count_frame": {
+     "type": "image",
+     "texture": "textures/cooptown/forge/count_frame",
+     "keep_ratio": false,
+     "size": [
+      "23.445%",
+      "6.908%"
+     ],
+     "layer": 2,
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "offset": [
+      "38.158%",
+      "57.386%"
+     ]
+    }
+   },
+   {
+    "buttons": {
+     "type": "collection_panel",
+     "size": [
+      "100%",
+      "100%"
+     ],
+     "anchor_from": "top_left",
+     "anchor_to": "top_left",
+     "collection_name": "form_buttons",
+     "layer": 4,
+     "controls": [
+      {
+       "state": {
+        "type": "panel",
+        "collection_index": 0,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "0%",
+         "0%"
+        ],
+        "size": [
+         "100%",
+         "100%"
+        ],
+        "layer": 12,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         }
+        ],
+        "controls": [
+         {
+          "scene": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "ingot": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "13.756%",
+               "15.94%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "43.062%",
+               "34.006%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "armor_hot": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/armor_hot",
+              "keep_ratio": true,
+              "size": [
+               "13.158%",
+               "14.878%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "41.866%",
+               "35.069%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "armor_cool": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/armor_flat",
+              "keep_ratio": true,
+              "size": [
+               "11.962%",
+               "15.94%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "42.464%",
+               "34.006%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hammer": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hammer_big",
+              "keep_ratio": true,
+              "size": [
+               "16.148%",
+               "21.254%"
+              ],
+              "layer": 4,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "48.445%",
+               "19.129%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "sparks": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/sparks",
+              "keep_ratio": true,
+              "size": [
+               "25.12%",
+               "20.191%"
+              ],
+              "layer": 5,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "35.885%",
+               "26.567%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[sp]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "water": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "10.167%",
+               "18.066%"
+              ],
+              "layer": 2,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "64.593%",
+               "35.069%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hit_off_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hit_off",
+              "keep_ratio": true,
+              "size": [
+               "2.751%",
+               "4.888%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "39.773%",
+               "58.448%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "((not ((#form_button_text - '[s2]') = #form_button_text)) and (not (not ((#form_button_text - '[h1]') = #form_button_text))))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hit_on_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hit_on",
+              "keep_ratio": true,
+              "size": [
+               "2.751%",
+               "4.888%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "39.773%",
+               "58.448%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[h1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hit_off_1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hit_off",
+              "keep_ratio": true,
+              "size": [
+               "2.751%",
+               "4.888%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "43.361%",
+               "58.448%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "((not ((#form_button_text - '[s2]') = #form_button_text)) and (not (not ((#form_button_text - '[h2]') = #form_button_text))))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hit_on_1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hit_on",
+              "keep_ratio": true,
+              "size": [
+               "2.751%",
+               "4.888%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "43.361%",
+               "58.448%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[h2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hit_off_2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hit_off",
+              "keep_ratio": true,
+              "size": [
+               "2.751%",
+               "4.888%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "46.95%",
+               "58.448%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "((not ((#form_button_text - '[s2]') = #form_button_text)) and (not (not ((#form_button_text - '[h3]') = #form_button_text))))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "hit_on_2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/hit_on",
+              "keep_ratio": true,
+              "size": [
+               "2.751%",
+               "4.888%"
+              ],
+              "layer": 3,
+              "anchor_from": "top_left",
+              "anchor_to": "top_left",
+              "offset": [
+               "46.95%",
+               "58.448%"
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[h3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "tab_off_0": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/tab_off",
+           "keep_ratio": false,
+           "size": [
+            "17.045%",
+            "7.651%"
+           ],
+           "layer": 1,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "22.727%",
+            "11.477%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not (not ((#form_button_text - '[s1]') = #form_button_text)))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_on_0": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/tab_on",
+           "keep_ratio": false,
+           "size": [
+            "17.045%",
+            "7.651%"
+           ],
+           "layer": 1,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "22.727%",
+            "11.477%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not ((#form_button_text - '[s1]') = #form_button_text))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_icon_0": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/icon_heat",
+           "keep_ratio": true,
+           "size": [
+            "2.99%",
+            "4.676%"
+           ],
+           "layer": 3,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "24.522%",
+            "12.965%"
+           ]
+          }
+         },
+         {
+          "tab_text_0": {
+           "type": "panel",
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "28.11%",
+            "11.477%"
+           ],
+           "size": [
+            "9.868%",
+            "7.651%"
+           ],
+           "layer": 4,
+           "controls": [
+            {
+             "off": {
+              "type": "label",
+              "text": "1  加熱",
+              "font_type": "unicode",
+              "size": [
+               "default",
+               "default"
+              ],
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "font_scale_factor": 1.1,
+              "color": [
+               0.95,
+               0.92,
+               0.85
+              ],
+              "shadow": true,
+              "localize": false,
+              "text_alignment": "left",
+              "layer": 5,
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not (not ((#form_button_text - '[s1]') = #form_button_text)))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "on": {
+              "type": "label",
+              "text": "1  加熱",
+              "font_type": "unicode",
+              "size": [
+               "default",
+               "default"
+              ],
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "font_scale_factor": 1.1,
+              "color": [
+               1,
+               0.8,
+               0.3
+              ],
+              "shadow": true,
+              "localize": false,
+              "text_alignment": "left",
+              "layer": 5,
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "tab_check_0": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/check",
+           "keep_ratio": true,
+           "size": [
+            "2.632%",
+            "4.038%"
+           ],
+           "layer": 4,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "34.988%",
+            "13.177%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not ((#form_button_text - '[d1]') = #form_button_text))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_off_1": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/tab_off",
+           "keep_ratio": false,
+           "size": [
+            "20.036%",
+            "7.651%"
+           ],
+           "layer": 1,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "39.773%",
+            "11.477%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not (not ((#form_button_text - '[s2]') = #form_button_text)))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_on_1": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/tab_on",
+           "keep_ratio": false,
+           "size": [
+            "20.036%",
+            "7.651%"
+           ],
+           "layer": 1,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "39.773%",
+            "11.477%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not ((#form_button_text - '[s2]') = #form_button_text))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_icon_1": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/icon_hit",
+           "keep_ratio": true,
+           "size": [
+            "2.99%",
+            "4.676%"
+           ],
+           "layer": 3,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "41.567%",
+            "12.965%"
+           ]
+          }
+         },
+         {
+          "tab_text_1": {
+           "type": "panel",
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "45.156%",
+            "11.477%"
+           ],
+           "size": [
+            "12.859%",
+            "7.651%"
+           ],
+           "layer": 4,
+           "controls": [
+            {
+             "off": {
+              "type": "label",
+              "text": "2  打撃",
+              "font_type": "unicode",
+              "size": [
+               "default",
+               "default"
+              ],
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "font_scale_factor": 1.1,
+              "color": [
+               0.95,
+               0.92,
+               0.85
+              ],
+              "shadow": true,
+              "localize": false,
+              "text_alignment": "left",
+              "layer": 5,
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not (not ((#form_button_text - '[s2]') = #form_button_text)))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "on": {
+              "type": "label",
+              "text": "2  打撃",
+              "font_type": "unicode",
+              "size": [
+               "default",
+               "default"
+              ],
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "font_scale_factor": 1.1,
+              "color": [
+               1,
+               0.8,
+               0.3
+              ],
+              "shadow": true,
+              "localize": false,
+              "text_alignment": "left",
+              "layer": 5,
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "tab_check_1": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/check",
+           "keep_ratio": true,
+           "size": [
+            "2.632%",
+            "4.038%"
+           ],
+           "layer": 4,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "55.024%",
+            "13.177%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not ((#form_button_text - '[d2]') = #form_button_text))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_off_2": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/tab_off",
+           "keep_ratio": false,
+           "size": [
+            "15.431%",
+            "7.651%"
+           ],
+           "layer": 1,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "58.911%",
+            "11.477%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not (not ((#form_button_text - '[s3]') = #form_button_text)))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_on_2": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/tab_on",
+           "keep_ratio": false,
+           "size": [
+            "15.431%",
+            "7.651%"
+           ],
+           "layer": 1,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "58.911%",
+            "11.477%"
+           ],
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "(not ((#form_button_text - '[s3]') = #form_button_text))",
+             "target_property_name": "#visible"
+            }
+           ]
+          }
+         },
+         {
+          "tab_icon_2": {
+           "type": "image",
+           "texture": "textures/cooptown/forge/icon_cool",
+           "keep_ratio": true,
+           "size": [
+            "2.99%",
+            "4.676%"
+           ],
+           "layer": 3,
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "60.706%",
+            "12.965%"
+           ]
+          }
+         },
+         {
+          "tab_text_2": {
+           "type": "panel",
+           "anchor_from": "top_left",
+           "anchor_to": "top_left",
+           "offset": [
+            "64.294%",
+            "11.477%"
+           ],
+           "size": [
+            "8.254%",
+            "7.651%"
+           ],
+           "layer": 4,
+           "controls": [
+            {
+             "off": {
+              "type": "label",
+              "text": "3  冷却",
+              "font_type": "unicode",
+              "size": [
+               "default",
+               "default"
+              ],
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "font_scale_factor": 1.1,
+              "color": [
+               0.95,
+               0.92,
+               0.85
+              ],
+              "shadow": true,
+              "localize": false,
+              "text_alignment": "left",
+              "layer": 5,
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not (not ((#form_button_text - '[s3]') = #form_button_text)))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "on": {
+              "type": "label",
+              "text": "3  冷却",
+              "font_type": "unicode",
+              "size": [
+               "default",
+               "default"
+              ],
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "font_scale_factor": 1.1,
+              "color": [
+               1,
+               0.8,
+               0.3
+              ],
+              "shadow": true,
+              "localize": false,
+              "text_alignment": "left",
+              "layer": 5,
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[s3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "timer": {
+        "type": "panel",
+        "collection_index": 1,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "75.478%",
+         "15.622%"
+        ],
+        "size": [
+         "8.852%",
+         "5.101%"
+        ],
+        "layer": 12,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         }
+        ],
+        "controls": [
+         {
+          "t": {
+           "type": "label",
+           "text": "#text",
+           "font_type": "unicode",
+           "size": [
+            "100%",
+            "default"
+           ],
+           "anchor_from": "center",
+           "anchor_to": "center",
+           "font_scale_factor": 1.5,
+           "color": [
+            1,
+            0.8,
+            0.3
+           ],
+           "shadow": true,
+           "localize": false,
+           "text_alignment": "center",
+           "layer": 5,
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+             "target_property_name": "#text"
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "count": {
+        "type": "panel",
+        "collection_index": 2,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "51.435%",
+         "58.236%"
+        ],
+        "size": [
+         "9.569%",
+         "5.313%"
+        ],
+        "layer": 12,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         }
+        ],
+        "controls": [
+         {
+          "t": {
+           "type": "label",
+           "text": "#text",
+           "font_type": "unicode",
+           "size": [
+            "100%",
+            "default"
+           ],
+           "anchor_from": "left_middle",
+           "anchor_to": "left_middle",
+           "font_scale_factor": 1.05,
+           "color": [
+            0.95,
+            0.92,
+            0.85
+           ],
+           "shadow": true,
+           "localize": false,
+           "text_alignment": "left",
+           "layer": 5,
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+             "target_property_name": "#text"
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "hint": {
+        "type": "panel",
+        "collection_index": 3,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "17.943%",
+         "65.675%"
+        ],
+        "size": [
+         "63.995%",
+         "5.526%"
+        ],
+        "layer": 12,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         }
+        ],
+        "controls": [
+         {
+          "t": {
+           "type": "label",
+           "text": "#text",
+           "font_type": "unicode",
+           "size": [
+            "100%",
+            "default"
+           ],
+           "anchor_from": "center",
+           "anchor_to": "center",
+           "font_scale_factor": 1.15,
+           "color": [
+            0.95,
+            0.92,
+            0.85
+           ],
+           "shadow": true,
+           "localize": false,
+           "text_alignment": "center",
+           "layer": 5,
+           "bindings": [
+            {
+             "binding_name": "#form_button_text",
+             "binding_type": "collection",
+             "binding_collection_name": "form_buttons"
+            },
+            {
+             "binding_type": "view",
+             "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+             "target_property_name": "#text"
+            }
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "choice_weak@common.button": {
+        "collection_index": 4,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "17.165%",
+         "72.051%"
+        ],
+        "size": [
+         "18.242%",
+         "10.627%"
+        ],
+        "$pressed_button_name": "button.form_button_click",
+        "layer": 10,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         },
+         {
+          "binding_type": "collection_details",
+          "binding_collection_name": "form_buttons"
+         }
+        ],
+        "default_control": "normal",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "controls": [
+         {
+          "normal": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_weak",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "hover": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_weak",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.15
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "pressed": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_weak",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.25
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ],
+           "offset": [
+            0,
+            1
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "choice_normal@common.button": {
+        "collection_index": 5,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "36.184%",
+         "72.051%"
+        ],
+        "size": [
+         "19.438%",
+         "10.627%"
+        ],
+        "$pressed_button_name": "button.form_button_click",
+        "layer": 10,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         },
+         {
+          "binding_type": "collection_details",
+          "binding_collection_name": "form_buttons"
+         }
+        ],
+        "default_control": "normal",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "controls": [
+         {
+          "normal": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_normal",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "hover": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_normal",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.15
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "pressed": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_normal",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.25
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ],
+           "offset": [
+            0,
+            1
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "choice_strong@common.button": {
+        "collection_index": 6,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "56.519%",
+         "72.051%"
+        ],
+        "size": [
+         "18.84%",
+         "10.627%"
+        ],
+        "$pressed_button_name": "button.form_button_click",
+        "layer": 10,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         },
+         {
+          "binding_type": "collection_details",
+          "binding_collection_name": "form_buttons"
+         }
+        ],
+        "default_control": "normal",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "controls": [
+         {
+          "normal": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_strong",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "hover": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_strong",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.15
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "pressed": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_strong",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.25
+             }
+            },
+            {
+             "icon1": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_heat",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i1]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon2": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_hit",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i2]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "icon3": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/icon_cool",
+              "keep_ratio": true,
+              "size": [
+               "22%",
+               "80%"
+              ],
+              "layer": 3,
+              "anchor_from": "left_middle",
+              "anchor_to": "left_middle",
+              "offset": [
+               "8%",
+               0
+              ],
+              "bindings": [
+               {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+               },
+               {
+                "binding_type": "view",
+                "source_property_name": "(not ((#form_button_text - '[i3]') = #form_button_text))",
+                "target_property_name": "#visible"
+               }
+              ]
+             }
+            },
+            {
+             "text": {
+              "type": "panel",
+              "size": [
+               "68%",
+               "100%"
+              ],
+              "anchor_from": "right_middle",
+              "anchor_to": "right_middle",
+              "offset": [
+               "-4%",
+               0
+              ],
+              "layer": 5,
+              "controls": [
+               {
+                "t": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1.15,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ],
+           "offset": [
+            0,
+            1
+           ]
+          }
+         }
+        ]
+       }
+      },
+      {
+       "choice_stop@common.button": {
+        "collection_index": 7,
+        "anchor_from": "top_left",
+        "anchor_to": "top_left",
+        "offset": [
+         "77.153%",
+         "75.664%"
+        ],
+        "size": [
+         "6.28%",
+         "7.226%"
+        ],
+        "$pressed_button_name": "button.form_button_click",
+        "layer": 10,
+        "bindings": [
+         {
+          "binding_name": "#form_button_text",
+          "binding_type": "collection",
+          "binding_collection_name": "form_buttons"
+         },
+         {
+          "binding_type": "view",
+          "source_property_name": "(not (#form_button_text = ''))",
+          "target_property_name": "#visible"
+         },
+         {
+          "binding_type": "collection_details",
+          "binding_collection_name": "form_buttons"
+         }
+        ],
+        "default_control": "normal",
+        "hover_control": "hover",
+        "pressed_control": "pressed",
+        "controls": [
+         {
+          "normal": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_stop",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0
+             }
+            },
+            {
+             "t": {
+              "type": "panel",
+              "layer": 5,
+              "controls": [
+               {
+                "l": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "hover": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_stop",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.15
+             }
+            },
+            {
+             "t": {
+              "type": "panel",
+              "layer": 5,
+              "controls": [
+               {
+                "l": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ]
+          }
+         },
+         {
+          "pressed": {
+           "type": "panel",
+           "size": [
+            "100%",
+            "100%"
+           ],
+           "controls": [
+            {
+             "part_0": {
+              "type": "image",
+              "texture": "textures/cooptown/forge/btn_stop",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 1
+             }
+            },
+            {
+             "part_1": {
+              "type": "image",
+              "texture": "textures/cooptown/solid",
+              "keep_ratio": false,
+              "size": [
+               "100%",
+               "100%"
+              ],
+              "layer": 6,
+              "color": [
+               1,
+               0.9,
+               0.6
+              ],
+              "alpha": 0.25
+             }
+            },
+            {
+             "t": {
+              "type": "panel",
+              "layer": 5,
+              "controls": [
+               {
+                "l": {
+                 "type": "label",
+                 "text": "#text",
+                 "font_type": "unicode",
+                 "size": [
+                  "100%",
+                  "default"
+                 ],
+                 "anchor_from": "center",
+                 "anchor_to": "center",
+                 "font_scale_factor": 1,
+                 "color": [
+                  0.95,
+                  0.92,
+                  0.85
+                 ],
+                 "shadow": true,
+                 "localize": false,
+                 "text_alignment": "center",
+                 "layer": 5,
+                 "bindings": [
+                  {
+                   "binding_name": "#form_button_text",
+                   "binding_type": "collection",
+                   "binding_collection_name": "form_buttons"
+                  },
+                  {
+                   "binding_type": "view",
+                   "source_property_name": "('§r' + (((#form_button_text - '[i1]') - '[i2]') - '[i3]'))",
+                   "target_property_name": "#text"
+                  }
+                 ]
+                }
+               }
+              ]
+             }
+            }
+           ],
+           "offset": [
+            0,
+            1
+           ]
+          }
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

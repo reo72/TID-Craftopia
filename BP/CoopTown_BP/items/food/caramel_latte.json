@@ -1,0 +1,34 @@
+{
+ "format_version": "1.21.90",
+ "minecraft:item": {
+  "description": {
+   "identifier": "cooptown:caramel_latte",
+   "menu_category": {
+    "category": "items",
+    "group": "minecraft:itemGroup.name.miscFood"
+   }
+  },
+  "components": {
+   "minecraft:display_name": {
+    "value": "キャラメルラテ"
+   },
+   "minecraft:icon": {
+    "textures": {
+     "default": "cooptown_food_caramel_latte"
+    }
+   },
+   "minecraft:max_stack_size": 16,
+   "minecraft:food": {
+    "nutrition": 1,
+    "saturation_modifier": 0.6,
+    "can_always_eat": true,
+    "using_converts_to": "cooptown:cup"
+   },
+   "minecraft:use_modifiers": {
+    "use_duration": 1.6,
+    "movement_modifier": 0.35
+   },
+   "minecraft:use_animation": "drink"
+  }
+ }
+}

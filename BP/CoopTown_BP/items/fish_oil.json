@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:fish_oil",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "魚油"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_fish_oil"
+        }
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:refined_ingot",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "精製金属"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_refined_ingot"
+        }
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

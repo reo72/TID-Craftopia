@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:forge_shard",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "鍛造の欠片"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_forge_shard"
+        }
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

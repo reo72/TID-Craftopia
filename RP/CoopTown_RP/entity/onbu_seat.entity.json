@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cooptown:onbu_seat",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/cooptown/transparent" },
+      "geometry": {},
+      "render_controllers": []
+    }
+  }
+}

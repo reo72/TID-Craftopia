@@ -1,0 +1,802 @@
+[
+  {
+    "id": "ayu",
+    "name": "アユ",
+    "category": "川・湖",
+    "visual": "slender olive silver fish with yellow cheek",
+    "number": 1,
+    "texture": "textures/items/fish/ayu.png"
+  },
+  {
+    "id": "yamame",
+    "name": "ヤマメ",
+    "category": "川・湖",
+    "visual": "silver trout with dark oval parr marks",
+    "number": 2,
+    "texture": "textures/items/fish/yamame.png"
+  },
+  {
+    "id": "iwana",
+    "name": "イワナ",
+    "category": "川・湖",
+    "visual": "dark olive char with cream spots",
+    "number": 3,
+    "texture": "textures/items/fish/iwana.png"
+  },
+  {
+    "id": "nijimasu",
+    "name": "ニジマス",
+    "category": "川・湖",
+    "visual": "silver trout pink lateral stripe",
+    "number": 4,
+    "texture": "textures/items/fish/nijimasu.png"
+  },
+  {
+    "id": "amago",
+    "name": "アマゴ",
+    "category": "川・湖",
+    "visual": "silver trout dark bars and red dots",
+    "number": 5,
+    "texture": "textures/items/fish/amago.png"
+  },
+  {
+    "id": "ugui",
+    "name": "ウグイ",
+    "category": "川・湖",
+    "visual": "slender silver fish orange side stripe",
+    "number": 6,
+    "texture": "textures/items/fish/ugui.png"
+  },
+  {
+    "id": "oikawa",
+    "name": "オイカワ",
+    "category": "川・湖",
+    "visual": "blue green fish pink bands tall dorsal fin",
+    "number": 7,
+    "texture": "textures/items/fish/oikawa.png"
+  },
+  {
+    "id": "kawamutsu",
+    "name": "カワムツ",
+    "category": "川・湖",
+    "visual": "golden brown fish black lateral stripe",
+    "number": 8,
+    "texture": "textures/items/fish/kawamutsu.png"
+  },
+  {
+    "id": "koi",
+    "name": "コイ",
+    "category": "川・湖",
+    "visual": "bronze carp large scales short barbels",
+    "number": 9,
+    "texture": "textures/items/fish/koi.png"
+  },
+  {
+    "id": "ginbuna",
+    "name": "ギンブナ",
+    "category": "川・湖",
+    "visual": "deep bodied silver gray crucian carp",
+    "number": 10,
+    "texture": "textures/items/fish/ginbuna.png"
+  },
+  {
+    "id": "kingyo",
+    "name": "キンギョ",
+    "category": "川・湖",
+    "visual": "orange goldfish flowing split tail",
+    "number": 11,
+    "texture": "textures/items/fish/kingyo.png"
+  },
+  {
+    "id": "nishikigoi",
+    "name": "ニシキゴイ",
+    "category": "川・湖",
+    "visual": "white koi with red and black patches",
+    "number": 12,
+    "texture": "textures/items/fish/nishikigoi.png"
+  },
+  {
+    "id": "medaka",
+    "name": "メダカ",
+    "category": "川・湖",
+    "visual": "tiny pale golden ricefish large eye",
+    "number": 13,
+    "texture": "textures/items/fish/medaka.png"
+  },
+  {
+    "id": "dojo",
+    "name": "ドジョウ",
+    "category": "川・湖",
+    "visual": "long brown loach tiny barbels",
+    "number": 14,
+    "texture": "textures/items/fish/dojo.png"
+  },
+  {
+    "id": "namazu",
+    "name": "ナマズ",
+    "category": "川・湖",
+    "visual": "dark gray broad headed catfish long whiskers",
+    "number": 15,
+    "texture": "textures/items/fish/namazu.png"
+  },
+  {
+    "id": "unagi",
+    "name": "ウナギ",
+    "category": "川・湖",
+    "visual": "long dark brown eel cream belly",
+    "number": 16,
+    "texture": "textures/items/fish/unagi.png"
+  },
+  {
+    "id": "wakasagi",
+    "name": "ワカサギ",
+    "category": "川・湖",
+    "visual": "tiny translucent silver smelt",
+    "number": 17,
+    "texture": "textures/items/fish/wakasagi.png"
+  },
+  {
+    "id": "black_bass",
+    "name": "ブラックバス",
+    "category": "川・湖",
+    "visual": "olive bass black lateral band large mouth",
+    "number": 18,
+    "texture": "textures/items/fish/black_bass.png"
+  },
+  {
+    "id": "bluegill",
+    "name": "ブルーギル",
+    "category": "川・湖",
+    "visual": "deep blue green sunfish black ear spot",
+    "number": 19,
+    "texture": "textures/items/fish/bluegill.png"
+  },
+  {
+    "id": "itoh",
+    "name": "イトウ",
+    "category": "川・湖",
+    "visual": "large copper brown trout spotted head",
+    "number": 20,
+    "texture": "textures/items/fish/itoh.png"
+  },
+  {
+    "id": "aji",
+    "name": "アジ",
+    "category": "海・沿岸",
+    "visual": "silver horse mackerel golden side line",
+    "number": 21,
+    "texture": "textures/items/fish/aji.png"
+  },
+  {
+    "id": "saba",
+    "name": "サバ",
+    "category": "海・沿岸",
+    "visual": "blue green mackerel dark wavy back stripes",
+    "number": 22,
+    "texture": "textures/items/fish/saba.png"
+  },
+  {
+    "id": "iwashi",
+    "name": "イワシ",
+    "category": "海・沿岸",
+    "visual": "slender blue silver sardine side dots",
+    "number": 23,
+    "texture": "textures/items/fish/iwashi.png"
+  },
+  {
+    "id": "sanma",
+    "name": "サンマ",
+    "category": "海・沿岸",
+    "visual": "very long slender silver fish pointed jaw",
+    "number": 24,
+    "texture": "textures/items/fish/sanma.png"
+  },
+  {
+    "id": "sayori",
+    "name": "サヨリ",
+    "category": "海・沿岸",
+    "visual": "slender silver halfbeak long lower jaw",
+    "number": 25,
+    "texture": "textures/items/fish/sayori.png"
+  },
+  {
+    "id": "kisu",
+    "name": "キス",
+    "category": "海・沿岸",
+    "visual": "pale sandy silver whiting narrow body",
+    "number": 26,
+    "texture": "textures/items/fish/kisu.png"
+  },
+  {
+    "id": "suzuki",
+    "name": "スズキ",
+    "category": "海・沿岸",
+    "visual": "silver sea bass large mouth spiny dorsal",
+    "number": 27,
+    "texture": "textures/items/fish/suzuki.png"
+  },
+  {
+    "id": "kurodai",
+    "name": "クロダイ",
+    "category": "海・沿岸",
+    "visual": "deep charcoal silver bream",
+    "number": 28,
+    "texture": "textures/items/fish/kurodai.png"
+  },
+  {
+    "id": "madai",
+    "name": "マダイ",
+    "category": "海・沿岸",
+    "visual": "pink red sea bream blue speckles",
+    "number": 29,
+    "texture": "textures/items/fish/madai.png"
+  },
+  {
+    "id": "ishidai",
+    "name": "イシダイ",
+    "category": "海・沿岸",
+    "visual": "deep silver fish bold vertical black bands",
+    "number": 30,
+    "texture": "textures/items/fish/ishidai.png"
+  },
+  {
+    "id": "mebaru",
+    "name": "メバル",
+    "category": "海・沿岸",
+    "visual": "rust brown rockfish huge eyes",
+    "number": 31,
+    "texture": "textures/items/fish/mebaru.png"
+  },
+  {
+    "id": "kasago",
+    "name": "カサゴ",
+    "category": "海・沿岸",
+    "visual": "red mottled scorpionfish spiny head",
+    "number": 32,
+    "texture": "textures/items/fish/kasago.png"
+  },
+  {
+    "id": "ainame",
+    "name": "アイナメ",
+    "category": "海・沿岸",
+    "visual": "elongated mottled brown greenling",
+    "number": 33,
+    "texture": "textures/items/fish/ainame.png"
+  },
+  {
+    "id": "bora",
+    "name": "ボラ",
+    "category": "海・沿岸",
+    "visual": "silver mullet blunt head horizontal stripes",
+    "number": 34,
+    "texture": "textures/items/fish/bora.png"
+  },
+  {
+    "id": "hirame",
+    "name": "ヒラメ",
+    "category": "海・沿岸",
+    "visual": "brown oval flatfish top view eyes on one side",
+    "number": 35,
+    "texture": "textures/items/fish/hirame.png"
+  },
+  {
+    "id": "karei",
+    "name": "カレイ",
+    "category": "海・沿岸",
+    "visual": "olive diamond flatfish top view small mouth",
+    "number": 36,
+    "texture": "textures/items/fish/karei.png"
+  },
+  {
+    "id": "kawahagi",
+    "name": "カワハギ",
+    "category": "海・沿岸",
+    "visual": "tan diamond filefish small mouth dorsal spike",
+    "number": 37,
+    "texture": "textures/items/fish/kawahagi.png"
+  },
+  {
+    "id": "umazurahagi",
+    "name": "ウマヅラハギ",
+    "category": "海・沿岸",
+    "visual": "gray elongated filefish long face blue fins",
+    "number": 38,
+    "texture": "textures/items/fish/umazurahagi.png"
+  },
+  {
+    "id": "torafugu",
+    "name": "トラフグ",
+    "category": "海・沿岸",
+    "visual": "round spotted pufferfish white belly",
+    "number": 39,
+    "texture": "textures/items/fish/torafugu.png"
+  },
+  {
+    "id": "hako_fugu",
+    "name": "ハコフグ",
+    "category": "海・沿岸",
+    "visual": "yellow box shaped fish black polka dots",
+    "number": 40,
+    "texture": "textures/items/fish/hako_fugu.png"
+  },
+  {
+    "id": "buri",
+    "name": "ブリ",
+    "category": "沖合・回遊",
+    "visual": "streamlined blue silver yellowtail yellow stripe and tail",
+    "number": 41,
+    "texture": "textures/items/fish/buri.png"
+  },
+  {
+    "id": "kanpachi",
+    "name": "カンパチ",
+    "category": "沖合・回遊",
+    "visual": "silver amberjack golden side stripe dark head band",
+    "number": 42,
+    "texture": "textures/items/fish/kanpachi.png"
+  },
+  {
+    "id": "hiramasa",
+    "name": "ヒラマサ",
+    "category": "沖合・回遊",
+    "visual": "slender blue silver fish bright yellow fins",
+    "number": 43,
+    "texture": "textures/items/fish/hiramasa.png"
+  },
+  {
+    "id": "katsuo",
+    "name": "カツオ",
+    "category": "沖合・回遊",
+    "visual": "blue skipjack tuna dark horizontal belly stripes",
+    "number": 44,
+    "texture": "textures/items/fish/katsuo.png"
+  },
+  {
+    "id": "kuromaguro",
+    "name": "クロマグロ",
+    "category": "沖合・回遊",
+    "visual": "massive dark blue tuna silver belly crescent tail",
+    "number": 45,
+    "texture": "textures/items/fish/kuromaguro.png"
+  },
+  {
+    "id": "kihada",
+    "name": "キハダマグロ",
+    "category": "沖合・回遊",
+    "visual": "tuna extremely long yellow sickle fins",
+    "number": 46,
+    "texture": "textures/items/fish/kihada.png"
+  },
+  {
+    "id": "mebachi",
+    "name": "メバチマグロ",
+    "category": "沖合・回遊",
+    "visual": "deep blue tuna very large eye",
+    "number": 47,
+    "texture": "textures/items/fish/mebachi.png"
+  },
+  {
+    "id": "bincho",
+    "name": "ビンナガマグロ",
+    "category": "沖合・回遊",
+    "visual": "silver tuna very long pectoral fins",
+    "number": 48,
+    "texture": "textures/items/fish/bincho.png"
+  },
+  {
+    "id": "shiira",
+    "name": "シイラ",
+    "category": "沖合・回遊",
+    "visual": "bright green gold mahi mahi blunt forehead",
+    "number": 49,
+    "texture": "textures/items/fish/shiira.png"
+  },
+  {
+    "id": "tobiuo",
+    "name": "トビウオ",
+    "category": "沖合・回遊",
+    "visual": "silver blue flying fish huge winglike fins",
+    "number": 50,
+    "texture": "textures/items/fish/tobiuo.png"
+  },
+  {
+    "id": "kajiki",
+    "name": "カジキ",
+    "category": "沖合・回遊",
+    "visual": "blue marlin long spear bill",
+    "number": 51,
+    "texture": "textures/items/fish/kajiki.png"
+  },
+  {
+    "id": "mekajiki",
+    "name": "メカジキ",
+    "category": "沖合・回遊",
+    "visual": "silver swordfish broad sword bill",
+    "number": 52,
+    "texture": "textures/items/fish/mekajiki.png"
+  },
+  {
+    "id": "tachiuo",
+    "name": "タチウオ",
+    "category": "沖合・回遊",
+    "visual": "long ribbon silver fish tapering tail",
+    "number": 53,
+    "texture": "textures/items/fish/tachiuo.png"
+  },
+  {
+    "id": "sawara",
+    "name": "サワラ",
+    "category": "沖合・回遊",
+    "visual": "long silver mackerel dark side spots",
+    "number": 54,
+    "texture": "textures/items/fish/sawara.png"
+  },
+  {
+    "id": "sake",
+    "name": "シロザケ",
+    "category": "沖合・回遊",
+    "visual": "silver salmon green back forked tail",
+    "number": 55,
+    "texture": "textures/items/fish/sake.png"
+  },
+  {
+    "id": "benizake",
+    "name": "ベニザケ",
+    "category": "沖合・回遊",
+    "visual": "red salmon green head hooked jaw",
+    "number": 56,
+    "texture": "textures/items/fish/benizake.png"
+  },
+  {
+    "id": "ginzake",
+    "name": "ギンザケ",
+    "category": "沖合・回遊",
+    "visual": "silver salmon black back spots",
+    "number": 57,
+    "texture": "textures/items/fish/ginzake.png"
+  },
+  {
+    "id": "masunosuke",
+    "name": "マスノスケ",
+    "category": "沖合・回遊",
+    "visual": "large dark spotted king salmon",
+    "number": 58,
+    "texture": "textures/items/fish/masunosuke.png"
+  },
+  {
+    "id": "manbo",
+    "name": "マンボウ",
+    "category": "沖合・回遊",
+    "visual": "huge round gray sunfish tall fins tiny tail",
+    "number": 59,
+    "texture": "textures/items/fish/manbo.png"
+  },
+  {
+    "id": "rainbow_runner",
+    "name": "ツムブリ",
+    "category": "沖合・回遊",
+    "visual": "slender blue rainbow runner two yellow side stripes",
+    "number": 60,
+    "texture": "textures/items/fish/rainbow_runner.png"
+  },
+  {
+    "id": "clownfish",
+    "name": "カクレクマノミ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "orange clownfish three white bands black fin edges",
+    "number": 61,
+    "texture": "textures/items/fish/clownfish.png"
+  },
+  {
+    "id": "blue_tang",
+    "name": "ナンヨウハギ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "royal blue tang black palette marking yellow tail",
+    "number": 62,
+    "texture": "textures/items/fish/blue_tang.png"
+  },
+  {
+    "id": "yellow_tang",
+    "name": "キイロハギ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "bright yellow disc fish pointed snout",
+    "number": 63,
+    "texture": "textures/items/fish/yellow_tang.png"
+  },
+  {
+    "id": "butterflyfish",
+    "name": "チョウチョウウオ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "white yellow disc fish black eye stripe",
+    "number": 64,
+    "texture": "textures/items/fish/butterflyfish.png"
+  },
+  {
+    "id": "moorish_idol",
+    "name": "ツノダシ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "white black yellow striped fish long dorsal streamer",
+    "number": 65,
+    "texture": "textures/items/fish/moorish_idol.png"
+  },
+  {
+    "id": "mandarinfish",
+    "name": "ニシキテグリ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "small blue orange green ornate dragonet",
+    "number": 66,
+    "texture": "textures/items/fish/mandarinfish.png"
+  },
+  {
+    "id": "lionfish",
+    "name": "ミノカサゴ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "red white striped lionfish radiating spiny fins",
+    "number": 67,
+    "texture": "textures/items/fish/lionfish.png"
+  },
+  {
+    "id": "parrotfish",
+    "name": "ブダイ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "turquoise green fish pink scales parrot beak",
+    "number": 68,
+    "texture": "textures/items/fish/parrotfish.png"
+  },
+  {
+    "id": "napoleon",
+    "name": "ナポレオンフィッシュ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "large teal wrasse forehead hump thick lips",
+    "number": 69,
+    "texture": "textures/items/fish/napoleon.png"
+  },
+  {
+    "id": "royal_gramma",
+    "name": "ロイヤルグラマ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "front purple rear yellow small reef fish",
+    "number": 70,
+    "texture": "textures/items/fish/royal_gramma.png"
+  },
+  {
+    "id": "banggai",
+    "name": "カウデルニィー",
+    "category": "熱帯・サンゴ礁",
+    "visual": "silver cardinalfish three black bars white spotted long fins",
+    "number": 71,
+    "texture": "textures/items/fish/banggai.png"
+  },
+  {
+    "id": "betta",
+    "name": "ベタ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "red blue fighting fish flowing fan fins",
+    "number": 72,
+    "texture": "textures/items/fish/betta.png"
+  },
+  {
+    "id": "guppy",
+    "name": "グッピー",
+    "category": "熱帯・サンゴ礁",
+    "visual": "small silver fish huge orange spotted fan tail",
+    "number": 73,
+    "texture": "textures/items/fish/guppy.png"
+  },
+  {
+    "id": "neon_tetra",
+    "name": "ネオンテトラ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "tiny fish electric blue stripe red rear belly",
+    "number": 74,
+    "texture": "textures/items/fish/neon_tetra.png"
+  },
+  {
+    "id": "discus",
+    "name": "ディスカス",
+    "category": "熱帯・サンゴ礁",
+    "visual": "round orange blue striped discus fish",
+    "number": 75,
+    "texture": "textures/items/fish/discus.png"
+  },
+  {
+    "id": "angelfish",
+    "name": "エンゼルフィッシュ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "silver triangular freshwater angelfish black bars long ventral fins",
+    "number": 76,
+    "texture": "textures/items/fish/angelfish.png"
+  },
+  {
+    "id": "arowana",
+    "name": "アロワナ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "long golden scaled fish upturned mouth",
+    "number": 77,
+    "texture": "textures/items/fish/arowana.png"
+  },
+  {
+    "id": "pirarucu",
+    "name": "ピラルク",
+    "category": "熱帯・サンゴ礁",
+    "visual": "long dark fish red edged rear scales",
+    "number": 78,
+    "texture": "textures/items/fish/pirarucu.png"
+  },
+  {
+    "id": "piranha",
+    "name": "ピラニア",
+    "category": "熱帯・サンゴ礁",
+    "visual": "deep silver fish red belly prominent jaw",
+    "number": 79,
+    "texture": "textures/items/fish/piranha.png"
+  },
+  {
+    "id": "seahorse",
+    "name": "タツノオトシゴ",
+    "category": "熱帯・サンゴ礁",
+    "visual": "golden seahorse upright curled tail",
+    "number": 80,
+    "texture": "textures/items/fish/seahorse.png"
+  },
+  {
+    "id": "anglerfish",
+    "name": "チョウチンアンコウ",
+    "category": "深海・大物",
+    "visual": "round dark anglerfish glowing lure toothy mouth",
+    "number": 81,
+    "texture": "textures/items/fish/anglerfish.png"
+  },
+  {
+    "id": "oarfish",
+    "name": "リュウグウノツカイ",
+    "category": "深海・大物",
+    "visual": "long silver ribbon fish red crest and dorsal fin",
+    "number": 82,
+    "texture": "textures/items/fish/oarfish.png"
+  },
+  {
+    "id": "coelacanth",
+    "name": "シーラカンス",
+    "category": "深海・大物",
+    "visual": "blue gray thick fish pale spots lobed fins",
+    "number": 83,
+    "texture": "textures/items/fish/coelacanth.png"
+  },
+  {
+    "id": "barreleye",
+    "name": "デメニギス",
+    "category": "深海・大物",
+    "visual": "dark small fish clear green dome head upward eyes",
+    "number": 84,
+    "texture": "textures/items/fish/barreleye.png"
+  },
+  {
+    "id": "viperfish",
+    "name": "ホウライエソ",
+    "category": "深海・大物",
+    "visual": "long dark blue fish needle teeth light dots",
+    "number": 85,
+    "texture": "textures/items/fish/viperfish.png"
+  },
+  {
+    "id": "gulper_eel",
+    "name": "フクロウナギ",
+    "category": "深海・大物",
+    "visual": "black eel enormous pouch mouth thin tail",
+    "number": 86,
+    "texture": "textures/items/fish/gulper_eel.png"
+  },
+  {
+    "id": "lanternfish",
+    "name": "ハダカイワシ",
+    "category": "深海・大物",
+    "visual": "small dark silver fish glowing blue belly dots",
+    "number": 87,
+    "texture": "textures/items/fish/lanternfish.png"
+  },
+  {
+    "id": "orange_roughy",
+    "name": "オレンジラフィー",
+    "category": "深海・大物",
+    "visual": "deep orange red rough scaled fish",
+    "number": 88,
+    "texture": "textures/items/fish/orange_roughy.png"
+  },
+  {
+    "id": "kinmedai",
+    "name": "キンメダイ",
+    "category": "深海・大物",
+    "visual": "bright red deep bodied fish enormous golden eyes",
+    "number": 89,
+    "texture": "textures/items/fish/kinmedai.png"
+  },
+  {
+    "id": "gindara",
+    "name": "ギンダラ",
+    "category": "深海・大物",
+    "visual": "dark charcoal elongated sablefish",
+    "number": 90,
+    "texture": "textures/items/fish/gindara.png"
+  },
+  {
+    "id": "pinecone_fish",
+    "name": "マツカサウオ",
+    "category": "深海・大物",
+    "visual": "yellow armored fish dark scale outlines",
+    "number": 91,
+    "texture": "textures/items/fish/pinecone_fish.png"
+  },
+  {
+    "id": "sturgeon",
+    "name": "チョウザメ",
+    "category": "深海・大物",
+    "visual": "long gray fish pointed snout bony scutes",
+    "number": 92,
+    "texture": "textures/items/fish/sturgeon.png"
+  },
+  {
+    "id": "paddlefish",
+    "name": "ヘラチョウザメ",
+    "category": "深海・大物",
+    "visual": "blue gray fish very long paddle snout",
+    "number": 93,
+    "texture": "textures/items/fish/paddlefish.png"
+  },
+  {
+    "id": "gar",
+    "name": "アリゲーターガー",
+    "category": "深海・大物",
+    "visual": "olive spotted long armored fish alligator snout",
+    "number": 94,
+    "texture": "textures/items/fish/gar.png"
+  },
+  {
+    "id": "electric_eel",
+    "name": "デンキウナギ",
+    "category": "深海・大物",
+    "visual": "long dark eel orange throat",
+    "number": 95,
+    "texture": "textures/items/fish/electric_eel.png"
+  },
+  {
+    "id": "whale_shark",
+    "name": "ジンベエザメ",
+    "category": "深海・大物",
+    "visual": "blue broad headed shark white spot grid",
+    "number": 96,
+    "texture": "textures/items/fish/whale_shark.png"
+  },
+  {
+    "id": "hammerhead",
+    "name": "シュモクザメ",
+    "category": "深海・大物",
+    "visual": "gray shark unmistakable hammer shaped head",
+    "number": 97,
+    "texture": "textures/items/fish/hammerhead.png"
+  },
+  {
+    "id": "great_white",
+    "name": "ホホジロザメ",
+    "category": "深海・大物",
+    "visual": "gray shark white belly triangular dorsal fin",
+    "number": 98,
+    "texture": "textures/items/fish/great_white.png"
+  },
+  {
+    "id": "manta",
+    "name": "オニイトマキエイ",
+    "category": "深海・大物",
+    "visual": "black diamond manta ray white belly curled head fins",
+    "number": 99,
+    "texture": "textures/items/fish/manta.png"
+  },
+  {
+    "id": "sawshark",
+    "name": "ノコギリザメ",
+    "category": "深海・大物",
+    "visual": "tan shark long saw toothed snout",
+    "number": 100,
+    "texture": "textures/items/fish/sawshark.png"
+  }
+]

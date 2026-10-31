@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CoopTown 手帳メニュー RP",
+    "description": "見開き手帳・生成ピクセルアートの専用UI",
+    "uuid": "8c0cebf5-298d-47b2-aa56-bd55f07c4278",
+    "version": [
+      0,
+      5,
+      44
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "afa1b150-b8a0-4177-98c4-2ac3e47ab3a0",
+      "version": [
+        0,
+        5,
+        44
+      ]
+    }
+  ]
+}

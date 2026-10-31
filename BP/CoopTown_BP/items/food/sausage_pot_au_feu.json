@@ -1,0 +1,34 @@
+{
+ "format_version": "1.21.90",
+ "minecraft:item": {
+  "description": {
+   "identifier": "cooptown:sausage_pot_au_feu",
+   "menu_category": {
+    "category": "items",
+    "group": "minecraft:itemGroup.name.miscFood"
+   }
+  },
+  "components": {
+   "minecraft:display_name": {
+    "value": "ソーセージポトフ"
+   },
+   "minecraft:icon": {
+    "textures": {
+     "default": "cooptown_food_sausage_pot_au_feu"
+    }
+   },
+   "minecraft:max_stack_size": 16,
+   "minecraft:food": {
+    "nutrition": 7,
+    "saturation_modifier": 0.6,
+    "can_always_eat": false,
+    "using_converts_to": "minecraft:bowl"
+   },
+   "minecraft:use_modifiers": {
+    "use_duration": 1.6,
+    "movement_modifier": 0.35
+   },
+   "minecraft:use_animation": "drink"
+  }
+ }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "file": "assets/inventory_background.png",
+    "width": 1295,
+    "height": 1215,
+    "alpha_bbox": [
+      37,
+      45,
+      1261,
+      1175
+    ],
+    "purpose": "One large rectangular ivory parchment inventory backplate, chestnut leather border, small brass corners, delicate sage botanical corners. Plain uninterrupted EMPTY center. No slots, no character, no tabs, no labels."
+  },
+  {
+    "file": "assets/slot_empty.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha_bbox": [
+      33,
+      37,
+      1194,
+      1224
+    ],
+    "purpose": "One empty square inventory slot, recessed ivory parchment interior, thin dark brown double pixel border. Perfect square."
+  },
+  {
+    "file": "assets/slot_selected.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha_bbox": [
+      29,
+      5,
+      1234,
+      1212
+    ],
+    "purpose": "One selected square inventory slot, empty ivory center, sage green frame and tiny brass corners. Perfect square."
+  },
+  {
+    "file": "assets/character_preview.png",
+    "width": 1145,
+    "height": 1374,
+    "alpha_bbox": [
+      29,
+      12,
+      1093,
+      1374
+    ],
+    "purpose": "One tall portrait character preview frame, dark brown empty inset, chestnut leather frame with small brass corners. Empty interior, no character."
+  },
+  {
+    "file": "assets/armor_helmet.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha_bbox": [
+      0,
+      65,
+      1224,
+      1228
+    ],
+    "purpose": "One small faint taupe helmet silhouette equipment placeholder, coarse Minecraft pixel art. No slot frame."
+  },
+  {
+    "file": "assets/armor_chestplate.png",
+    "width": 1286,
+    "height": 1223,
+    "alpha_bbox": [
+      0,
+      17,
+      1254,
+      1183
+    ],
+    "purpose": "One small faint taupe chestplate silhouette equipment placeholder, coarse Minecraft pixel art. No slot frame."
+  },
+  {
+    "file": "assets/armor_leggings.png",
+    "width": 1272,
+    "height": 1236,
+    "alpha_bbox": [
+      25,
+      279,
+      1242,
+      1166
+    ],
+    "purpose": "One small faint taupe leggings silhouette equipment placeholder, coarse Minecraft pixel art. No slot frame."
+  },
+  {
+    "file": "assets/armor_boots.png",
+    "width": 1312,
+    "height": 1199,
+    "alpha_bbox": [
+      81,
+      114,
+      1268,
+      1067
+    ],
+    "purpose": "One small faint taupe pair of boots silhouette equipment placeholder, coarse Minecraft pixel art. No slot frame."
+  },
+  {
+    "file": "assets/offhand_shield.png",
+    "width": 1272,
+    "height": 1236,
+    "alpha_bbox": [
+      162,
+      39,
+      1210,
+      1202
+    ],
+    "purpose": "One small faint taupe shield outline equipment placeholder, coarse Minecraft pixel art. No slot frame."
+  },
+  {
+    "file": "assets/craft_arrow.png",
+    "width": 1536,
+    "height": 1024,
+    "alpha_bbox": [
+      0,
+      19,
+      1514,
+      1022
+    ],
+    "purpose": "One compact dark brown pixel art arrow pointing right, used between crafting input and output. No frame."
+  },
+  {
+    "file": "assets/tab_normal.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha_bbox": [
+      0,
+      2,
+      1222,
+      1254
+    ],
+    "purpose": "One blank square-ish parchment tab button with dark chestnut leather border and ivory empty center. No icon."
+  },
+  {
+    "file": "assets/tab_selected.png",
+    "width": 1254,
+    "height": 1254,
+    "alpha_bbox": [
+      0,
+      17,
+      1244,
+      1232
+    ],
+    "purpose": "One blank square-ish sage green selected tab button with dark chestnut leather border and small brass corners. No icon."
+  },
+  {
+    "file": "assets/icon_recipes.png",
+    "width": 1448,
+    "height": 1086,
+    "alpha_bbox": [
+      226,
+      182,
+      1426,
+      1037
+    ],
+    "purpose": "One recipe tab icon: a green pixel recipe book slightly overlapping a tiny brown crafting table. No background or button."
+  },
+  {
+    "file": "assets/icon_chest.png",
+    "width": 1284,
+    "height": 1225,
+    "alpha_bbox": [
+      57,
+      52,
+      1192,
+      1169
+    ],
+    "purpose": "One closed small chest tab icon, warm brown pixel chest with golden latch and dark brown outlines. No background or button."
+  },
+  {
+    "file": "assets/icon_help.png",
+    "width": 1281,
+    "height": 1228,
+    "alpha_bbox": [
+      329,
+      210,
+      1057,
+      1228
+    ],
+    "purpose": "One dark brown pixel question mark '?' icon. No background, no button."
+  },
+  {
+    "file": "assets/icon_close.png",
+    "width": 1272,
+    "height": 1236,
+    "alpha_bbox": [
+      55,
+      196,
+      1123,
+      1116
+    ],
+    "purpose": "One dark brown pixel close cross '×' icon. No background, no button."
+  }
+]

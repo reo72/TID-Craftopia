@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cooptown_villager.idle": {
+      "loop": true,
+      "bones": {
+        "rightarm": { "rotation": [ "math.sin(query.life_time * 60) * 3", 0, "math.cos(query.life_time * 45) * 2 + 2" ] },
+        "leftarm": { "rotation": [ "-math.sin(query.life_time * 60) * 3", 0, "-math.cos(query.life_time * 45) * 2 - 2" ] }
+      }
+    },
+    "animation.cooptown_villager.hold": {
+      "loop": true,
+      "bones": {
+        "rightarm": { "rotation": [ -18, 0, 0 ] }
+      }
+    },
+    "animation.cooptown_villager.wave": {
+      "loop": true,
+      "bones": {
+        "rightarm": { "rotation": [ "-150 + math.sin(query.anim_time * 540) * 8", 0, "math.sin(query.anim_time * 540) * 25" ] },
+        "head": { "rotation": [ "math.sin(query.anim_time * 360) * 6", 0, 0 ] }
+      }
+    }
+  }
+}

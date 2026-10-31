@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:cool_bag",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "保冷バッグ"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_cool_bag"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:interact_button": "保冷バッグを開く",
+      "cooptown:job_tool": {}
+    }
+  }
+}

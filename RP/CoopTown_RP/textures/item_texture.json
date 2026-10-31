@@ -1,0 +1,1452 @@
+{
+  "resource_pack_name": "cooptown",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "cooptown_guidebook": {
+      "textures": "textures/items/book_normal"
+    },
+    "cooptown_timber_beam": {
+      "textures": "textures/cooptown/cooperation/beam"
+    },
+    "cooptown_refined_ingot": {
+      "textures": "textures/cooptown/cooperation/refined"
+    },
+    "cooptown_herb_bundle": {
+      "textures": "textures/cooptown/cooperation/herbs"
+    },
+    "cooptown_tool_parts": {
+      "textures": "textures/cooptown/cooperation/parts"
+    },
+    "cooptown_trail_ration": {
+      "textures": "textures/cooptown/cooperation/ration"
+    },
+    "cooptown_rune_charm": {
+      "textures": "textures/cooptown/cooperation/charm"
+    },
+    "cooptown_fish_oil": {
+      "textures": "textures/cooptown/cooperation/oil"
+    },
+    "cooptown_expedition_kit": {
+      "textures": "textures/cooptown/cooperation/kit"
+    },
+    "cooptown_admin_book": {
+      "textures": "textures/items/book_enchanted"
+    },
+    "cooptown_fine_wood": {
+      "textures": "textures/blocks/planks_big_oak"
+    },
+    "cooptown_ancient_sap": {
+      "textures": "textures/items/honey_bottle"
+    },
+    "cooptown_rare_ore": {
+      "textures": "textures/items/raw_gold"
+    },
+    "cooptown_shining_crystal": {
+      "textures": "textures/cooptown/materials/shining_crystal"
+    },
+    "cooptown_golden_wheat": {
+      "textures": "textures/cooptown/materials/golden_wheat"
+    },
+    "cooptown_mystic_seed": {
+      "textures": "textures/cooptown/materials/mystic_seed"
+    },
+    "cooptown_rare_fish": {
+      "textures": "textures/items/fish_clownfish_raw"
+    },
+    "cooptown_deep_pearl": {
+      "textures": "textures/items/ender_pearl"
+    },
+    "cooptown_forge_shard": {
+      "textures": "textures/items/iron_nugget"
+    },
+    "cooptown_secret_spice": {
+      "textures": "textures/cooptown/materials/secret_spice"
+    },
+    "cooptown_mana_dust": {
+      "textures": "textures/cooptown/materials/mana_dust"
+    },
+    "cooptown_recipe_scroll": {
+      "textures": "textures/cooptown/cauldron/scroll"
+    },
+    "cooptown_backpack_green": {
+      "textures": "textures/cooptown/backpack/icon_green"
+    },
+    "cooptown_backpack_blue": {
+      "textures": "textures/cooptown/backpack/icon_blue"
+    },
+    "cooptown_backpack_lime": {
+      "textures": "textures/cooptown/backpack/icon_lime"
+    },
+    "cooptown_backpack_cyan": {
+      "textures": "textures/cooptown/backpack/icon_cyan"
+    },
+    "cooptown_backpack_purple": {
+      "textures": "textures/cooptown/backpack/icon_purple"
+    },
+    "cooptown_backpack_pink": {
+      "textures": "textures/cooptown/backpack/icon_pink"
+    },
+    "cooptown_backpack_gray": {
+      "textures": "textures/cooptown/backpack/icon_gray"
+    },
+    "cooptown_backpack_brown": {
+      "textures": "textures/cooptown/backpack/icon_brown"
+    },
+    "cooptown_backpack_yellow": {
+      "textures": "textures/cooptown/backpack/icon_yellow"
+    },
+    "cooptown_dish_veg_soup": {
+      "textures": "textures/cooptown/dishes/veg_soup"
+    },
+    "cooptown_dish_meat_stew": {
+      "textures": "textures/cooptown/dishes/meat_stew"
+    },
+    "cooptown_dish_fish_set": {
+      "textures": "textures/cooptown/dishes/fish_set"
+    },
+    "cooptown_dish_milk_pudding": {
+      "textures": "textures/cooptown/dishes/milk_pudding"
+    },
+    "cooptown_dish_fruit_tart": {
+      "textures": "textures/cooptown/dishes/fruit_tart"
+    },
+    "cooptown_dish_smoked_meat": {
+      "textures": "textures/cooptown/dishes/smoked_meat"
+    },
+    "cooptown_dish_smoked_fish": {
+      "textures": "textures/cooptown/dishes/smoked_fish"
+    },
+    "cooptown_dish_dried_meat": {
+      "textures": "textures/cooptown/dishes/dried_meat"
+    },
+    "cooptown_dish_dried_fish": {
+      "textures": "textures/cooptown/dishes/dried_fish"
+    },
+    "cooptown_dish_jar_preserve": {
+      "textures": "textures/cooptown/dishes/jar_preserve"
+    },
+    "cooptown_potion_calm_s": {
+      "textures": "textures/cooptown/potions/calm_s"
+    },
+    "cooptown_potion_calm_m": {
+      "textures": "textures/cooptown/potions/calm_m"
+    },
+    "cooptown_potion_calm_l": {
+      "textures": "textures/cooptown/potions/calm_l"
+    },
+    "cooptown_potion_serene": {
+      "textures": "textures/cooptown/potions/serene"
+    },
+    "cooptown_potion_mind": {
+      "textures": "textures/cooptown/potions/mind"
+    },
+    "cooptown_potion_first_aid": {
+      "textures": "textures/cooptown/potions/first_aid"
+    },
+    "cooptown_potion_antidote": {
+      "textures": "textures/cooptown/potions/antidote"
+    },
+    "cooptown_potion_focus": {
+      "textures": "textures/cooptown/potions/focus"
+    },
+    "cooptown_potion_fish_eye": {
+      "textures": "textures/cooptown/potions/fish_eye"
+    },
+    "cooptown_potion_sense": {
+      "textures": "textures/cooptown/potions/sense"
+    },
+    "cooptown_food_honey_toast": {
+      "textures": "textures/cooptown/food/honey_toast"
+    },
+    "cooptown_food_carrot_sandwich": {
+      "textures": "textures/cooptown/food/carrot_sandwich"
+    },
+    "cooptown_food_egg_sandwich": {
+      "textures": "textures/cooptown/food/egg_sandwich"
+    },
+    "cooptown_food_salmon_sandwich": {
+      "textures": "textures/cooptown/food/salmon_sandwich"
+    },
+    "cooptown_food_mushroom_flatbread": {
+      "textures": "textures/cooptown/food/mushroom_flatbread"
+    },
+    "cooptown_food_potato_galette": {
+      "textures": "textures/cooptown/food/potato_galette"
+    },
+    "cooptown_food_beet_wrap": {
+      "textures": "textures/cooptown/food/beet_wrap"
+    },
+    "cooptown_food_kelp_egg_roll": {
+      "textures": "textures/cooptown/food/kelp_egg_roll"
+    },
+    "cooptown_food_pumpkin_bun": {
+      "textures": "textures/cooptown/food/pumpkin_bun"
+    },
+    "cooptown_food_rabbit_pie": {
+      "textures": "textures/cooptown/food/rabbit_pie"
+    },
+    "cooptown_food_carrot_potage": {
+      "textures": "textures/cooptown/food/carrot_potage"
+    },
+    "cooptown_food_pumpkin_chowder": {
+      "textures": "textures/cooptown/food/pumpkin_chowder"
+    },
+    "cooptown_food_beef_potato_stew": {
+      "textures": "textures/cooptown/food/beef_potato_stew"
+    },
+    "cooptown_food_chicken_egg_soup": {
+      "textures": "textures/cooptown/food/chicken_egg_soup"
+    },
+    "cooptown_food_cod_milk_stew": {
+      "textures": "textures/cooptown/food/cod_milk_stew"
+    },
+    "cooptown_food_beet_braise": {
+      "textures": "textures/cooptown/food/beet_braise"
+    },
+    "cooptown_food_mushroom_skewer": {
+      "textures": "textures/cooptown/food/mushroom_skewer"
+    },
+    "cooptown_food_honey_chicken": {
+      "textures": "textures/cooptown/food/honey_chicken"
+    },
+    "cooptown_food_kelp_fish_parcel": {
+      "textures": "textures/cooptown/food/kelp_fish_parcel"
+    },
+    "cooptown_food_roast_veg_platter": {
+      "textures": "textures/cooptown/food/roast_veg_platter"
+    },
+    "cooptown_food_honey_smoked_pork": {
+      "textures": "textures/cooptown/food/honey_smoked_pork"
+    },
+    "cooptown_food_pepperless_smoked_chicken": {
+      "textures": "textures/cooptown/food/pepperless_smoked_chicken"
+    },
+    "cooptown_food_smoked_salmon_strips": {
+      "textures": "textures/cooptown/food/smoked_salmon_strips"
+    },
+    "cooptown_food_smoked_rabbit": {
+      "textures": "textures/cooptown/food/smoked_rabbit"
+    },
+    "cooptown_food_kelp_beef_jerky": {
+      "textures": "textures/cooptown/food/kelp_beef_jerky"
+    },
+    "cooptown_food_apple_chips": {
+      "textures": "textures/cooptown/food/apple_chips"
+    },
+    "cooptown_food_carrot_crisps": {
+      "textures": "textures/cooptown/food/carrot_crisps"
+    },
+    "cooptown_food_beet_crisps": {
+      "textures": "textures/cooptown/food/beet_crisps"
+    },
+    "cooptown_food_berry_preserve": {
+      "textures": "textures/cooptown/food/berry_preserve"
+    },
+    "cooptown_food_honey_apple_preserve": {
+      "textures": "textures/cooptown/food/honey_apple_preserve"
+    },
+    "cooptown_food_berry_milk_pudding": {
+      "textures": "textures/cooptown/food/berry_milk_pudding"
+    },
+    "cooptown_food_cocoa_custard": {
+      "textures": "textures/cooptown/food/cocoa_custard"
+    },
+    "cooptown_food_honey_cupcake": {
+      "textures": "textures/cooptown/food/honey_cupcake"
+    },
+    "cooptown_food_apple_turnover": {
+      "textures": "textures/cooptown/food/apple_turnover"
+    },
+    "cooptown_food_pumpkin_cookie": {
+      "textures": "textures/cooptown/food/pumpkin_cookie"
+    },
+    "cooptown_food_cocoa_roll": {
+      "textures": "textures/cooptown/food/cocoa_roll"
+    },
+    "cooptown_food_melon_jelly": {
+      "textures": "textures/cooptown/food/melon_jelly"
+    },
+    "cooptown_food_berry_crepe": {
+      "textures": "textures/cooptown/food/berry_crepe"
+    },
+    "cooptown_food_honey_nougat": {
+      "textures": "textures/cooptown/food/honey_nougat"
+    },
+    "cooptown_food_festival_layer_cake": {
+      "textures": "textures/cooptown/food/festival_layer_cake"
+    },
+    "cooptown_food_apple_juice": {
+      "textures": "textures/cooptown/food/apple_juice"
+    },
+    "cooptown_food_melon_juice": {
+      "textures": "textures/cooptown/food/melon_juice"
+    },
+    "cooptown_food_berry_soda": {
+      "textures": "textures/cooptown/food/berry_soda"
+    },
+    "cooptown_food_carrot_juice": {
+      "textures": "textures/cooptown/food/carrot_juice"
+    },
+    "cooptown_food_beet_apple_juice": {
+      "textures": "textures/cooptown/food/beet_apple_juice"
+    },
+    "cooptown_food_warm_honey_milk": {
+      "textures": "textures/cooptown/food/warm_honey_milk"
+    },
+    "cooptown_food_hot_cocoa": {
+      "textures": "textures/cooptown/food/hot_cocoa"
+    },
+    "cooptown_food_pumpkin_latte": {
+      "textures": "textures/cooptown/food/pumpkin_latte"
+    },
+    "cooptown_food_sweet_berry_milk": {
+      "textures": "textures/cooptown/food/sweet_berry_milk"
+    },
+    "cooptown_food_glow_berry_cooler": {
+      "textures": "textures/cooptown/food/glow_berry_cooler"
+    },
+    "cooptown_food_butter_bread": {
+      "textures": "textures/cooptown/food/butter_bread"
+    },
+    "cooptown_food_cheese_bread": {
+      "textures": "textures/cooptown/food/cheese_bread"
+    },
+    "cooptown_food_tomato_bruschetta": {
+      "textures": "textures/cooptown/food/tomato_bruschetta"
+    },
+    "cooptown_food_corn_bread": {
+      "textures": "textures/cooptown/food/corn_bread"
+    },
+    "cooptown_food_onion_focaccia": {
+      "textures": "textures/cooptown/food/onion_focaccia"
+    },
+    "cooptown_food_herb_flatbread": {
+      "textures": "textures/cooptown/food/herb_flatbread"
+    },
+    "cooptown_food_rice_ball": {
+      "textures": "textures/cooptown/food/rice_ball"
+    },
+    "cooptown_food_salmon_rice_ball": {
+      "textures": "textures/cooptown/food/salmon_rice_ball"
+    },
+    "cooptown_food_kelp_rice_ball": {
+      "textures": "textures/cooptown/food/kelp_rice_ball"
+    },
+    "cooptown_food_egg_rice_bowl": {
+      "textures": "textures/cooptown/food/egg_rice_bowl"
+    },
+    "cooptown_food_chicken_rice_bowl": {
+      "textures": "textures/cooptown/food/chicken_rice_bowl"
+    },
+    "cooptown_food_beef_rice_bowl": {
+      "textures": "textures/cooptown/food/beef_rice_bowl"
+    },
+    "cooptown_food_pork_rice_bowl": {
+      "textures": "textures/cooptown/food/pork_rice_bowl"
+    },
+    "cooptown_food_tomato_omelet_rice": {
+      "textures": "textures/cooptown/food/tomato_omelet_rice"
+    },
+    "cooptown_food_mushroom_risotto": {
+      "textures": "textures/cooptown/food/mushroom_risotto"
+    },
+    "cooptown_food_corn_rice": {
+      "textures": "textures/cooptown/food/corn_rice"
+    },
+    "cooptown_food_vegetable_fried_rice": {
+      "textures": "textures/cooptown/food/vegetable_fried_rice"
+    },
+    "cooptown_food_egg_fried_rice": {
+      "textures": "textures/cooptown/food/egg_fried_rice"
+    },
+    "cooptown_food_kelp_sushi_roll": {
+      "textures": "textures/cooptown/food/kelp_sushi_roll"
+    },
+    "cooptown_food_cucumber_sandwich": {
+      "textures": "textures/cooptown/food/cucumber_sandwich"
+    },
+    "cooptown_food_cheese_tomato_sandwich": {
+      "textures": "textures/cooptown/food/cheese_tomato_sandwich"
+    },
+    "cooptown_food_chicken_wrap": {
+      "textures": "textures/cooptown/food/chicken_wrap"
+    },
+    "cooptown_food_pork_cutlet_sandwich": {
+      "textures": "textures/cooptown/food/pork_cutlet_sandwich"
+    },
+    "cooptown_food_sausage_hotdog": {
+      "textures": "textures/cooptown/food/sausage_hotdog"
+    },
+    "cooptown_food_beef_burger": {
+      "textures": "textures/cooptown/food/beef_burger"
+    },
+    "cooptown_food_cheese_burger": {
+      "textures": "textures/cooptown/food/cheese_burger"
+    },
+    "cooptown_food_fish_burger": {
+      "textures": "textures/cooptown/food/fish_burger"
+    },
+    "cooptown_food_potato_croquette_bread": {
+      "textures": "textures/cooptown/food/potato_croquette_bread"
+    },
+    "cooptown_food_tomato_pizza": {
+      "textures": "textures/cooptown/food/tomato_pizza"
+    },
+    "cooptown_food_mushroom_pizza": {
+      "textures": "textures/cooptown/food/mushroom_pizza"
+    },
+    "cooptown_food_corn_pizza": {
+      "textures": "textures/cooptown/food/corn_pizza"
+    },
+    "cooptown_food_tomato_pasta": {
+      "textures": "textures/cooptown/food/tomato_pasta"
+    },
+    "cooptown_food_cream_pasta": {
+      "textures": "textures/cooptown/food/cream_pasta"
+    },
+    "cooptown_food_mushroom_pasta": {
+      "textures": "textures/cooptown/food/mushroom_pasta"
+    },
+    "cooptown_food_soy_fried_noodles": {
+      "textures": "textures/cooptown/food/soy_fried_noodles"
+    },
+    "cooptown_food_cold_cucumber_noodles": {
+      "textures": "textures/cooptown/food/cold_cucumber_noodles"
+    },
+    "cooptown_food_potato_pancake": {
+      "textures": "textures/cooptown/food/potato_pancake"
+    },
+    "cooptown_food_corn_tortilla": {
+      "textures": "textures/cooptown/food/corn_tortilla"
+    },
+    "cooptown_food_steamed_pork_bun": {
+      "textures": "textures/cooptown/food/steamed_pork_bun"
+    },
+    "cooptown_food_vegetable_dumplings": {
+      "textures": "textures/cooptown/food/vegetable_dumplings"
+    },
+    "cooptown_food_corn_potage": {
+      "textures": "textures/cooptown/food/corn_potage"
+    },
+    "cooptown_food_onion_soup": {
+      "textures": "textures/cooptown/food/onion_soup"
+    },
+    "cooptown_food_tomato_soup": {
+      "textures": "textures/cooptown/food/tomato_soup"
+    },
+    "cooptown_food_cabbage_soup": {
+      "textures": "textures/cooptown/food/cabbage_soup"
+    },
+    "cooptown_food_mushroom_cream_soup": {
+      "textures": "textures/cooptown/food/mushroom_cream_soup"
+    },
+    "cooptown_food_potato_soup": {
+      "textures": "textures/cooptown/food/potato_soup"
+    },
+    "cooptown_food_egg_drop_soup": {
+      "textures": "textures/cooptown/food/egg_drop_soup"
+    },
+    "cooptown_food_tofu_kelp_soup": {
+      "textures": "textures/cooptown/food/tofu_kelp_soup"
+    },
+    "cooptown_food_minestrone": {
+      "textures": "textures/cooptown/food/minestrone"
+    },
+    "cooptown_food_sausage_pot_au_feu": {
+      "textures": "textures/cooptown/food/sausage_pot_au_feu"
+    },
+    "cooptown_food_chicken_cream_stew": {
+      "textures": "textures/cooptown/food/chicken_cream_stew"
+    },
+    "cooptown_food_tomato_beef_stew": {
+      "textures": "textures/cooptown/food/tomato_beef_stew"
+    },
+    "cooptown_food_salmon_chowder": {
+      "textures": "textures/cooptown/food/salmon_chowder"
+    },
+    "cooptown_food_lemon_chicken_soup": {
+      "textures": "textures/cooptown/food/lemon_chicken_soup"
+    },
+    "cooptown_food_rice_egg_porridge": {
+      "textures": "textures/cooptown/food/rice_egg_porridge"
+    },
+    "cooptown_food_grilled_lemon_chicken": {
+      "textures": "textures/cooptown/food/grilled_lemon_chicken"
+    },
+    "cooptown_food_cheese_chicken": {
+      "textures": "textures/cooptown/food/cheese_chicken"
+    },
+    "cooptown_food_pepper_beef_steak": {
+      "textures": "textures/cooptown/food/pepper_beef_steak"
+    },
+    "cooptown_food_onion_pork_steak": {
+      "textures": "textures/cooptown/food/onion_pork_steak"
+    },
+    "cooptown_food_lemon_cod": {
+      "textures": "textures/cooptown/food/lemon_cod"
+    },
+    "cooptown_food_salmon_meuniere": {
+      "textures": "textures/cooptown/food/salmon_meuniere"
+    },
+    "cooptown_food_tomato_fish_braise": {
+      "textures": "textures/cooptown/food/tomato_fish_braise"
+    },
+    "cooptown_food_stuffed_cabbage": {
+      "textures": "textures/cooptown/food/stuffed_cabbage"
+    },
+    "cooptown_food_meatballs": {
+      "textures": "textures/cooptown/food/meatballs"
+    },
+    "cooptown_food_hamburg_steak": {
+      "textures": "textures/cooptown/food/hamburg_steak"
+    },
+    "cooptown_food_cheese_omelette": {
+      "textures": "textures/cooptown/food/cheese_omelette"
+    },
+    "cooptown_food_vegetable_omelette": {
+      "textures": "textures/cooptown/food/vegetable_omelette"
+    },
+    "cooptown_food_potato_gratin": {
+      "textures": "textures/cooptown/food/potato_gratin"
+    },
+    "cooptown_food_pumpkin_gratin": {
+      "textures": "textures/cooptown/food/pumpkin_gratin"
+    },
+    "cooptown_food_corn_fritters": {
+      "textures": "textures/cooptown/food/corn_fritters"
+    },
+    "cooptown_food_onion_rings": {
+      "textures": "textures/cooptown/food/onion_rings"
+    },
+    "cooptown_food_fried_tofu": {
+      "textures": "textures/cooptown/food/fried_tofu"
+    },
+    "cooptown_food_tofu_steak": {
+      "textures": "textures/cooptown/food/tofu_steak"
+    },
+    "cooptown_food_cucumber_salad": {
+      "textures": "textures/cooptown/food/cucumber_salad"
+    },
+    "cooptown_food_tomato_cheese_salad": {
+      "textures": "textures/cooptown/food/tomato_cheese_salad"
+    },
+    "cooptown_food_cabbage_slaw": {
+      "textures": "textures/cooptown/food/cabbage_slaw"
+    },
+    "cooptown_food_potato_salad": {
+      "textures": "textures/cooptown/food/potato_salad"
+    },
+    "cooptown_food_grilled_corn": {
+      "textures": "textures/cooptown/food/grilled_corn"
+    },
+    "cooptown_food_butter_mushroom_saute": {
+      "textures": "textures/cooptown/food/butter_mushroom_saute"
+    },
+    "cooptown_food_rabbit_herb_roast": {
+      "textures": "textures/cooptown/food/rabbit_herb_roast"
+    },
+    "cooptown_food_smoked_bacon": {
+      "textures": "textures/cooptown/food/smoked_bacon"
+    },
+    "cooptown_food_smoked_sausage": {
+      "textures": "textures/cooptown/food/smoked_sausage"
+    },
+    "cooptown_food_smoked_cheese": {
+      "textures": "textures/cooptown/food/smoked_cheese"
+    },
+    "cooptown_food_smoked_egg": {
+      "textures": "textures/cooptown/food/smoked_egg"
+    },
+    "cooptown_food_smoked_tofu": {
+      "textures": "textures/cooptown/food/smoked_tofu"
+    },
+    "cooptown_food_smoked_cod": {
+      "textures": "textures/cooptown/food/smoked_cod"
+    },
+    "cooptown_food_smoked_mutton": {
+      "textures": "textures/cooptown/food/smoked_mutton"
+    },
+    "cooptown_food_pepper_beef_jerky": {
+      "textures": "textures/cooptown/food/pepper_beef_jerky"
+    },
+    "cooptown_food_sweet_pork_jerky": {
+      "textures": "textures/cooptown/food/sweet_pork_jerky"
+    },
+    "cooptown_food_chicken_jerky": {
+      "textures": "textures/cooptown/food/chicken_jerky"
+    },
+    "cooptown_food_rabbit_jerky": {
+      "textures": "textures/cooptown/food/rabbit_jerky"
+    },
+    "cooptown_food_dried_salmon": {
+      "textures": "textures/cooptown/food/dried_salmon"
+    },
+    "cooptown_food_dried_cod": {
+      "textures": "textures/cooptown/food/dried_cod"
+    },
+    "cooptown_food_dried_mushrooms": {
+      "textures": "textures/cooptown/food/dried_mushrooms"
+    },
+    "cooptown_food_dried_tomato": {
+      "textures": "textures/cooptown/food/dried_tomato"
+    },
+    "cooptown_food_dried_pumpkin": {
+      "textures": "textures/cooptown/food/dried_pumpkin"
+    },
+    "cooptown_food_dried_corn": {
+      "textures": "textures/cooptown/food/dried_corn"
+    },
+    "cooptown_food_raisins": {
+      "textures": "textures/cooptown/food/raisins"
+    },
+    "cooptown_food_dried_strawberry": {
+      "textures": "textures/cooptown/food/dried_strawberry"
+    },
+    "cooptown_food_dried_melon": {
+      "textures": "textures/cooptown/food/dried_melon"
+    },
+    "cooptown_food_lemon_peel": {
+      "textures": "textures/cooptown/food/lemon_peel"
+    },
+    "cooptown_food_apple_jam": {
+      "textures": "textures/cooptown/food/apple_jam"
+    },
+    "cooptown_food_strawberry_jam": {
+      "textures": "textures/cooptown/food/strawberry_jam"
+    },
+    "cooptown_food_grape_jam": {
+      "textures": "textures/cooptown/food/grape_jam"
+    },
+    "cooptown_food_pumpkin_jam": {
+      "textures": "textures/cooptown/food/pumpkin_jam"
+    },
+    "cooptown_food_lemon_marmalade": {
+      "textures": "textures/cooptown/food/lemon_marmalade"
+    },
+    "cooptown_food_glow_berry_jam": {
+      "textures": "textures/cooptown/food/glow_berry_jam"
+    },
+    "cooptown_food_pickled_cucumber": {
+      "textures": "textures/cooptown/food/pickled_cucumber"
+    },
+    "cooptown_food_pickled_carrot": {
+      "textures": "textures/cooptown/food/pickled_carrot"
+    },
+    "cooptown_food_pickled_onion": {
+      "textures": "textures/cooptown/food/pickled_onion"
+    },
+    "cooptown_food_pickled_beet": {
+      "textures": "textures/cooptown/food/pickled_beet"
+    },
+    "cooptown_food_pickled_cabbage": {
+      "textures": "textures/cooptown/food/pickled_cabbage"
+    },
+    "cooptown_food_salted_lemon": {
+      "textures": "textures/cooptown/food/salted_lemon"
+    },
+    "cooptown_food_honey_lemon_preserve": {
+      "textures": "textures/cooptown/food/honey_lemon_preserve"
+    },
+    "cooptown_food_soy_kelp_preserve": {
+      "textures": "textures/cooptown/food/soy_kelp_preserve"
+    },
+    "cooptown_food_mushroom_soy_preserve": {
+      "textures": "textures/cooptown/food/mushroom_soy_preserve"
+    },
+    "cooptown_food_fish_oil_preserve": {
+      "textures": "textures/cooptown/food/fish_oil_preserve"
+    },
+    "cooptown_food_smoked_almond_style_seeds": {
+      "textures": "textures/cooptown/food/smoked_almond_style_seeds"
+    },
+    "cooptown_food_trail_ration": {
+      "textures": "textures/cooptown/food/trail_ration"
+    },
+    "cooptown_food_hard_crackers": {
+      "textures": "textures/cooptown/food/hard_crackers"
+    },
+    "cooptown_food_butter_cookie": {
+      "textures": "textures/cooptown/food/butter_cookie"
+    },
+    "cooptown_food_cheese_cookie": {
+      "textures": "textures/cooptown/food/cheese_cookie"
+    },
+    "cooptown_food_lemon_cookie": {
+      "textures": "textures/cooptown/food/lemon_cookie"
+    },
+    "cooptown_food_strawberry_cookie": {
+      "textures": "textures/cooptown/food/strawberry_cookie"
+    },
+    "cooptown_food_chocolate_chip_cookie": {
+      "textures": "textures/cooptown/food/chocolate_chip_cookie"
+    },
+    "cooptown_food_shortbread": {
+      "textures": "textures/cooptown/food/shortbread"
+    },
+    "cooptown_food_apple_tart": {
+      "textures": "textures/cooptown/food/apple_tart"
+    },
+    "cooptown_food_strawberry_tart": {
+      "textures": "textures/cooptown/food/strawberry_tart"
+    },
+    "cooptown_food_lemon_tart": {
+      "textures": "textures/cooptown/food/lemon_tart"
+    },
+    "cooptown_food_grape_tart": {
+      "textures": "textures/cooptown/food/grape_tart"
+    },
+    "cooptown_food_pumpkin_tart": {
+      "textures": "textures/cooptown/food/pumpkin_tart"
+    },
+    "cooptown_food_cheesecake": {
+      "textures": "textures/cooptown/food/cheesecake"
+    },
+    "cooptown_food_strawberry_shortcake": {
+      "textures": "textures/cooptown/food/strawberry_shortcake"
+    },
+    "cooptown_food_chocolate_cake": {
+      "textures": "textures/cooptown/food/chocolate_cake"
+    },
+    "cooptown_food_carrot_cake": {
+      "textures": "textures/cooptown/food/carrot_cake"
+    },
+    "cooptown_food_lemon_poundcake": {
+      "textures": "textures/cooptown/food/lemon_poundcake"
+    },
+    "cooptown_food_tea_chiffon": {
+      "textures": "textures/cooptown/food/tea_chiffon"
+    },
+    "cooptown_food_coffee_cake": {
+      "textures": "textures/cooptown/food/coffee_cake"
+    },
+    "cooptown_food_milk_pudding": {
+      "textures": "textures/cooptown/food/milk_pudding"
+    },
+    "cooptown_food_pumpkin_pudding": {
+      "textures": "textures/cooptown/food/pumpkin_pudding"
+    },
+    "cooptown_food_coffee_jelly": {
+      "textures": "textures/cooptown/food/coffee_jelly"
+    },
+    "cooptown_food_grape_jelly": {
+      "textures": "textures/cooptown/food/grape_jelly"
+    },
+    "cooptown_food_lemon_jelly": {
+      "textures": "textures/cooptown/food/lemon_jelly"
+    },
+    "cooptown_food_glow_berry_jelly": {
+      "textures": "textures/cooptown/food/glow_berry_jelly"
+    },
+    "cooptown_food_strawberry_yogurt": {
+      "textures": "textures/cooptown/food/strawberry_yogurt"
+    },
+    "cooptown_food_honey_yogurt": {
+      "textures": "textures/cooptown/food/honey_yogurt"
+    },
+    "cooptown_food_apple_yogurt": {
+      "textures": "textures/cooptown/food/apple_yogurt"
+    },
+    "cooptown_food_melon_sorbet": {
+      "textures": "textures/cooptown/food/melon_sorbet"
+    },
+    "cooptown_food_lemon_sorbet": {
+      "textures": "textures/cooptown/food/lemon_sorbet"
+    },
+    "cooptown_food_milk_icecream": {
+      "textures": "textures/cooptown/food/milk_icecream"
+    },
+    "cooptown_food_cocoa_icecream": {
+      "textures": "textures/cooptown/food/cocoa_icecream"
+    },
+    "cooptown_food_strawberry_icecream": {
+      "textures": "textures/cooptown/food/strawberry_icecream"
+    },
+    "cooptown_food_caramel_pudding": {
+      "textures": "textures/cooptown/food/caramel_pudding"
+    },
+    "cooptown_food_honey_pancakes": {
+      "textures": "textures/cooptown/food/honey_pancakes"
+    },
+    "cooptown_food_berry_waffle": {
+      "textures": "textures/cooptown/food/berry_waffle"
+    },
+    "cooptown_food_churros": {
+      "textures": "textures/cooptown/food/churros"
+    },
+    "cooptown_food_cream_puff": {
+      "textures": "textures/cooptown/food/cream_puff"
+    },
+    "cooptown_food_strawberry_mochi": {
+      "textures": "textures/cooptown/food/strawberry_mochi"
+    },
+    "cooptown_food_sweet_rice_dumplings": {
+      "textures": "textures/cooptown/food/sweet_rice_dumplings"
+    },
+    "cooptown_food_caramel_popcorn": {
+      "textures": "textures/cooptown/food/caramel_popcorn"
+    },
+    "cooptown_food_lemonade": {
+      "textures": "textures/cooptown/food/lemonade"
+    },
+    "cooptown_food_honey_lemon_drink": {
+      "textures": "textures/cooptown/food/honey_lemon_drink"
+    },
+    "cooptown_food_grape_juice": {
+      "textures": "textures/cooptown/food/grape_juice"
+    },
+    "cooptown_food_strawberry_juice": {
+      "textures": "textures/cooptown/food/strawberry_juice"
+    },
+    "cooptown_food_tomato_juice": {
+      "textures": "textures/cooptown/food/tomato_juice"
+    },
+    "cooptown_food_corn_milk": {
+      "textures": "textures/cooptown/food/corn_milk"
+    },
+    "cooptown_food_cucumber_cooler": {
+      "textures": "textures/cooptown/food/cucumber_cooler"
+    },
+    "cooptown_food_apple_carrot_juice": {
+      "textures": "textures/cooptown/food/apple_carrot_juice"
+    },
+    "cooptown_food_tomato_carrot_juice": {
+      "textures": "textures/cooptown/food/tomato_carrot_juice"
+    },
+    "cooptown_food_mixed_berry_juice": {
+      "textures": "textures/cooptown/food/mixed_berry_juice"
+    },
+    "cooptown_food_apple_grape_juice": {
+      "textures": "textures/cooptown/food/apple_grape_juice"
+    },
+    "cooptown_food_melon_lemon_drink": {
+      "textures": "textures/cooptown/food/melon_lemon_drink"
+    },
+    "cooptown_food_strawberry_milk": {
+      "textures": "textures/cooptown/food/strawberry_milk"
+    },
+    "cooptown_food_melon_milk": {
+      "textures": "textures/cooptown/food/melon_milk"
+    },
+    "cooptown_food_apple_milk": {
+      "textures": "textures/cooptown/food/apple_milk"
+    },
+    "cooptown_food_grape_milk": {
+      "textures": "textures/cooptown/food/grape_milk"
+    },
+    "cooptown_food_cocoa_milk_cold": {
+      "textures": "textures/cooptown/food/cocoa_milk_cold"
+    },
+    "cooptown_food_caramel_milk": {
+      "textures": "textures/cooptown/food/caramel_milk"
+    },
+    "cooptown_food_strawberry_yogurt_drink": {
+      "textures": "textures/cooptown/food/strawberry_yogurt_drink"
+    },
+    "cooptown_food_apple_yogurt_drink": {
+      "textures": "textures/cooptown/food/apple_yogurt_drink"
+    },
+    "cooptown_food_melon_yogurt_drink": {
+      "textures": "textures/cooptown/food/melon_yogurt_drink"
+    },
+    "cooptown_food_honey_lassi": {
+      "textures": "textures/cooptown/food/honey_lassi"
+    },
+    "cooptown_food_green_tea": {
+      "textures": "textures/cooptown/food/green_tea"
+    },
+    "cooptown_food_black_tea": {
+      "textures": "textures/cooptown/food/black_tea"
+    },
+    "cooptown_food_milk_tea": {
+      "textures": "textures/cooptown/food/milk_tea"
+    },
+    "cooptown_food_lemon_tea": {
+      "textures": "textures/cooptown/food/lemon_tea"
+    },
+    "cooptown_food_apple_tea": {
+      "textures": "textures/cooptown/food/apple_tea"
+    },
+    "cooptown_food_berry_tea": {
+      "textures": "textures/cooptown/food/berry_tea"
+    },
+    "cooptown_food_mint_tea": {
+      "textures": "textures/cooptown/food/mint_tea"
+    },
+    "cooptown_food_honey_mint_tea": {
+      "textures": "textures/cooptown/food/honey_mint_tea"
+    },
+    "cooptown_food_roasted_rice_tea": {
+      "textures": "textures/cooptown/food/roasted_rice_tea"
+    },
+    "cooptown_food_black_coffee": {
+      "textures": "textures/cooptown/food/black_coffee"
+    },
+    "cooptown_food_cafe_latte": {
+      "textures": "textures/cooptown/food/cafe_latte"
+    },
+    "cooptown_food_cafe_mocha": {
+      "textures": "textures/cooptown/food/cafe_mocha"
+    },
+    "cooptown_food_caramel_latte": {
+      "textures": "textures/cooptown/food/caramel_latte"
+    },
+    "cooptown_food_iced_coffee": {
+      "textures": "textures/cooptown/food/iced_coffee"
+    },
+    "cooptown_food_lemon_soda": {
+      "textures": "textures/cooptown/food/lemon_soda"
+    },
+    "cooptown_food_grape_soda": {
+      "textures": "textures/cooptown/food/grape_soda"
+    },
+    "cooptown_food_apple_soda": {
+      "textures": "textures/cooptown/food/apple_soda"
+    },
+    "cooptown_food_mint_melon_soda": {
+      "textures": "textures/cooptown/food/mint_melon_soda"
+    },
+    "cooptown_food_rice": {
+      "textures": "textures/cooptown/food/rice"
+    },
+    "cooptown_food_tomato": {
+      "textures": "textures/cooptown/food/tomato"
+    },
+    "cooptown_food_onion": {
+      "textures": "textures/cooptown/food/onion"
+    },
+    "cooptown_food_cabbage": {
+      "textures": "textures/cooptown/food/cabbage"
+    },
+    "cooptown_food_cucumber": {
+      "textures": "textures/cooptown/food/cucumber"
+    },
+    "cooptown_food_corn": {
+      "textures": "textures/cooptown/food/corn"
+    },
+    "cooptown_food_lemon": {
+      "textures": "textures/cooptown/food/lemon"
+    },
+    "cooptown_food_grape": {
+      "textures": "textures/cooptown/food/grape"
+    },
+    "cooptown_food_strawberry": {
+      "textures": "textures/cooptown/food/strawberry"
+    },
+    "cooptown_food_tea_leaves": {
+      "textures": "textures/cooptown/food/tea_leaves"
+    },
+    "cooptown_food_coffee_beans": {
+      "textures": "textures/cooptown/food/coffee_beans"
+    },
+    "cooptown_food_salt": {
+      "textures": "textures/cooptown/food/salt"
+    },
+    "cooptown_food_mint": {
+      "textures": "textures/cooptown/food/mint"
+    },
+    "cooptown_food_black_pepper": {
+      "textures": "textures/cooptown/food/black_pepper"
+    },
+    "cooptown_food_soybeans": {
+      "textures": "textures/cooptown/food/soybeans"
+    },
+    "cooptown_food_flour": {
+      "textures": "textures/cooptown/food/flour"
+    },
+    "cooptown_food_bread_dough": {
+      "textures": "textures/cooptown/food/bread_dough"
+    },
+    "cooptown_food_fresh_noodles": {
+      "textures": "textures/cooptown/food/fresh_noodles"
+    },
+    "cooptown_food_cooked_rice": {
+      "textures": "textures/cooptown/food/cooked_rice"
+    },
+    "cooptown_food_butter": {
+      "textures": "textures/cooptown/food/butter"
+    },
+    "cooptown_food_cream": {
+      "textures": "textures/cooptown/food/cream"
+    },
+    "cooptown_food_cheese": {
+      "textures": "textures/cooptown/food/cheese"
+    },
+    "cooptown_food_yogurt": {
+      "textures": "textures/cooptown/food/yogurt"
+    },
+    "cooptown_food_cooking_oil": {
+      "textures": "textures/cooptown/food/cooking_oil"
+    },
+    "cooptown_food_vinegar": {
+      "textures": "textures/cooptown/food/vinegar"
+    },
+    "cooptown_food_soy_sauce": {
+      "textures": "textures/cooptown/food/soy_sauce"
+    },
+    "cooptown_food_tofu": {
+      "textures": "textures/cooptown/food/tofu"
+    },
+    "cooptown_food_minced_meat": {
+      "textures": "textures/cooptown/food/minced_meat"
+    },
+    "cooptown_food_raw_sausage": {
+      "textures": "textures/cooptown/food/raw_sausage"
+    },
+    "cooptown_food_vegetable_stock": {
+      "textures": "textures/cooptown/food/vegetable_stock"
+    },
+    "cooptown_food_tomato_sauce": {
+      "textures": "textures/cooptown/food/tomato_sauce"
+    },
+    "cooptown_food_cocoa_powder": {
+      "textures": "textures/cooptown/food/cocoa_powder"
+    },
+    "cooptown_food_gelatin": {
+      "textures": "textures/cooptown/food/gelatin"
+    },
+    "cooptown_food_cup": {
+      "textures": "textures/cooptown/food/cup"
+    },
+    "cooptown_fish_ayu": {
+      "textures": "textures/cooptown/fish/ayu"
+    },
+    "cooptown_fish_yamame": {
+      "textures": "textures/cooptown/fish/yamame"
+    },
+    "cooptown_fish_iwana": {
+      "textures": "textures/cooptown/fish/iwana"
+    },
+    "cooptown_fish_nijimasu": {
+      "textures": "textures/cooptown/fish/nijimasu"
+    },
+    "cooptown_fish_amago": {
+      "textures": "textures/cooptown/fish/amago"
+    },
+    "cooptown_fish_ugui": {
+      "textures": "textures/cooptown/fish/ugui"
+    },
+    "cooptown_fish_oikawa": {
+      "textures": "textures/cooptown/fish/oikawa"
+    },
+    "cooptown_fish_kawamutsu": {
+      "textures": "textures/cooptown/fish/kawamutsu"
+    },
+    "cooptown_fish_koi": {
+      "textures": "textures/cooptown/fish/koi"
+    },
+    "cooptown_fish_ginbuna": {
+      "textures": "textures/cooptown/fish/ginbuna"
+    },
+    "cooptown_fish_kingyo": {
+      "textures": "textures/cooptown/fish/kingyo"
+    },
+    "cooptown_fish_nishikigoi": {
+      "textures": "textures/cooptown/fish/nishikigoi"
+    },
+    "cooptown_fish_medaka": {
+      "textures": "textures/cooptown/fish/medaka"
+    },
+    "cooptown_fish_dojo": {
+      "textures": "textures/cooptown/fish/dojo"
+    },
+    "cooptown_fish_namazu": {
+      "textures": "textures/cooptown/fish/namazu"
+    },
+    "cooptown_fish_unagi": {
+      "textures": "textures/cooptown/fish/unagi"
+    },
+    "cooptown_fish_wakasagi": {
+      "textures": "textures/cooptown/fish/wakasagi"
+    },
+    "cooptown_fish_black_bass": {
+      "textures": "textures/cooptown/fish/black_bass"
+    },
+    "cooptown_fish_bluegill": {
+      "textures": "textures/cooptown/fish/bluegill"
+    },
+    "cooptown_fish_itoh": {
+      "textures": "textures/cooptown/fish/itoh"
+    },
+    "cooptown_fish_aji": {
+      "textures": "textures/cooptown/fish/aji"
+    },
+    "cooptown_fish_saba": {
+      "textures": "textures/cooptown/fish/saba"
+    },
+    "cooptown_fish_iwashi": {
+      "textures": "textures/cooptown/fish/iwashi"
+    },
+    "cooptown_fish_sanma": {
+      "textures": "textures/cooptown/fish/sanma"
+    },
+    "cooptown_fish_sayori": {
+      "textures": "textures/cooptown/fish/sayori"
+    },
+    "cooptown_fish_kisu": {
+      "textures": "textures/cooptown/fish/kisu"
+    },
+    "cooptown_fish_suzuki": {
+      "textures": "textures/cooptown/fish/suzuki"
+    },
+    "cooptown_fish_kurodai": {
+      "textures": "textures/cooptown/fish/kurodai"
+    },
+    "cooptown_fish_madai": {
+      "textures": "textures/cooptown/fish/madai"
+    },
+    "cooptown_fish_ishidai": {
+      "textures": "textures/cooptown/fish/ishidai"
+    },
+    "cooptown_fish_mebaru": {
+      "textures": "textures/cooptown/fish/mebaru"
+    },
+    "cooptown_fish_kasago": {
+      "textures": "textures/cooptown/fish/kasago"
+    },
+    "cooptown_fish_ainame": {
+      "textures": "textures/cooptown/fish/ainame"
+    },
+    "cooptown_fish_bora": {
+      "textures": "textures/cooptown/fish/bora"
+    },
+    "cooptown_fish_hirame": {
+      "textures": "textures/cooptown/fish/hirame"
+    },
+    "cooptown_fish_karei": {
+      "textures": "textures/cooptown/fish/karei"
+    },
+    "cooptown_fish_kawahagi": {
+      "textures": "textures/cooptown/fish/kawahagi"
+    },
+    "cooptown_fish_umazurahagi": {
+      "textures": "textures/cooptown/fish/umazurahagi"
+    },
+    "cooptown_fish_torafugu": {
+      "textures": "textures/cooptown/fish/torafugu"
+    },
+    "cooptown_fish_hako_fugu": {
+      "textures": "textures/cooptown/fish/hako_fugu"
+    },
+    "cooptown_fish_buri": {
+      "textures": "textures/cooptown/fish/buri"
+    },
+    "cooptown_fish_kanpachi": {
+      "textures": "textures/cooptown/fish/kanpachi"
+    },
+    "cooptown_fish_hiramasa": {
+      "textures": "textures/cooptown/fish/hiramasa"
+    },
+    "cooptown_fish_katsuo": {
+      "textures": "textures/cooptown/fish/katsuo"
+    },
+    "cooptown_fish_kuromaguro": {
+      "textures": "textures/cooptown/fish/kuromaguro"
+    },
+    "cooptown_fish_kihada": {
+      "textures": "textures/cooptown/fish/kihada"
+    },
+    "cooptown_fish_mebachi": {
+      "textures": "textures/cooptown/fish/mebachi"
+    },
+    "cooptown_fish_bincho": {
+      "textures": "textures/cooptown/fish/bincho"
+    },
+    "cooptown_fish_shiira": {
+      "textures": "textures/cooptown/fish/shiira"
+    },
+    "cooptown_fish_tobiuo": {
+      "textures": "textures/cooptown/fish/tobiuo"
+    },
+    "cooptown_fish_kajiki": {
+      "textures": "textures/cooptown/fish/kajiki"
+    },
+    "cooptown_fish_mekajiki": {
+      "textures": "textures/cooptown/fish/mekajiki"
+    },
+    "cooptown_fish_tachiuo": {
+      "textures": "textures/cooptown/fish/tachiuo"
+    },
+    "cooptown_fish_sawara": {
+      "textures": "textures/cooptown/fish/sawara"
+    },
+    "cooptown_fish_sake": {
+      "textures": "textures/cooptown/fish/sake"
+    },
+    "cooptown_fish_benizake": {
+      "textures": "textures/cooptown/fish/benizake"
+    },
+    "cooptown_fish_ginzake": {
+      "textures": "textures/cooptown/fish/ginzake"
+    },
+    "cooptown_fish_masunosuke": {
+      "textures": "textures/cooptown/fish/masunosuke"
+    },
+    "cooptown_fish_manbo": {
+      "textures": "textures/cooptown/fish/manbo"
+    },
+    "cooptown_fish_rainbow_runner": {
+      "textures": "textures/cooptown/fish/rainbow_runner"
+    },
+    "cooptown_fish_clownfish": {
+      "textures": "textures/cooptown/fish/clownfish"
+    },
+    "cooptown_fish_blue_tang": {
+      "textures": "textures/cooptown/fish/blue_tang"
+    },
+    "cooptown_fish_yellow_tang": {
+      "textures": "textures/cooptown/fish/yellow_tang"
+    },
+    "cooptown_fish_butterflyfish": {
+      "textures": "textures/cooptown/fish/butterflyfish"
+    },
+    "cooptown_fish_moorish_idol": {
+      "textures": "textures/cooptown/fish/moorish_idol"
+    },
+    "cooptown_fish_mandarinfish": {
+      "textures": "textures/cooptown/fish/mandarinfish"
+    },
+    "cooptown_fish_lionfish": {
+      "textures": "textures/cooptown/fish/lionfish"
+    },
+    "cooptown_fish_parrotfish": {
+      "textures": "textures/cooptown/fish/parrotfish"
+    },
+    "cooptown_fish_napoleon": {
+      "textures": "textures/cooptown/fish/napoleon"
+    },
+    "cooptown_fish_royal_gramma": {
+      "textures": "textures/cooptown/fish/royal_gramma"
+    },
+    "cooptown_fish_banggai": {
+      "textures": "textures/cooptown/fish/banggai"
+    },
+    "cooptown_fish_betta": {
+      "textures": "textures/cooptown/fish/betta"
+    },
+    "cooptown_fish_guppy": {
+      "textures": "textures/cooptown/fish/guppy"
+    },
+    "cooptown_fish_neon_tetra": {
+      "textures": "textures/cooptown/fish/neon_tetra"
+    },
+    "cooptown_fish_discus": {
+      "textures": "textures/cooptown/fish/discus"
+    },
+    "cooptown_fish_angelfish": {
+      "textures": "textures/cooptown/fish/angelfish"
+    },
+    "cooptown_fish_arowana": {
+      "textures": "textures/cooptown/fish/arowana"
+    },
+    "cooptown_fish_pirarucu": {
+      "textures": "textures/cooptown/fish/pirarucu"
+    },
+    "cooptown_fish_piranha": {
+      "textures": "textures/cooptown/fish/piranha"
+    },
+    "cooptown_fish_seahorse": {
+      "textures": "textures/cooptown/fish/seahorse"
+    },
+    "cooptown_fish_anglerfish": {
+      "textures": "textures/cooptown/fish/anglerfish"
+    },
+    "cooptown_fish_oarfish": {
+      "textures": "textures/cooptown/fish/oarfish"
+    },
+    "cooptown_fish_coelacanth": {
+      "textures": "textures/cooptown/fish/coelacanth"
+    },
+    "cooptown_fish_barreleye": {
+      "textures": "textures/cooptown/fish/barreleye"
+    },
+    "cooptown_fish_viperfish": {
+      "textures": "textures/cooptown/fish/viperfish"
+    },
+    "cooptown_fish_gulper_eel": {
+      "textures": "textures/cooptown/fish/gulper_eel"
+    },
+    "cooptown_fish_lanternfish": {
+      "textures": "textures/cooptown/fish/lanternfish"
+    },
+    "cooptown_fish_orange_roughy": {
+      "textures": "textures/cooptown/fish/orange_roughy"
+    },
+    "cooptown_fish_kinmedai": {
+      "textures": "textures/cooptown/fish/kinmedai"
+    },
+    "cooptown_fish_gindara": {
+      "textures": "textures/cooptown/fish/gindara"
+    },
+    "cooptown_fish_pinecone_fish": {
+      "textures": "textures/cooptown/fish/pinecone_fish"
+    },
+    "cooptown_fish_sturgeon": {
+      "textures": "textures/cooptown/fish/sturgeon"
+    },
+    "cooptown_fish_paddlefish": {
+      "textures": "textures/cooptown/fish/paddlefish"
+    },
+    "cooptown_fish_gar": {
+      "textures": "textures/cooptown/fish/gar"
+    },
+    "cooptown_fish_electric_eel": {
+      "textures": "textures/cooptown/fish/electric_eel"
+    },
+    "cooptown_fish_whale_shark": {
+      "textures": "textures/cooptown/fish/whale_shark"
+    },
+    "cooptown_fish_hammerhead": {
+      "textures": "textures/cooptown/fish/hammerhead"
+    },
+    "cooptown_fish_great_white": {
+      "textures": "textures/cooptown/fish/great_white"
+    },
+    "cooptown_fish_manta": {
+      "textures": "textures/cooptown/fish/manta"
+    },
+    "cooptown_fish_sawshark": {
+      "textures": "textures/cooptown/fish/sawshark"
+    },
+    "cooptown_potion_deft": {
+      "textures": "textures/cooptown/potions/deft"
+    },
+    "cooptown_watering_can_copper": {
+      "textures": "textures/cooptown/items/watering_can_copper"
+    },
+    "cooptown_watering_can_iron": {
+      "textures": "textures/cooptown/items/watering_can_iron"
+    },
+    "cooptown_watering_can_gold": {
+      "textures": "textures/cooptown/items/watering_can_gold"
+    },
+    "cooptown_animal_brush": {
+      "textures": "textures/cooptown/items/animal_brush"
+    },
+    "cooptown_animal_brush_gold": {
+      "textures": "textures/cooptown/items/animal_brush_gold"
+    },
+    "cooptown_bait_river": {
+      "textures": "textures/cooptown/items/bait_river"
+    },
+    "cooptown_bait_sea": {
+      "textures": "textures/cooptown/items/bait_sea"
+    },
+    "cooptown_bait_night": {
+      "textures": "textures/cooptown/items/bait_night"
+    },
+    "cooptown_bait_legend": {
+      "textures": "textures/cooptown/items/bait_legend"
+    },
+    "cooptown_capacity_book": {
+      "textures": "textures/items/book_enchanted"
+    },
+    "cooptown_fish_basket_mid": {
+      "textures": "textures/cooptown/items/fish_basket_mid"
+    },
+    "cooptown_fish_basket_master": {
+      "textures": "textures/cooptown/items/fish_basket_master"
+    },
+    "cooptown_fish_basket": {
+      "textures": "textures/cooptown/items/fish_basket"
+    },
+    "cooptown_smith_hammer": {
+      "textures": "textures/cooptown/items/smith_hammer"
+    },
+    "cooptown_whetstone": {
+      "textures": "textures/cooptown/items/whetstone"
+    },
+    "cooptown_cook_knife": {
+      "textures": "textures/cooptown/items/cook_knife"
+    },
+    "cooptown_cool_bag": {
+      "textures": "textures/cooptown/items/cool_bag"
+    },
+    "cooptown_herb_knife": {
+      "textures": "textures/cooptown/items/herb_knife"
+    },
+    "cooptown_potion_holder": {
+      "textures": "textures/cooptown/items/potion_holder"
+    },
+    "cooptown_mana_lupe": {
+      "textures": "textures/cooptown/items/mana_lupe"
+    },
+    "cooptown_rune_pen": {
+      "textures": "textures/cooptown/items/rune_pen"
+    },
+    "cooptown_map_pin": {
+      "textures": "textures/cooptown/items/map_pin"
+    },
+    "cooptown_miner_lantern": {
+      "textures": "textures/cooptown/items/miner_lantern"
+    },
+    "cooptown_planting_bag": {
+      "textures": "textures/cooptown/items/planting_bag"
+    },
+    "cooptown_watering_can_master": {
+      "textures": "textures/cooptown/items/watering_can_master"
+    },
+    "cooptown_bait_master": {
+      "textures": "textures/cooptown/items/bait_master"
+    },
+    "cooptown_master_hammer": {
+      "textures": "textures/cooptown/items/master_hammer"
+    },
+    "cooptown_master_knife": {
+      "textures": "textures/cooptown/items/master_knife"
+    },
+    "cooptown_master_herb_knife": {
+      "textures": "textures/cooptown/items/master_herb_knife"
+    },
+    "cooptown_master_pen": {
+      "textures": "textures/cooptown/items/master_pen"
+    },
+    "cooptown_master_lantern": {
+      "textures": "textures/cooptown/items/master_lantern"
+    },
+    "cooptown_frying_pan_1": {
+      "textures": "textures/cooptown/items/frying_pan_1"
+    },
+    "cooptown_frying_pan_2": {
+      "textures": "textures/cooptown/items/frying_pan_2"
+    },
+    "cooptown_frying_pan_3": {
+      "textures": "textures/cooptown/items/frying_pan_3"
+    },
+    "cooptown_potion_night_eye": {
+      "textures": "textures/cooptown/potions/night_eye"
+    },
+    "cooptown_potion_swift": {
+      "textures": "textures/cooptown/potions/swift"
+    },
+    "cooptown_potion_haste": {
+      "textures": "textures/cooptown/potions/haste"
+    },
+    "cooptown_potion_diver": {
+      "textures": "textures/cooptown/potions/diver"
+    },
+    "cooptown_potion_feather": {
+      "textures": "textures/cooptown/potions/feather"
+    },
+    "cooptown_potion_vital": {
+      "textures": "textures/cooptown/potions/vital"
+    },
+    "cooptown_potion_hearty": {
+      "textures": "textures/cooptown/potions/hearty"
+    },
+    "cooptown_potion_ironwall": {
+      "textures": "textures/cooptown/potions/ironwall"
+    },
+    "cooptown_potion_shadow": {
+      "textures": "textures/cooptown/potions/shadow"
+    },
+    "cooptown_potion_homeward": {
+      "textures": "textures/cooptown/potions/homeward"
+    },
+    "cooptown_grave_compass": {
+      "textures": "textures/cooptown/book/icons/compass"
+    },
+    "cooptown_cook_recipe": {
+      "textures": "textures/cooptown/cauldron/scroll"
+    }
+  }
+}

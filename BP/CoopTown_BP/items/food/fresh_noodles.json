@@ -1,0 +1,23 @@
+{
+ "format_version": "1.21.90",
+ "minecraft:item": {
+  "description": {
+   "identifier": "cooptown:fresh_noodles",
+   "menu_category": {
+    "category": "items",
+    "group": "minecraft:itemGroup.name.miscFood"
+   }
+  },
+  "components": {
+   "minecraft:display_name": {
+    "value": "生麺"
+   },
+   "minecraft:icon": {
+    "textures": {
+     "default": "cooptown_food_fresh_noodles"
+    }
+   },
+   "minecraft:max_stack_size": 16
+  }
+ }
+}

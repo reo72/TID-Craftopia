@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CoopTown 手帳メニュー BP",
+    "description": "案内手帳から開く協力サーバーメニュー",
+    "uuid": "0e33f1f1-c34d-464f-b231-fe9647bf9500",
+    "version": [
+      0,
+      3,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a35556a2-dd2a-4c56-a0e3-04166228e044",
+      "version": [
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "a04045e3-4f29-4147-8d34-ef6d68f5c0ef",
+      "version": [
+        0,
+        3,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "8c0cebf5-298d-47b2-aa56-bd55f07c4278",
+      "version": [
+        0,
+        5,
+        44
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ]
+}

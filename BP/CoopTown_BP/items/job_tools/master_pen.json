@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:master_pen",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "極みの刻印ペン"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_master_pen"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 256,
+        "damage_chance": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  }
+}

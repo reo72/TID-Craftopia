@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:rune_pen",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "刻印のペン"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_rune_pen"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 64,
+        "damage_chance": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  }
+}

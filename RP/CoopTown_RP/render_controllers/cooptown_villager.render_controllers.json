@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cooptown_villager": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.npc01",
+            "Texture.npc02",
+            "Texture.npc03",
+            "Texture.npc04",
+            "Texture.npc05",
+            "Texture.npc06",
+            "Texture.npc07",
+            "Texture.npc08",
+            "Texture.npc09"
+          ]
+        },
+        "geometries": {
+          "Array.geos": [
+            "Geometry.slim",
+            "Geometry.wide",
+            "Geometry.wide",
+            "Geometry.slim",
+            "Geometry.wide",
+            "Geometry.wide",
+            "Geometry.slim",
+            "Geometry.slim",
+            "Geometry.slim"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.variant]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    }
+  }
+}

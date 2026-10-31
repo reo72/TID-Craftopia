@@ -1,0 +1,41 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.cooptown_watering_can.hand": {
+   "loop": true,
+   "bones": {
+    "can": {
+     "position": [
+      -6.0,
+      4.4,
+      -8.5
+     ],
+     "rotation": [
+      0,
+      135,
+      0
+     ],
+     "scale": 0.6
+    }
+   }
+  },
+  "animation.cooptown_watering_can.hand_fp": {
+   "loop": true,
+   "bones": {
+    "can": {
+     "position": [
+      -7.0,
+      2.4,
+      -11.0
+     ],
+     "rotation": [
+      90,
+      -15,
+      0
+     ],
+     "scale": 0.32
+    }
+   }
+  }
+ }
+}

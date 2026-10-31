@@ -1,0 +1,68 @@
+[
+ {
+  "paper_0": {
+   "type": "image",
+   "texture": "textures/cooptown/solid",
+   "keep_ratio": false,
+   "size": [
+    "38.83333%",
+    "73.12139%"
+   ],
+   "offset": [
+    "6.66667%",
+    "15.89595%"
+   ],
+   "anchor_from": "top_left",
+   "anchor_to": "top_left",
+   "color": [
+    1,
+    0.824,
+    0.604
+   ],
+   "alpha": 1,
+   "layer": 0
+  }
+ },
+ {
+  "paper_1": {
+   "type": "image",
+   "texture": "textures/cooptown/solid",
+   "keep_ratio": false,
+   "size": [
+    "37.50000%",
+    "73.12139%"
+   ],
+   "offset": [
+    "53.33333%",
+    "15.89595%"
+   ],
+   "anchor_from": "top_left",
+   "anchor_to": "top_left",
+   "color": [
+    1,
+    0.824,
+    0.604
+   ],
+   "alpha": 1,
+   "layer": 0
+  }
+ },
+ {
+  "book": {
+   "type": "image",
+   "texture": "textures/cooptown/book",
+   "size": [
+    "91.66667%",
+    "86.41618%"
+   ],
+   "offset": [
+    "2.16667%",
+    "9.53757%"
+   ],
+   "anchor_from": "top_left",
+   "anchor_to": "top_left",
+   "keep_ratio": false,
+   "layer": 2
+  }
+ }
+]

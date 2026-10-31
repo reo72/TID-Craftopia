@@ -1,0 +1,7826 @@
+[
+  {
+    "index": 1,
+    "category": "主食・軽食",
+    "id": "honey_toast",
+    "name": "はちみつトースト",
+    "ingredients": "パン1・ハチミツ1",
+    "visual": "golden square toast with amber honey diagonal stripe",
+    "h": 6,
+    "s": 4,
+    "hours": 120,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "existing": true,
+    "category_number": 1
+  },
+  {
+    "index": 2,
+    "category": "主食・軽食",
+    "id": "carrot_sandwich",
+    "name": "にんじんサンド",
+    "ingredients": "パン1・ニンジン1",
+    "visual": "triangular sandwich with orange carrot filling",
+    "h": 7,
+    "s": 2,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 2
+  },
+  {
+    "index": 3,
+    "category": "主食・軽食",
+    "id": "egg_sandwich",
+    "name": "たまごサンド",
+    "ingredients": "パン1・卵1",
+    "visual": "triangular sandwich with chunky yellow egg filling",
+    "h": 8,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 3
+  },
+  {
+    "index": 4,
+    "category": "主食・軽食",
+    "id": "salmon_sandwich",
+    "name": "サーモンサンド",
+    "ingredients": "パン1・焼きサケ1",
+    "visual": "rectangular bread sandwich with pink salmon filling",
+    "h": 9,
+    "s": 3,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      9,
+      10,
+      11
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 4
+  },
+  {
+    "index": 5,
+    "category": "主食・軽食",
+    "id": "mushroom_flatbread",
+    "name": "きのこ平焼きパン",
+    "ingredients": "小麦2・茶色のキノコ1",
+    "visual": "round flatbread topped with large brown mushroom slices",
+    "h": 8,
+    "s": 2,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 5
+  },
+  {
+    "index": 6,
+    "category": "主食・軽食",
+    "id": "potato_galette",
+    "name": "じゃがいものガレット",
+    "ingredients": "ジャガイモ2・卵1",
+    "visual": "round golden potato pancake with browned crisscross lines",
+    "h": 8,
+    "s": 2,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 6
+  },
+  {
+    "index": 7,
+    "category": "主食・軽食",
+    "id": "beet_wrap",
+    "name": "ビーツのラップサンド",
+    "ingredients": "小麦2・ビートルート1",
+    "visual": "rolled tan tortilla with vivid magenta beet filling",
+    "h": 7,
+    "s": 3,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 7
+  },
+  {
+    "index": 8,
+    "category": "主食・軽食",
+    "id": "kelp_egg_roll",
+    "name": "昆布たまご巻き",
+    "ingredients": "乾燥した昆布1・卵2",
+    "visual": "yellow rolled omelet spiral wrapped with dark green seaweed strip",
+    "h": 7,
+    "s": 2,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 8
+  },
+  {
+    "index": 9,
+    "category": "主食・軽食",
+    "id": "pumpkin_bun",
+    "name": "かぼちゃ蒸しパン",
+    "ingredients": "小麦2・カボチャ1・卵1",
+    "visual": "round orange steamed bun with four pumpkin-like grooves",
+    "h": 7,
+    "s": 3,
+    "hours": 96,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 9
+  },
+  {
+    "index": 10,
+    "category": "主食・軽食",
+    "id": "rabbit_pie",
+    "name": "うさぎの包み焼き",
+    "ingredients": "小麦2・ウサギ肉1・ニンジン1",
+    "visual": "golden half moon meat pasty with crimped curved edge",
+    "h": 10,
+    "s": 3,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 10
+  },
+  {
+    "index": 11,
+    "category": "スープ・主菜",
+    "id": "carrot_potage",
+    "name": "にんじんポタージュ",
+    "ingredients": "ニンジン2・ミルク1・ボウル1",
+    "visual": "wooden bowl of bright orange creamy soup with ivory cream swirl",
+    "h": 6,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:bowl",
+    "yield": 1,
+    "stack": 16,
+    "effect": "20秒かけて合計HP2回復（品質共通、非戦闘時のみ）",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 1
+  },
+  {
+    "index": 12,
+    "category": "スープ・主菜",
+    "id": "pumpkin_chowder",
+    "name": "かぼちゃチャウダー",
+    "ingredients": "カボチャ1・ミルク1・ジャガイモ1・ボウル1",
+    "visual": "dark bowl of golden pumpkin chowder with large orange cubes",
+    "h": 8,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:bowl",
+    "yield": 1,
+    "stack": 16,
+    "effect": "20秒かけて合計HP2回復（品質共通、非戦闘時のみ）",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 2
+  },
+  {
+    "index": 13,
+    "category": "スープ・主菜",
+    "id": "beef_potato_stew",
+    "name": "牛肉とじゃがいもの煮込み",
+    "ingredients": "牛肉1・ジャガイモ2・ボウル1",
+    "visual": "wooden bowl of brown stew with beef chunks and yellow potatoes",
+    "h": 12,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:bowl",
+    "yield": 1,
+    "stack": 16,
+    "effect": "20秒かけて合計HP2回復（品質共通、非戦闘時のみ）",
+    "qualityH": [
+      12,
+      13,
+      14
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 3
+  },
+  {
+    "index": 14,
+    "category": "スープ・主菜",
+    "id": "chicken_egg_soup",
+    "name": "鶏とたまごのスープ",
+    "ingredients": "鶏肉1・卵1・ニンジン1・ボウル1",
+    "visual": "wooden bowl of pale golden broth with white chicken and yellow egg ribbons",
+    "h": 9,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:bowl",
+    "yield": 1,
+    "stack": 16,
+    "effect": "20秒かけて合計HP2回復（品質共通、非戦闘時のみ）",
+    "qualityH": [
+      9,
+      10,
+      11
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 4
+  },
+  {
+    "index": 15,
+    "category": "スープ・主菜",
+    "id": "cod_milk_stew",
+    "name": "タラのミルク煮",
+    "ingredients": "タラ1・ミルク1・ジャガイモ1・ボウル1",
+    "visual": "blue rim bowl of ivory fish stew with white cod chunk",
+    "h": 10,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "minecraft:bowl",
+    "yield": 1,
+    "stack": 16,
+    "effect": "20秒かけて合計HP2回復（品質共通、非戦闘時のみ）",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 5
+  },
+  {
+    "index": 16,
+    "category": "スープ・主菜",
+    "id": "beet_braise",
+    "name": "ビーツと豚肉の煮込み",
+    "ingredients": "ビートルート2・豚肉1・ボウル1",
+    "visual": "bowl of burgundy beet stew with pink pork chunks",
+    "h": 11,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "minecraft:bowl",
+    "yield": 1,
+    "stack": 16,
+    "effect": "20秒かけて合計HP2回復（品質共通、非戦闘時のみ）",
+    "qualityH": [
+      11,
+      12,
+      13
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 6
+  },
+  {
+    "index": 17,
+    "category": "スープ・主菜",
+    "id": "mushroom_skewer",
+    "name": "二色きのこ串",
+    "ingredients": "赤いキノコ1・茶色のキノコ1・棒1（返却なし）",
+    "visual": "diagonal wooden skewer of three red and brown cooked mushroom caps",
+    "h": 5,
+    "s": 2,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      5,
+      6,
+      7
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 7
+  },
+  {
+    "index": 18,
+    "category": "スープ・主菜",
+    "id": "honey_chicken",
+    "name": "はちみつ照り焼きチキン",
+    "ingredients": "鶏肉1・ハチミツ1",
+    "visual": "amber glazed chicken drumstick with crisp golden skin",
+    "h": 10,
+    "s": 4,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "existing": true,
+    "category_number": 8
+  },
+  {
+    "index": 19,
+    "category": "スープ・主菜",
+    "id": "kelp_fish_parcel",
+    "name": "魚の昆布包み焼き",
+    "ingredients": "タラ1・乾燥した昆布2",
+    "visual": "dark green rectangular seaweed parcel opened to reveal white cooked fish",
+    "h": 9,
+    "s": 2,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      9,
+      10,
+      11
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 9
+  },
+  {
+    "index": 20,
+    "category": "スープ・主菜",
+    "id": "roast_veg_platter",
+    "name": "彩り野菜のロースト",
+    "ingredients": "ニンジン1・ジャガイモ1・ビートルート1",
+    "visual": "small wooden plate with three large orange yellow purple roasted vegetable chunks",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 10
+  },
+  {
+    "index": 21,
+    "category": "燻製・保存食",
+    "id": "honey_smoked_pork",
+    "name": "蜜燻しポーク",
+    "ingredients": "豚肉1・ハチミツ1",
+    "visual": "thick dark amber smoked pork slice with pale fat rim",
+    "h": 10,
+    "s": 2,
+    "hours": 168,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "existing": true,
+    "category_number": 1
+  },
+  {
+    "index": 22,
+    "category": "燻製・保存食",
+    "id": "pepperless_smoked_chicken",
+    "name": "山小屋スモークチキン",
+    "ingredients": "鶏肉1・乾燥した昆布1",
+    "visual": "deep brown smoked chicken leg with dark seaweed flecks",
+    "h": 9,
+    "s": 1,
+    "hours": 168,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      9,
+      10,
+      11
+    ],
+    "qualityS": [
+      1,
+      1,
+      2
+    ],
+    "existing": true,
+    "category_number": 2
+  },
+  {
+    "index": 23,
+    "category": "燻製・保存食",
+    "id": "smoked_salmon_strips",
+    "name": "サケの燻製スティック",
+    "ingredients": "サケ1",
+    "visual": "three narrow reddish orange smoked salmon sticks",
+    "h": 7,
+    "s": 1,
+    "hours": 168,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      1,
+      1,
+      2
+    ],
+    "existing": true,
+    "category_number": 3
+  },
+  {
+    "index": 24,
+    "category": "燻製・保存食",
+    "id": "smoked_rabbit",
+    "name": "うさぎの燻製ロール",
+    "ingredients": "ウサギ肉1・乾燥した昆布1",
+    "visual": "dark brown rolled smoked meat tied with green seaweed band",
+    "h": 8,
+    "s": 1,
+    "hours": 168,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      1,
+      1,
+      2
+    ],
+    "existing": true,
+    "category_number": 4
+  },
+  {
+    "index": 25,
+    "category": "燻製・保存食",
+    "id": "kelp_beef_jerky",
+    "name": "昆布だしビーフジャーキー",
+    "ingredients": "牛肉1・乾燥した昆布1",
+    "visual": "two rugged dark brown beef jerky strips with green tiny accents",
+    "h": 7,
+    "s": 0,
+    "hours": 336,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      0,
+      0,
+      1
+    ],
+    "existing": true,
+    "category_number": 5
+  },
+  {
+    "index": 26,
+    "category": "燻製・保存食",
+    "id": "apple_chips",
+    "name": "りんごチップス",
+    "ingredients": "リンゴ2",
+    "visual": "three pale yellow dried apple rings with red skins",
+    "h": 4,
+    "s": 2,
+    "hours": 336,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      5,
+      6
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "existing": true,
+    "category_number": 6
+  },
+  {
+    "index": 27,
+    "category": "燻製・保存食",
+    "id": "carrot_crisps",
+    "name": "にんじんチップス",
+    "ingredients": "ニンジン2",
+    "visual": "stack of three bright orange wavy dried carrot discs",
+    "h": 4,
+    "s": 1,
+    "hours": 336,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      5,
+      6
+    ],
+    "qualityS": [
+      1,
+      1,
+      2
+    ],
+    "existing": true,
+    "category_number": 7
+  },
+  {
+    "index": 28,
+    "category": "燻製・保存食",
+    "id": "beet_crisps",
+    "name": "ビーツチップス",
+    "ingredients": "ビートルート2",
+    "visual": "three deep purple red crunchy beet slices with concentric rings",
+    "h": 4,
+    "s": 1,
+    "hours": 336,
+    "station": "燻製機（保存加工）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      5,
+      6
+    ],
+    "qualityS": [
+      1,
+      1,
+      2
+    ],
+    "existing": true,
+    "category_number": 8
+  },
+  {
+    "index": 29,
+    "category": "燻製・保存食",
+    "id": "berry_preserve",
+    "name": "ベリーの保存煮",
+    "ingredients": "スイートベリー3・砂糖1・ガラス瓶1",
+    "visual": "squat glass jar of crimson jam with plain beige cloth cap no label",
+    "h": 4,
+    "s": 4,
+    "hours": 720,
+    "station": "燻製機（保存加工）",
+    "level": 30,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      5,
+      6
+    ],
+    "qualityS": [
+      4,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 9
+  },
+  {
+    "index": 30,
+    "category": "燻製・保存食",
+    "id": "honey_apple_preserve",
+    "name": "蜜りんごの瓶詰め",
+    "ingredients": "リンゴ2・ハチミツ1・ガラス瓶1",
+    "visual": "square glass jar containing golden apple chunks in amber syrup no label",
+    "h": 5,
+    "s": 4,
+    "hours": 720,
+    "station": "燻製機（保存加工）",
+    "level": 30,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      5,
+      6,
+      7
+    ],
+    "qualityS": [
+      4,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 10
+  },
+  {
+    "index": 31,
+    "category": "甘味・お菓子",
+    "id": "berry_milk_pudding",
+    "name": "ベリーミルクプリン",
+    "ingredients": "ミルク1・卵1・スイートベリー1",
+    "visual": "ivory flan pudding topped with thick red berry sauce",
+    "h": 4,
+    "s": 7,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "existing": true,
+    "category_number": 1
+  },
+  {
+    "index": 32,
+    "category": "甘味・お菓子",
+    "id": "cocoa_custard",
+    "name": "カカオカスタード",
+    "ingredients": "ミルク1・卵1・カカオ豆1",
+    "visual": "brown chocolate custard pudding in small cream ceramic cup",
+    "h": 4,
+    "s": 7,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "existing": true,
+    "category_number": 2
+  },
+  {
+    "index": 33,
+    "category": "甘味・お菓子",
+    "id": "honey_cupcake",
+    "name": "はちみつカップケーキ",
+    "ingredients": "小麦1・卵1・ハチミツ1",
+    "visual": "golden cupcake with pale yellow icing and honey drop",
+    "h": 5,
+    "s": 6,
+    "hours": 96,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      5,
+      5,
+      6
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "existing": true,
+    "category_number": 3
+  },
+  {
+    "index": 34,
+    "category": "甘味・お菓子",
+    "id": "apple_turnover",
+    "name": "りんごの三角パイ",
+    "ingredients": "小麦2・リンゴ1・砂糖1",
+    "visual": "triangular golden pastry with red apple filling visible at one edge",
+    "h": 6,
+    "s": 6,
+    "hours": 96,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      6,
+      7
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "existing": true,
+    "category_number": 4
+  },
+  {
+    "index": 35,
+    "category": "甘味・お菓子",
+    "id": "pumpkin_cookie",
+    "name": "かぼちゃクッキー",
+    "ingredients": "小麦1・カボチャ1・砂糖1",
+    "visual": "orange pumpkin shaped cookie with short brown stem",
+    "h": 3,
+    "s": 5,
+    "hours": 96,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      4
+    ],
+    "qualityS": [
+      5,
+      6,
+      7
+    ],
+    "existing": true,
+    "category_number": 5
+  },
+  {
+    "index": 36,
+    "category": "甘味・お菓子",
+    "id": "cocoa_roll",
+    "name": "カカオロールケーキ",
+    "ingredients": "小麦1・卵1・ミルク1・カカオ豆1",
+    "visual": "brown spiral swiss roll cake slice with ivory cream center",
+    "h": 5,
+    "s": 7,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      5,
+      5,
+      6
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "existing": true,
+    "category_number": 6
+  },
+  {
+    "index": 37,
+    "category": "甘味・お菓子",
+    "id": "melon_jelly",
+    "name": "すいかゼリー",
+    "ingredients": "スイカの薄切り3・砂糖1",
+    "visual": "translucent red jelly dome with dark seeds and green base",
+    "h": 3,
+    "s": 6,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      4
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "existing": true,
+    "category_number": 7
+  },
+  {
+    "index": 38,
+    "category": "甘味・お菓子",
+    "id": "berry_crepe",
+    "name": "ベリークレープ",
+    "ingredients": "小麦1・卵1・ミルク1・スイートベリー1",
+    "visual": "folded golden cone crepe filled with white cream and red berries",
+    "h": 5,
+    "s": 7,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      5,
+      5,
+      6
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "existing": true,
+    "category_number": 8
+  },
+  {
+    "index": 39,
+    "category": "甘味・お菓子",
+    "id": "honey_nougat",
+    "name": "はちみつヌガー",
+    "ingredients": "ハチミツ1・砂糖1・卵1",
+    "visual": "two small ivory nougat rectangles with amber honey flecks",
+    "h": 3,
+    "s": 5,
+    "hours": 168,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      4
+    ],
+    "qualityS": [
+      5,
+      6,
+      7
+    ],
+    "existing": true,
+    "category_number": 9
+  },
+  {
+    "index": 40,
+    "category": "甘味・お菓子",
+    "id": "festival_layer_cake",
+    "name": "お祭りの三色ケーキ",
+    "ingredients": "小麦2・卵1・ミルク1・スイートベリー1・カカオ豆1",
+    "visual": "single cake slice with pink ivory brown layers and a red berry top",
+    "h": 7,
+    "s": 8,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "なし",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      7,
+      7,
+      8
+    ],
+    "qualityS": [
+      8,
+      9,
+      10
+    ],
+    "existing": true,
+    "category_number": 10
+  },
+  {
+    "index": 41,
+    "category": "飲み物",
+    "id": "apple_juice",
+    "name": "しぼりたてりんごジュース",
+    "ingredients": "リンゴ2・ガラス瓶1",
+    "visual": "short clear square bottle of amber apple juice with red apple-shaped blank seal no letters",
+    "h": 2,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      2
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 1
+  },
+  {
+    "index": 42,
+    "category": "飲み物",
+    "id": "melon_juice",
+    "name": "すいかジュース",
+    "ingredients": "スイカの薄切り3・ガラス瓶1",
+    "visual": "tall clear bottle of coral red juice with dark seeds and green cap",
+    "h": 2,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      2
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 2
+  },
+  {
+    "index": 43,
+    "category": "飲み物",
+    "id": "berry_soda",
+    "name": "ベリーソーダ",
+    "ingredients": "スイートベリー2・水入り瓶1・砂糖1",
+    "visual": "round bottle of bright pink sparkling berry drink with visible pale bubbles",
+    "h": 2,
+    "s": 4,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      2
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "existing": true,
+    "category_number": 3
+  },
+  {
+    "index": 44,
+    "category": "飲み物",
+    "id": "carrot_juice",
+    "name": "にんじんジュース",
+    "ingredients": "ニンジン2・ガラス瓶1",
+    "visual": "tapered bottle of bright orange juice with green cap",
+    "h": 3,
+    "s": 2,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 1,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      3
+    ],
+    "qualityS": [
+      2,
+      3,
+      4
+    ],
+    "existing": true,
+    "category_number": 4
+  },
+  {
+    "index": 45,
+    "category": "飲み物",
+    "id": "beet_apple_juice",
+    "name": "ビーツりんごジュース",
+    "ingredients": "ビートルート1・リンゴ1・ガラス瓶1",
+    "visual": "square bottle of deep magenta juice with tan cork",
+    "h": 3,
+    "s": 3,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      3
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "existing": true,
+    "category_number": 5
+  },
+  {
+    "index": 46,
+    "category": "飲み物",
+    "id": "warm_honey_milk",
+    "name": "ほっとはちみつミルク",
+    "ingredients": "ミルク1・ハチミツ1・共通カップ1",
+    "visual": "small clear handled mug containing ivory milk and golden honey swirl",
+    "h": 3,
+    "s": 6,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "tid:cup",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      3
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "existing": true,
+    "category_number": 6
+  },
+  {
+    "index": 47,
+    "category": "飲み物",
+    "id": "hot_cocoa",
+    "name": "ほっとココア",
+    "ingredients": "ミルク1・カカオ豆1・砂糖1・共通カップ1",
+    "visual": "red handled mug filled with dark cocoa and small white milk swirl",
+    "h": 4,
+    "s": 6,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "tid:cup",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      4
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "existing": true,
+    "category_number": 7
+  },
+  {
+    "index": 48,
+    "category": "飲み物",
+    "id": "pumpkin_latte",
+    "name": "かぼちゃミルクラテ",
+    "ingredients": "カボチャ1・ミルク1・砂糖1・共通カップ1",
+    "visual": "orange handled mug of creamy pumpkin drink with pale foam",
+    "h": 4,
+    "s": 5,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 10,
+    "container": "tid:cup",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      4
+    ],
+    "qualityS": [
+      5,
+      6,
+      7
+    ],
+    "existing": true,
+    "category_number": 8
+  },
+  {
+    "index": 49,
+    "category": "飲み物",
+    "id": "sweet_berry_milk",
+    "name": "ベリーミルク",
+    "ingredients": "スイートベリー2・ミルク1・ガラス瓶1",
+    "visual": "rounded milk bottle containing pastel pink milk with crimson cap",
+    "h": 3,
+    "s": 5,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      3,
+      3,
+      3
+    ],
+    "qualityS": [
+      5,
+      6,
+      7
+    ],
+    "existing": true,
+    "category_number": 9
+  },
+  {
+    "index": 50,
+    "category": "飲み物",
+    "id": "glow_berry_cooler",
+    "name": "洞窟ベリークーラー",
+    "ingredients": "グロウベリー2・水入り瓶1",
+    "visual": "slender bottle of golden lime berry drink with two large golden berries visible no magical aura",
+    "h": 2,
+    "s": 4,
+    "hours": 48,
+    "station": "焚火（専用調理UI）",
+    "level": 30,
+    "container": "minecraft:glass_bottle",
+    "yield": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      2
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "existing": true,
+    "category_number": 10
+  },
+  {
+    "id": "butter_bread",
+    "name": "バターロール",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・バター1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "butter bread",
+    "existing": false,
+    "category_number": 11,
+    "index": 51
+  },
+  {
+    "id": "cheese_bread",
+    "name": "チーズパン",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "cheese bread",
+    "existing": false,
+    "category_number": 12,
+    "index": 52
+  },
+  {
+    "id": "tomato_bruschetta",
+    "name": "トマトブルスケッタ",
+    "category": "主食・軽食",
+    "ingredients": "パン1・トマト1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "tomato bruschetta",
+    "existing": false,
+    "category_number": 13,
+    "index": 53
+  },
+  {
+    "id": "corn_bread",
+    "name": "コーンブレッド",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・トウモロコシ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "corn bread",
+    "existing": false,
+    "category_number": 14,
+    "index": 54
+  },
+  {
+    "id": "onion_focaccia",
+    "name": "オニオンフォカッチャ",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・タマネギ1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "onion focaccia",
+    "existing": false,
+    "category_number": 15,
+    "index": 55
+  },
+  {
+    "id": "herb_flatbread",
+    "name": "ミント平焼きパン",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・ミント1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "herb flatbread",
+    "existing": false,
+    "category_number": 16,
+    "index": 56
+  },
+  {
+    "id": "rice_ball",
+    "name": "塩おにぎり",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・塩1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "rice ball",
+    "existing": false,
+    "category_number": 17,
+    "index": 57
+  },
+  {
+    "id": "salmon_rice_ball",
+    "name": "焼きサケおにぎり",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・焼きサケ1・乾燥した昆布1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "salmon rice ball",
+    "existing": false,
+    "category_number": 18,
+    "index": 58
+  },
+  {
+    "id": "kelp_rice_ball",
+    "name": "昆布おにぎり",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・乾燥した昆布1・しょうゆ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "kelp rice ball",
+    "existing": false,
+    "category_number": 19,
+    "index": 59
+  },
+  {
+    "id": "egg_rice_bowl",
+    "name": "たまご丼",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・卵1・タマネギ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "egg rice bowl",
+    "existing": false,
+    "category_number": 20,
+    "index": 60
+  },
+  {
+    "id": "chicken_rice_bowl",
+    "name": "親子丼",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・鶏肉1・卵1・しょうゆ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "chicken rice bowl",
+    "existing": false,
+    "category_number": 21,
+    "index": 61
+  },
+  {
+    "id": "beef_rice_bowl",
+    "name": "牛丼",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・牛肉1・タマネギ1・しょうゆ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "beef rice bowl",
+    "existing": false,
+    "category_number": 22,
+    "index": 62
+  },
+  {
+    "id": "pork_rice_bowl",
+    "name": "豚丼",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・豚肉1・しょうゆ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "pork rice bowl",
+    "existing": false,
+    "category_number": 23,
+    "index": 63
+  },
+  {
+    "id": "tomato_omelet_rice",
+    "name": "トマトオムライス",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・卵1・トマトソース1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "tomato omelet rice",
+    "existing": false,
+    "category_number": 24,
+    "index": 64
+  },
+  {
+    "id": "mushroom_risotto",
+    "name": "きのこリゾット",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・茶色のキノコ1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "mushroom risotto",
+    "existing": false,
+    "category_number": 25,
+    "index": 65
+  },
+  {
+    "id": "corn_rice",
+    "name": "バターコーンご飯",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・トウモロコシ1・バター1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "corn rice",
+    "existing": false,
+    "category_number": 26,
+    "index": 66
+  },
+  {
+    "id": "vegetable_fried_rice",
+    "name": "野菜チャーハン",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・ニンジン1・タマネギ1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "vegetable fried rice",
+    "existing": false,
+    "category_number": 27,
+    "index": 67
+  },
+  {
+    "id": "egg_fried_rice",
+    "name": "たまごチャーハン",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・卵1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "egg fried rice",
+    "existing": false,
+    "category_number": 28,
+    "index": 68
+  },
+  {
+    "id": "kelp_sushi_roll",
+    "name": "野菜の昆布巻き寿司",
+    "category": "主食・軽食",
+    "ingredients": "炊いた米1・キュウリ1・乾燥した昆布1・酢1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "kelp sushi roll",
+    "existing": false,
+    "category_number": 29,
+    "index": 69
+  },
+  {
+    "id": "cucumber_sandwich",
+    "name": "きゅうりサンド",
+    "category": "主食・軽食",
+    "ingredients": "パン1・キュウリ1・バター1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "cucumber sandwich",
+    "existing": false,
+    "category_number": 30,
+    "index": 70
+  },
+  {
+    "id": "cheese_tomato_sandwich",
+    "name": "トマトチーズサンド",
+    "category": "主食・軽食",
+    "ingredients": "パン1・トマト1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "cheese tomato sandwich",
+    "existing": false,
+    "category_number": 31,
+    "index": 71
+  },
+  {
+    "id": "chicken_wrap",
+    "name": "チキンラップ",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・焼き鳥1・キャベツ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "chicken wrap",
+    "existing": false,
+    "category_number": 32,
+    "index": 72
+  },
+  {
+    "id": "pork_cutlet_sandwich",
+    "name": "ポークカツサンド",
+    "category": "主食・軽食",
+    "ingredients": "パン1・豚肉1・小麦粉1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "pork cutlet sandwich",
+    "existing": false,
+    "category_number": 33,
+    "index": 73
+  },
+  {
+    "id": "sausage_hotdog",
+    "name": "ソーセージドッグ",
+    "category": "主食・軽食",
+    "ingredients": "パン1・生ソーセージ1・トマトソース1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "sausage hotdog",
+    "existing": false,
+    "category_number": 34,
+    "index": 74
+  },
+  {
+    "id": "beef_burger",
+    "name": "ビーフバーガー",
+    "category": "主食・軽食",
+    "ingredients": "パン1・ひき肉1・キャベツ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "beef burger",
+    "existing": false,
+    "category_number": 35,
+    "index": 75
+  },
+  {
+    "id": "cheese_burger",
+    "name": "チーズバーガー",
+    "category": "主食・軽食",
+    "ingredients": "パン1・ひき肉1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "cheese burger",
+    "existing": false,
+    "category_number": 36,
+    "index": 76
+  },
+  {
+    "id": "fish_burger",
+    "name": "白身魚バーガー",
+    "category": "主食・軽食",
+    "ingredients": "パン1・タラ1・小麦粉1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "fish burger",
+    "existing": false,
+    "category_number": 37,
+    "index": 77
+  },
+  {
+    "id": "potato_croquette_bread",
+    "name": "コロッケパン",
+    "category": "主食・軽食",
+    "ingredients": "パン1・ジャガイモ1・小麦粉1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "potato croquette bread",
+    "existing": false,
+    "category_number": 38,
+    "index": 78
+  },
+  {
+    "id": "tomato_pizza",
+    "name": "トマトピザ",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・トマトソース1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "tomato pizza",
+    "existing": false,
+    "category_number": 39,
+    "index": 79
+  },
+  {
+    "id": "mushroom_pizza",
+    "name": "きのこピザ",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・茶色のキノコ1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "mushroom pizza",
+    "existing": false,
+    "category_number": 40,
+    "index": 80
+  },
+  {
+    "id": "corn_pizza",
+    "name": "コーンピザ",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・トウモロコシ1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "corn pizza",
+    "existing": false,
+    "category_number": 41,
+    "index": 81
+  },
+  {
+    "id": "tomato_pasta",
+    "name": "トマトパスタ",
+    "category": "主食・軽食",
+    "ingredients": "生麺1・トマトソース1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "tomato pasta",
+    "existing": false,
+    "category_number": 42,
+    "index": 82
+  },
+  {
+    "id": "cream_pasta",
+    "name": "クリームパスタ",
+    "category": "主食・軽食",
+    "ingredients": "生麺1・クリーム1・チーズ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "cream pasta",
+    "existing": false,
+    "category_number": 43,
+    "index": 83
+  },
+  {
+    "id": "mushroom_pasta",
+    "name": "きのこバターパスタ",
+    "category": "主食・軽食",
+    "ingredients": "生麺1・茶色のキノコ1・バター1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "mushroom pasta",
+    "existing": false,
+    "category_number": 44,
+    "index": 84
+  },
+  {
+    "id": "soy_fried_noodles",
+    "name": "しょうゆ焼きそば",
+    "category": "主食・軽食",
+    "ingredients": "生麺1・キャベツ1・豚肉1・しょうゆ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "soy fried noodles",
+    "existing": false,
+    "category_number": 45,
+    "index": 85
+  },
+  {
+    "id": "cold_cucumber_noodles",
+    "name": "冷やしきゅうり麺",
+    "category": "主食・軽食",
+    "ingredients": "生麺1・キュウリ1・酢1・しょうゆ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "cold cucumber noodles",
+    "existing": false,
+    "category_number": 46,
+    "index": 86
+  },
+  {
+    "id": "potato_pancake",
+    "name": "ポテトパンケーキ",
+    "category": "主食・軽食",
+    "ingredients": "ジャガイモ1・小麦粉1・卵1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "potato pancake",
+    "existing": false,
+    "category_number": 47,
+    "index": 87
+  },
+  {
+    "id": "corn_tortilla",
+    "name": "コーントルティーヤ",
+    "category": "主食・軽食",
+    "ingredients": "トウモロコシ1・小麦粉1・食用油1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "corn tortilla",
+    "existing": false,
+    "category_number": 48,
+    "index": 88
+  },
+  {
+    "id": "steamed_pork_bun",
+    "name": "肉まん",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・ひき肉1・タマネギ1",
+    "h": 6,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "steamed pork bun",
+    "existing": false,
+    "category_number": 49,
+    "index": 89
+  },
+  {
+    "id": "vegetable_dumplings",
+    "name": "野菜餃子",
+    "category": "主食・軽食",
+    "ingredients": "パン生地1・キャベツ1・タマネギ1",
+    "h": 8,
+    "s": 3,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      3,
+      4,
+      5
+    ],
+    "visual": "vegetable dumplings",
+    "existing": false,
+    "category_number": 50,
+    "index": 90
+  },
+  {
+    "id": "corn_potage",
+    "name": "コーンポタージュ",
+    "category": "スープ・主菜",
+    "ingredients": "トウモロコシ1・クリーム1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "corn potage",
+    "existing": false,
+    "category_number": 11,
+    "index": 91
+  },
+  {
+    "id": "onion_soup",
+    "name": "オニオンスープ",
+    "category": "スープ・主菜",
+    "ingredients": "タマネギ1・野菜だし1・バター1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "onion soup",
+    "existing": false,
+    "category_number": 12,
+    "index": 92
+  },
+  {
+    "id": "tomato_soup",
+    "name": "トマトスープ",
+    "category": "スープ・主菜",
+    "ingredients": "トマト1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "tomato soup",
+    "existing": false,
+    "category_number": 13,
+    "index": 93
+  },
+  {
+    "id": "cabbage_soup",
+    "name": "キャベツスープ",
+    "category": "スープ・主菜",
+    "ingredients": "キャベツ1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "cabbage soup",
+    "existing": false,
+    "category_number": 14,
+    "index": 94
+  },
+  {
+    "id": "mushroom_cream_soup",
+    "name": "きのこクリームスープ",
+    "category": "スープ・主菜",
+    "ingredients": "茶色のキノコ1・クリーム1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "mushroom cream soup",
+    "existing": false,
+    "category_number": 15,
+    "index": 95
+  },
+  {
+    "id": "potato_soup",
+    "name": "じゃがいもスープ",
+    "category": "スープ・主菜",
+    "ingredients": "ジャガイモ1・ミルク1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "potato soup",
+    "existing": false,
+    "category_number": 16,
+    "index": 96
+  },
+  {
+    "id": "egg_drop_soup",
+    "name": "かきたまスープ",
+    "category": "スープ・主菜",
+    "ingredients": "卵1・野菜だし1・しょうゆ1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "egg drop soup",
+    "existing": false,
+    "category_number": 17,
+    "index": 97
+  },
+  {
+    "id": "tofu_kelp_soup",
+    "name": "豆腐と昆布のスープ",
+    "category": "スープ・主菜",
+    "ingredients": "豆腐1・乾燥した昆布1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "tofu kelp soup",
+    "existing": false,
+    "category_number": 18,
+    "index": 98
+  },
+  {
+    "id": "minestrone",
+    "name": "ミネストローネ",
+    "category": "スープ・主菜",
+    "ingredients": "トマト1・キャベツ1・ニンジン1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "minestrone",
+    "existing": false,
+    "category_number": 19,
+    "index": 99
+  },
+  {
+    "id": "sausage_pot_au_feu",
+    "name": "ソーセージポトフ",
+    "category": "スープ・主菜",
+    "ingredients": "生ソーセージ1・ジャガイモ1・キャベツ1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "sausage pot au feu",
+    "existing": false,
+    "category_number": 20,
+    "index": 100
+  },
+  {
+    "id": "chicken_cream_stew",
+    "name": "鶏のクリームシチュー",
+    "category": "スープ・主菜",
+    "ingredients": "鶏肉1・クリーム1・ニンジン1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "chicken cream stew",
+    "existing": false,
+    "category_number": 21,
+    "index": 101
+  },
+  {
+    "id": "tomato_beef_stew",
+    "name": "牛肉トマトシチュー",
+    "category": "スープ・主菜",
+    "ingredients": "牛肉1・トマトソース1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "tomato beef stew",
+    "existing": false,
+    "category_number": 22,
+    "index": 102
+  },
+  {
+    "id": "salmon_chowder",
+    "name": "サケのチャウダー",
+    "category": "スープ・主菜",
+    "ingredients": "サケ1・クリーム1・ジャガイモ1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "salmon chowder",
+    "existing": false,
+    "category_number": 23,
+    "index": 103
+  },
+  {
+    "id": "lemon_chicken_soup",
+    "name": "レモンチキンスープ",
+    "category": "スープ・主菜",
+    "ingredients": "鶏肉1・レモン1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "lemon chicken soup",
+    "existing": false,
+    "category_number": 24,
+    "index": 104
+  },
+  {
+    "id": "rice_egg_porridge",
+    "name": "たまご雑炊",
+    "category": "スープ・主菜",
+    "ingredients": "炊いた米1・卵1・野菜だし1・ボウル1",
+    "h": 7,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "ボウル",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "非戦闘時20秒でHP2回復（食事効果1枠）",
+    "qualityH": [
+      7,
+      8,
+      9
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "rice egg porridge",
+    "existing": false,
+    "category_number": 25,
+    "index": 105
+  },
+  {
+    "id": "grilled_lemon_chicken",
+    "name": "レモンチキン",
+    "category": "スープ・主菜",
+    "ingredients": "鶏肉1・レモン1・食用油1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "grilled lemon chicken",
+    "existing": false,
+    "category_number": 26,
+    "index": 106
+  },
+  {
+    "id": "cheese_chicken",
+    "name": "チーズチキン",
+    "category": "スープ・主菜",
+    "ingredients": "鶏肉1・チーズ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "cheese chicken",
+    "existing": false,
+    "category_number": 27,
+    "index": 107
+  },
+  {
+    "id": "pepper_beef_steak",
+    "name": "黒こしょうステーキ",
+    "category": "スープ・主菜",
+    "ingredients": "牛肉1・黒こしょう1・バター1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "pepper beef steak",
+    "existing": false,
+    "category_number": 28,
+    "index": 108
+  },
+  {
+    "id": "onion_pork_steak",
+    "name": "オニオンポーク",
+    "category": "スープ・主菜",
+    "ingredients": "豚肉1・タマネギ1・しょうゆ1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "onion pork steak",
+    "existing": false,
+    "category_number": 29,
+    "index": 109
+  },
+  {
+    "id": "lemon_cod",
+    "name": "タラのレモン焼き",
+    "category": "スープ・主菜",
+    "ingredients": "タラ1・レモン1・バター1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "lemon cod",
+    "existing": false,
+    "category_number": 30,
+    "index": 110
+  },
+  {
+    "id": "salmon_meuniere",
+    "name": "サケのムニエル",
+    "category": "スープ・主菜",
+    "ingredients": "サケ1・小麦粉1・バター1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "salmon meuniere",
+    "existing": false,
+    "category_number": 31,
+    "index": 111
+  },
+  {
+    "id": "tomato_fish_braise",
+    "name": "魚のトマト煮",
+    "category": "スープ・主菜",
+    "ingredients": "タラ1・トマトソース1・タマネギ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "tomato fish braise",
+    "existing": false,
+    "category_number": 32,
+    "index": 112
+  },
+  {
+    "id": "stuffed_cabbage",
+    "name": "ロールキャベツ",
+    "category": "スープ・主菜",
+    "ingredients": "キャベツ1・ひき肉1・トマトソース1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "stuffed cabbage",
+    "existing": false,
+    "category_number": 33,
+    "index": 113
+  },
+  {
+    "id": "meatballs",
+    "name": "ミートボール",
+    "category": "スープ・主菜",
+    "ingredients": "ひき肉1・卵1・小麦粉1・トマトソース1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "meatballs",
+    "existing": false,
+    "category_number": 34,
+    "index": 114
+  },
+  {
+    "id": "hamburg_steak",
+    "name": "ハンバーグ",
+    "category": "スープ・主菜",
+    "ingredients": "ひき肉1・タマネギ1・卵1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "hamburg steak",
+    "existing": false,
+    "category_number": 35,
+    "index": 115
+  },
+  {
+    "id": "cheese_omelette",
+    "name": "チーズオムレツ",
+    "category": "スープ・主菜",
+    "ingredients": "卵2・チーズ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "cheese omelette",
+    "existing": false,
+    "category_number": 36,
+    "index": 116
+  },
+  {
+    "id": "vegetable_omelette",
+    "name": "野菜オムレツ",
+    "category": "スープ・主菜",
+    "ingredients": "卵2・ニンジン1・トマト1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "vegetable omelette",
+    "existing": false,
+    "category_number": 37,
+    "index": 117
+  },
+  {
+    "id": "potato_gratin",
+    "name": "ポテトグラタン",
+    "category": "スープ・主菜",
+    "ingredients": "ジャガイモ1・クリーム1・チーズ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "potato gratin",
+    "existing": false,
+    "category_number": 38,
+    "index": 118
+  },
+  {
+    "id": "pumpkin_gratin",
+    "name": "かぼちゃグラタン",
+    "category": "スープ・主菜",
+    "ingredients": "カボチャ1・クリーム1・チーズ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "pumpkin gratin",
+    "existing": false,
+    "category_number": 39,
+    "index": 119
+  },
+  {
+    "id": "corn_fritters",
+    "name": "コーンかき揚げ",
+    "category": "スープ・主菜",
+    "ingredients": "トウモロコシ1・小麦粉1・食用油1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "corn fritters",
+    "existing": false,
+    "category_number": 40,
+    "index": 120
+  },
+  {
+    "id": "onion_rings",
+    "name": "オニオンリング",
+    "category": "スープ・主菜",
+    "ingredients": "タマネギ1・小麦粉1・食用油1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "onion rings",
+    "existing": false,
+    "category_number": 41,
+    "index": 121
+  },
+  {
+    "id": "fried_tofu",
+    "name": "揚げ豆腐",
+    "category": "スープ・主菜",
+    "ingredients": "豆腐1・食用油1・しょうゆ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "fried tofu",
+    "existing": false,
+    "category_number": 42,
+    "index": 122
+  },
+  {
+    "id": "tofu_steak",
+    "name": "豆腐ステーキ",
+    "category": "スープ・主菜",
+    "ingredients": "豆腐1・茶色のキノコ1・しょうゆ1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "tofu steak",
+    "existing": false,
+    "category_number": 43,
+    "index": 123
+  },
+  {
+    "id": "cucumber_salad",
+    "name": "きゅうりサラダ",
+    "category": "スープ・主菜",
+    "ingredients": "キュウリ1・酢1・食用油1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "cucumber salad",
+    "existing": false,
+    "category_number": 44,
+    "index": 124
+  },
+  {
+    "id": "tomato_cheese_salad",
+    "name": "トマトチーズサラダ",
+    "category": "スープ・主菜",
+    "ingredients": "トマト1・チーズ1・食用油1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "tomato cheese salad",
+    "existing": false,
+    "category_number": 45,
+    "index": 125
+  },
+  {
+    "id": "cabbage_slaw",
+    "name": "コールスロー",
+    "category": "スープ・主菜",
+    "ingredients": "キャベツ1・ニンジン1・ヨーグルト1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "cabbage slaw",
+    "existing": false,
+    "category_number": 46,
+    "index": 126
+  },
+  {
+    "id": "potato_salad",
+    "name": "ポテトサラダ",
+    "category": "スープ・主菜",
+    "ingredients": "ジャガイモ1・キュウリ1・ヨーグルト1",
+    "h": 8,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      8,
+      9,
+      10
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "potato salad",
+    "existing": false,
+    "category_number": 47,
+    "index": 127
+  },
+  {
+    "id": "grilled_corn",
+    "name": "しょうゆ焼きとうもろこし",
+    "category": "スープ・主菜",
+    "ingredients": "トウモロコシ1・しょうゆ1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "grilled corn",
+    "existing": false,
+    "category_number": 48,
+    "index": 128
+  },
+  {
+    "id": "butter_mushroom_saute",
+    "name": "きのこバター炒め",
+    "category": "スープ・主菜",
+    "ingredients": "茶色のキノコ1・赤いキノコ1・バター1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "butter mushroom saute",
+    "existing": false,
+    "category_number": 49,
+    "index": 129
+  },
+  {
+    "id": "rabbit_herb_roast",
+    "name": "うさぎの香草焼き",
+    "category": "スープ・主菜",
+    "ingredients": "ウサギ肉1・ミント1・食用油1",
+    "h": 10,
+    "s": 4,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "調理",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      10,
+      11,
+      12
+    ],
+    "qualityS": [
+      4,
+      5,
+      6
+    ],
+    "visual": "rabbit herb roast",
+    "existing": false,
+    "category_number": 50,
+    "index": 130
+  },
+  {
+    "id": "smoked_bacon",
+    "name": "燻製ベーコン",
+    "category": "燻製・保存食",
+    "ingredients": "豚肉1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked bacon",
+    "existing": false,
+    "category_number": 11,
+    "index": 131
+  },
+  {
+    "id": "smoked_sausage",
+    "name": "燻製ソーセージ",
+    "category": "燻製・保存食",
+    "ingredients": "生ソーセージ1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked sausage",
+    "existing": false,
+    "category_number": 12,
+    "index": 132
+  },
+  {
+    "id": "smoked_cheese",
+    "name": "スモークチーズ",
+    "category": "燻製・保存食",
+    "ingredients": "チーズ1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked cheese",
+    "existing": false,
+    "category_number": 13,
+    "index": 133
+  },
+  {
+    "id": "smoked_egg",
+    "name": "燻製たまご",
+    "category": "燻製・保存食",
+    "ingredients": "卵1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked egg",
+    "existing": false,
+    "category_number": 14,
+    "index": 134
+  },
+  {
+    "id": "smoked_tofu",
+    "name": "燻製豆腐",
+    "category": "燻製・保存食",
+    "ingredients": "豆腐1・しょうゆ1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked tofu",
+    "existing": false,
+    "category_number": 15,
+    "index": 135
+  },
+  {
+    "id": "smoked_cod",
+    "name": "タラの燻製",
+    "category": "燻製・保存食",
+    "ingredients": "タラ1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked cod",
+    "existing": false,
+    "category_number": 16,
+    "index": 136
+  },
+  {
+    "id": "smoked_mutton",
+    "name": "羊肉の燻製",
+    "category": "燻製・保存食",
+    "ingredients": "羊肉1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked mutton",
+    "existing": false,
+    "category_number": 17,
+    "index": 137
+  },
+  {
+    "id": "pepper_beef_jerky",
+    "name": "黒こしょうジャーキー",
+    "category": "燻製・保存食",
+    "ingredients": "牛肉1・黒こしょう1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pepper beef jerky",
+    "existing": false,
+    "category_number": 18,
+    "index": 138
+  },
+  {
+    "id": "sweet_pork_jerky",
+    "name": "甘口ポークジャーキー",
+    "category": "燻製・保存食",
+    "ingredients": "豚肉1・砂糖1・しょうゆ1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "sweet pork jerky",
+    "existing": false,
+    "category_number": 19,
+    "index": 139
+  },
+  {
+    "id": "chicken_jerky",
+    "name": "鶏ジャーキー",
+    "category": "燻製・保存食",
+    "ingredients": "鶏肉1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 1,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "chicken jerky",
+    "existing": false,
+    "category_number": 20,
+    "index": 140
+  },
+  {
+    "id": "rabbit_jerky",
+    "name": "うさぎジャーキー",
+    "category": "燻製・保存食",
+    "ingredients": "ウサギ肉1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "rabbit jerky",
+    "existing": false,
+    "category_number": 21,
+    "index": 141
+  },
+  {
+    "id": "dried_salmon",
+    "name": "サケの干物",
+    "category": "燻製・保存食",
+    "ingredients": "サケ1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried salmon",
+    "existing": false,
+    "category_number": 22,
+    "index": 142
+  },
+  {
+    "id": "dried_cod",
+    "name": "タラの干物",
+    "category": "燻製・保存食",
+    "ingredients": "タラ1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried cod",
+    "existing": false,
+    "category_number": 23,
+    "index": 143
+  },
+  {
+    "id": "dried_mushrooms",
+    "name": "干しきのこ",
+    "category": "燻製・保存食",
+    "ingredients": "茶色のキノコ2",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried mushrooms",
+    "existing": false,
+    "category_number": 24,
+    "index": 144
+  },
+  {
+    "id": "dried_tomato",
+    "name": "ドライトマト",
+    "category": "燻製・保存食",
+    "ingredients": "トマト2・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried tomato",
+    "existing": false,
+    "category_number": 25,
+    "index": 145
+  },
+  {
+    "id": "dried_pumpkin",
+    "name": "干しかぼちゃ",
+    "category": "燻製・保存食",
+    "ingredients": "カボチャ1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried pumpkin",
+    "existing": false,
+    "category_number": 26,
+    "index": 146
+  },
+  {
+    "id": "dried_corn",
+    "name": "乾燥コーン",
+    "category": "燻製・保存食",
+    "ingredients": "トウモロコシ2",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried corn",
+    "existing": false,
+    "category_number": 27,
+    "index": 147
+  },
+  {
+    "id": "raisins",
+    "name": "レーズン",
+    "category": "燻製・保存食",
+    "ingredients": "ブドウ2",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "raisins",
+    "existing": false,
+    "category_number": 28,
+    "index": 148
+  },
+  {
+    "id": "dried_strawberry",
+    "name": "ドライいちご",
+    "category": "燻製・保存食",
+    "ingredients": "イチゴ2",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried strawberry",
+    "existing": false,
+    "category_number": 29,
+    "index": 149
+  },
+  {
+    "id": "dried_melon",
+    "name": "ドライすいか",
+    "category": "燻製・保存食",
+    "ingredients": "スイカの薄切り2",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "dried melon",
+    "existing": false,
+    "category_number": 30,
+    "index": 150
+  },
+  {
+    "id": "lemon_peel",
+    "name": "砂糖漬けレモンピール",
+    "category": "燻製・保存食",
+    "ingredients": "レモン1・砂糖1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "lemon peel",
+    "existing": false,
+    "category_number": 31,
+    "index": 151
+  },
+  {
+    "id": "apple_jam",
+    "name": "りんごジャム",
+    "category": "燻製・保存食",
+    "ingredients": "リンゴ2・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "apple jam",
+    "existing": false,
+    "category_number": 32,
+    "index": 152
+  },
+  {
+    "id": "strawberry_jam",
+    "name": "いちごジャム",
+    "category": "燻製・保存食",
+    "ingredients": "イチゴ2・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "strawberry jam",
+    "existing": false,
+    "category_number": 33,
+    "index": 153
+  },
+  {
+    "id": "grape_jam",
+    "name": "ぶどうジャム",
+    "category": "燻製・保存食",
+    "ingredients": "ブドウ2・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "grape jam",
+    "existing": false,
+    "category_number": 34,
+    "index": 154
+  },
+  {
+    "id": "pumpkin_jam",
+    "name": "かぼちゃジャム",
+    "category": "燻製・保存食",
+    "ingredients": "カボチャ1・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pumpkin jam",
+    "existing": false,
+    "category_number": 35,
+    "index": 155
+  },
+  {
+    "id": "lemon_marmalade",
+    "name": "レモンマーマレード",
+    "category": "燻製・保存食",
+    "ingredients": "レモン2・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "lemon marmalade",
+    "existing": false,
+    "category_number": 36,
+    "index": 156
+  },
+  {
+    "id": "glow_berry_jam",
+    "name": "洞窟ベリージャム",
+    "category": "燻製・保存食",
+    "ingredients": "グロウベリー2・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "glow berry jam",
+    "existing": false,
+    "category_number": 37,
+    "index": 157
+  },
+  {
+    "id": "pickled_cucumber",
+    "name": "きゅうりのピクルス",
+    "category": "燻製・保存食",
+    "ingredients": "キュウリ1・酢1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pickled cucumber",
+    "existing": false,
+    "category_number": 38,
+    "index": 158
+  },
+  {
+    "id": "pickled_carrot",
+    "name": "にんじんのピクルス",
+    "category": "燻製・保存食",
+    "ingredients": "ニンジン1・酢1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pickled carrot",
+    "existing": false,
+    "category_number": 39,
+    "index": 159
+  },
+  {
+    "id": "pickled_onion",
+    "name": "たまねぎのピクルス",
+    "category": "燻製・保存食",
+    "ingredients": "タマネギ1・酢1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 10,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pickled onion",
+    "existing": false,
+    "category_number": 40,
+    "index": 160
+  },
+  {
+    "id": "pickled_beet",
+    "name": "ビーツのピクルス",
+    "category": "燻製・保存食",
+    "ingredients": "ビートルート1・酢1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pickled beet",
+    "existing": false,
+    "category_number": 41,
+    "index": 161
+  },
+  {
+    "id": "pickled_cabbage",
+    "name": "キャベツの酢漬け",
+    "category": "燻製・保存食",
+    "ingredients": "キャベツ1・酢1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "pickled cabbage",
+    "existing": false,
+    "category_number": 42,
+    "index": 162
+  },
+  {
+    "id": "salted_lemon",
+    "name": "塩レモン",
+    "category": "燻製・保存食",
+    "ingredients": "レモン1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "salted lemon",
+    "existing": false,
+    "category_number": 43,
+    "index": 163
+  },
+  {
+    "id": "honey_lemon_preserve",
+    "name": "はちみつレモン漬け",
+    "category": "燻製・保存食",
+    "ingredients": "レモン1・ハチミツ1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "honey lemon preserve",
+    "existing": false,
+    "category_number": 44,
+    "index": 164
+  },
+  {
+    "id": "soy_kelp_preserve",
+    "name": "昆布の佃煮",
+    "category": "燻製・保存食",
+    "ingredients": "乾燥した昆布2・しょうゆ1・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "soy kelp preserve",
+    "existing": false,
+    "category_number": 45,
+    "index": 165
+  },
+  {
+    "id": "mushroom_soy_preserve",
+    "name": "きのこの佃煮",
+    "category": "燻製・保存食",
+    "ingredients": "茶色のキノコ2・しょうゆ1・砂糖1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "mushroom soy preserve",
+    "existing": false,
+    "category_number": 46,
+    "index": 166
+  },
+  {
+    "id": "fish_oil_preserve",
+    "name": "魚のオイル漬け",
+    "category": "燻製・保存食",
+    "ingredients": "焼きダラ1・食用油1・塩1・ガラス瓶1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "fish oil preserve",
+    "existing": false,
+    "category_number": 47,
+    "index": 167
+  },
+  {
+    "id": "smoked_almond_style_seeds",
+    "name": "燻製かぼちゃ種",
+    "category": "燻製・保存食",
+    "ingredients": "カボチャの種2・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "燻製",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "smoked almond style seeds",
+    "existing": false,
+    "category_number": 48,
+    "index": 168
+  },
+  {
+    "id": "trail_ration",
+    "name": "旅人の保存食",
+    "category": "燻製・保存食",
+    "ingredients": "レーズン1・昆布だしビーフジャーキー1・保存クラッカー1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "保存加工",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "trail ration",
+    "existing": false,
+    "category_number": 49,
+    "index": 169
+  },
+  {
+    "id": "hard_crackers",
+    "name": "保存クラッカー",
+    "category": "燻製・保存食",
+    "ingredients": "小麦粉1・食用油1・塩1",
+    "h": 6,
+    "s": 2,
+    "hours": 336,
+    "level": 30,
+    "station": "燻製機（専用UI）",
+    "process": "乾燥",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      6,
+      7,
+      8
+    ],
+    "qualityS": [
+      2,
+      2,
+      3
+    ],
+    "visual": "hard crackers",
+    "existing": false,
+    "category_number": 50,
+    "index": 170
+  },
+  {
+    "id": "butter_cookie",
+    "name": "バタークッキー",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・バター1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "butter cookie",
+    "existing": false,
+    "category_number": 11,
+    "index": 171
+  },
+  {
+    "id": "cheese_cookie",
+    "name": "チーズクッキー",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・チーズ1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "cheese cookie",
+    "existing": false,
+    "category_number": 12,
+    "index": 172
+  },
+  {
+    "id": "lemon_cookie",
+    "name": "レモンクッキー",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・レモン1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "lemon cookie",
+    "existing": false,
+    "category_number": 13,
+    "index": 173
+  },
+  {
+    "id": "strawberry_cookie",
+    "name": "いちごクッキー",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・イチゴ1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "strawberry cookie",
+    "existing": false,
+    "category_number": 14,
+    "index": 174
+  },
+  {
+    "id": "chocolate_chip_cookie",
+    "name": "カカオチップクッキー",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・カカオパウダー1・バター1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "chocolate chip cookie",
+    "existing": false,
+    "category_number": 15,
+    "index": 175
+  },
+  {
+    "id": "shortbread",
+    "name": "ショートブレッド",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・バター2・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "shortbread",
+    "existing": false,
+    "category_number": 16,
+    "index": 176
+  },
+  {
+    "id": "apple_tart",
+    "name": "りんごタルト",
+    "category": "甘味・お菓子",
+    "ingredients": "パン生地1・リンゴ1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "apple tart",
+    "existing": false,
+    "category_number": 17,
+    "index": 177
+  },
+  {
+    "id": "strawberry_tart",
+    "name": "いちごタルト",
+    "category": "甘味・お菓子",
+    "ingredients": "パン生地1・イチゴ1・クリーム1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "strawberry tart",
+    "existing": false,
+    "category_number": 18,
+    "index": 178
+  },
+  {
+    "id": "lemon_tart",
+    "name": "レモンタルト",
+    "category": "甘味・お菓子",
+    "ingredients": "パン生地1・レモン1・卵1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "lemon tart",
+    "existing": false,
+    "category_number": 19,
+    "index": 179
+  },
+  {
+    "id": "grape_tart",
+    "name": "ぶどうタルト",
+    "category": "甘味・お菓子",
+    "ingredients": "パン生地1・ブドウ1・クリーム1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "grape tart",
+    "existing": false,
+    "category_number": 20,
+    "index": 180
+  },
+  {
+    "id": "pumpkin_tart",
+    "name": "かぼちゃタルト",
+    "category": "甘味・お菓子",
+    "ingredients": "パン生地1・カボチャ1・クリーム1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "pumpkin tart",
+    "existing": false,
+    "category_number": 21,
+    "index": 181
+  },
+  {
+    "id": "cheesecake",
+    "name": "チーズケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "チーズ1・卵1・砂糖1・小麦粉1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "cheesecake",
+    "existing": false,
+    "category_number": 22,
+    "index": 182
+  },
+  {
+    "id": "strawberry_shortcake",
+    "name": "いちごショートケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・卵1・イチゴ1・クリーム1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "strawberry shortcake",
+    "existing": false,
+    "category_number": 23,
+    "index": 183
+  },
+  {
+    "id": "chocolate_cake",
+    "name": "チョコケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・卵1・カカオパウダー1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "chocolate cake",
+    "existing": false,
+    "category_number": 24,
+    "index": 184
+  },
+  {
+    "id": "carrot_cake",
+    "name": "にんじんケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・ニンジン1・卵1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "carrot cake",
+    "existing": false,
+    "category_number": 25,
+    "index": 185
+  },
+  {
+    "id": "lemon_poundcake",
+    "name": "レモンパウンドケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・レモン1・バター1・卵1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "lemon poundcake",
+    "existing": false,
+    "category_number": 26,
+    "index": 186
+  },
+  {
+    "id": "tea_chiffon",
+    "name": "紅茶シフォン",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・茶葉1・卵1・砂糖1",
+    "h": 2,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      3
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "tea chiffon",
+    "existing": false,
+    "category_number": 27,
+    "index": 187
+  },
+  {
+    "id": "coffee_cake",
+    "name": "コーヒーケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・コーヒー豆1・卵1・砂糖1",
+    "h": 2,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      3
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "coffee cake",
+    "existing": false,
+    "category_number": 28,
+    "index": 188
+  },
+  {
+    "id": "milk_pudding",
+    "name": "ミルクプリン",
+    "category": "甘味・お菓子",
+    "ingredients": "ミルク1・ゼラチン1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "milk pudding",
+    "existing": false,
+    "category_number": 29,
+    "index": 189
+  },
+  {
+    "id": "pumpkin_pudding",
+    "name": "かぼちゃプリン",
+    "category": "甘味・お菓子",
+    "ingredients": "カボチャ1・卵1・ミルク1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "pumpkin pudding",
+    "existing": false,
+    "category_number": 30,
+    "index": 190
+  },
+  {
+    "id": "coffee_jelly",
+    "name": "コーヒーゼリー",
+    "category": "甘味・お菓子",
+    "ingredients": "コーヒー豆1・ゼラチン1・砂糖1",
+    "h": 2,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      3
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "coffee jelly",
+    "existing": false,
+    "category_number": 31,
+    "index": 191
+  },
+  {
+    "id": "grape_jelly",
+    "name": "ぶどうゼリー",
+    "category": "甘味・お菓子",
+    "ingredients": "ブドウ1・ゼラチン1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "grape jelly",
+    "existing": false,
+    "category_number": 32,
+    "index": 192
+  },
+  {
+    "id": "lemon_jelly",
+    "name": "レモンゼリー",
+    "category": "甘味・お菓子",
+    "ingredients": "レモン1・ゼラチン1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "lemon jelly",
+    "existing": false,
+    "category_number": 33,
+    "index": 193
+  },
+  {
+    "id": "glow_berry_jelly",
+    "name": "洞窟ベリーゼリー",
+    "category": "甘味・お菓子",
+    "ingredients": "グロウベリー1・ゼラチン1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "glow berry jelly",
+    "existing": false,
+    "category_number": 34,
+    "index": 194
+  },
+  {
+    "id": "strawberry_yogurt",
+    "name": "いちごヨーグルト",
+    "category": "甘味・お菓子",
+    "ingredients": "ヨーグルト1・イチゴ1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "strawberry yogurt",
+    "existing": false,
+    "category_number": 35,
+    "index": 195
+  },
+  {
+    "id": "honey_yogurt",
+    "name": "はちみつヨーグルト",
+    "category": "甘味・お菓子",
+    "ingredients": "ヨーグルト1・ハチミツ1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "honey yogurt",
+    "existing": false,
+    "category_number": 36,
+    "index": 196
+  },
+  {
+    "id": "apple_yogurt",
+    "name": "りんごヨーグルト",
+    "category": "甘味・お菓子",
+    "ingredients": "ヨーグルト1・リンゴ1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "apple yogurt",
+    "existing": false,
+    "category_number": 37,
+    "index": 197
+  },
+  {
+    "id": "melon_sorbet",
+    "name": "すいかシャーベット",
+    "category": "甘味・お菓子",
+    "ingredients": "スイカの薄切り2・砂糖1・氷1",
+    "h": 2,
+    "s": 7,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      3
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "melon sorbet",
+    "existing": false,
+    "category_number": 38,
+    "index": 198
+  },
+  {
+    "id": "lemon_sorbet",
+    "name": "レモンシャーベット",
+    "category": "甘味・お菓子",
+    "ingredients": "レモン1・砂糖1・氷1",
+    "h": 2,
+    "s": 7,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      2,
+      2,
+      3
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "lemon sorbet",
+    "existing": false,
+    "category_number": 39,
+    "index": 199
+  },
+  {
+    "id": "milk_icecream",
+    "name": "ミルクアイス",
+    "category": "甘味・お菓子",
+    "ingredients": "ミルク1・クリーム1・砂糖1・氷1",
+    "h": 4,
+    "s": 7,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "milk icecream",
+    "existing": false,
+    "category_number": 40,
+    "index": 200
+  },
+  {
+    "id": "cocoa_icecream",
+    "name": "カカオアイス",
+    "category": "甘味・お菓子",
+    "ingredients": "ミルク1・カカオパウダー1・砂糖1・氷1",
+    "h": 4,
+    "s": 7,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "cocoa icecream",
+    "existing": false,
+    "category_number": 41,
+    "index": 201
+  },
+  {
+    "id": "strawberry_icecream",
+    "name": "いちごアイス",
+    "category": "甘味・お菓子",
+    "ingredients": "ミルク1・イチゴ1・砂糖1・氷1",
+    "h": 4,
+    "s": 7,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "strawberry icecream",
+    "existing": false,
+    "category_number": 42,
+    "index": 202
+  },
+  {
+    "id": "caramel_pudding",
+    "name": "カラメルプリン",
+    "category": "甘味・お菓子",
+    "ingredients": "卵1・ミルク1・砂糖2",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷却",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "caramel pudding",
+    "existing": false,
+    "category_number": 43,
+    "index": 203
+  },
+  {
+    "id": "honey_pancakes",
+    "name": "はちみつパンケーキ",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・卵1・ミルク1・ハチミツ1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "honey pancakes",
+    "existing": false,
+    "category_number": 44,
+    "index": 204
+  },
+  {
+    "id": "berry_waffle",
+    "name": "ベリーワッフル",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・卵1・バター1・スイートベリー1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "berry waffle",
+    "existing": false,
+    "category_number": 45,
+    "index": 205
+  },
+  {
+    "id": "churros",
+    "name": "チュロス",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・食用油1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "churros",
+    "existing": false,
+    "category_number": 46,
+    "index": 206
+  },
+  {
+    "id": "cream_puff",
+    "name": "シュークリーム",
+    "category": "甘味・お菓子",
+    "ingredients": "小麦粉1・卵1・バター1・クリーム1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "cream puff",
+    "existing": false,
+    "category_number": 47,
+    "index": 207
+  },
+  {
+    "id": "strawberry_mochi",
+    "name": "いちご大福",
+    "category": "甘味・お菓子",
+    "ingredients": "炊いた米1・イチゴ1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "strawberry mochi",
+    "existing": false,
+    "category_number": 48,
+    "index": 208
+  },
+  {
+    "id": "sweet_rice_dumplings",
+    "name": "みたらし団子",
+    "category": "甘味・お菓子",
+    "ingredients": "炊いた米1・しょうゆ1・砂糖1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "sweet rice dumplings",
+    "existing": false,
+    "category_number": 49,
+    "index": 209
+  },
+  {
+    "id": "caramel_popcorn",
+    "name": "キャラメルポップコーン",
+    "category": "甘味・お菓子",
+    "ingredients": "トウモロコシ1・砂糖1・バター1",
+    "h": 4,
+    "s": 7,
+    "hours": 72,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "製菓",
+    "container": "なし",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      4,
+      4,
+      5
+    ],
+    "qualityS": [
+      7,
+      8,
+      9
+    ],
+    "visual": "caramel popcorn",
+    "existing": false,
+    "category_number": 50,
+    "index": 210
+  },
+  {
+    "id": "lemonade",
+    "name": "レモネード",
+    "category": "飲み物",
+    "ingredients": "レモン1・砂糖1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "lemonade",
+    "existing": false,
+    "category_number": 11,
+    "index": 211
+  },
+  {
+    "id": "honey_lemon_drink",
+    "name": "はちみつレモンドリンク",
+    "category": "飲み物",
+    "ingredients": "レモン1・ハチミツ1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "honey lemon drink",
+    "existing": false,
+    "category_number": 12,
+    "index": 212
+  },
+  {
+    "id": "grape_juice",
+    "name": "ぶどうジュース",
+    "category": "飲み物",
+    "ingredients": "ブドウ2・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "grape juice",
+    "existing": false,
+    "category_number": 13,
+    "index": 213
+  },
+  {
+    "id": "strawberry_juice",
+    "name": "いちごジュース",
+    "category": "飲み物",
+    "ingredients": "イチゴ2・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "strawberry juice",
+    "existing": false,
+    "category_number": 14,
+    "index": 214
+  },
+  {
+    "id": "tomato_juice",
+    "name": "トマトジュース",
+    "category": "飲み物",
+    "ingredients": "トマト2・塩1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "tomato juice",
+    "existing": false,
+    "category_number": 15,
+    "index": 215
+  },
+  {
+    "id": "corn_milk",
+    "name": "コーンミルク",
+    "category": "飲み物",
+    "ingredients": "トウモロコシ1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "corn milk",
+    "existing": false,
+    "category_number": 16,
+    "index": 216
+  },
+  {
+    "id": "cucumber_cooler",
+    "name": "きゅうりクーラー",
+    "category": "飲み物",
+    "ingredients": "キュウリ1・レモン1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "cucumber cooler",
+    "existing": false,
+    "category_number": 17,
+    "index": 217
+  },
+  {
+    "id": "apple_carrot_juice",
+    "name": "りんごにんじんジュース",
+    "category": "飲み物",
+    "ingredients": "リンゴ1・ニンジン1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "apple carrot juice",
+    "existing": false,
+    "category_number": 18,
+    "index": 218
+  },
+  {
+    "id": "tomato_carrot_juice",
+    "name": "トマトにんじんジュース",
+    "category": "飲み物",
+    "ingredients": "トマト1・ニンジン1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "tomato carrot juice",
+    "existing": false,
+    "category_number": 19,
+    "index": 219
+  },
+  {
+    "id": "mixed_berry_juice",
+    "name": "ミックスベリージュース",
+    "category": "飲み物",
+    "ingredients": "イチゴ1・スイートベリー1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 1,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "mixed berry juice",
+    "existing": false,
+    "category_number": 20,
+    "index": 220
+  },
+  {
+    "id": "apple_grape_juice",
+    "name": "りんごぶどうジュース",
+    "category": "飲み物",
+    "ingredients": "リンゴ1・ブドウ1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "apple grape juice",
+    "existing": false,
+    "category_number": 21,
+    "index": 221
+  },
+  {
+    "id": "melon_lemon_drink",
+    "name": "すいかレモンドリンク",
+    "category": "飲み物",
+    "ingredients": "スイカの薄切り1・レモン1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "melon lemon drink",
+    "existing": false,
+    "category_number": 22,
+    "index": 222
+  },
+  {
+    "id": "strawberry_milk",
+    "name": "いちごミルク",
+    "category": "飲み物",
+    "ingredients": "イチゴ1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "strawberry milk",
+    "existing": false,
+    "category_number": 23,
+    "index": 223
+  },
+  {
+    "id": "melon_milk",
+    "name": "すいかミルク",
+    "category": "飲み物",
+    "ingredients": "スイカの薄切り1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "melon milk",
+    "existing": false,
+    "category_number": 24,
+    "index": 224
+  },
+  {
+    "id": "apple_milk",
+    "name": "りんごミルク",
+    "category": "飲み物",
+    "ingredients": "リンゴ1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "apple milk",
+    "existing": false,
+    "category_number": 25,
+    "index": 225
+  },
+  {
+    "id": "grape_milk",
+    "name": "ぶどうミルク",
+    "category": "飲み物",
+    "ingredients": "ブドウ1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "grape milk",
+    "existing": false,
+    "category_number": 26,
+    "index": 226
+  },
+  {
+    "id": "cocoa_milk_cold",
+    "name": "アイスココア",
+    "category": "飲み物",
+    "ingredients": "カカオパウダー1・ミルク1・砂糖1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "cocoa milk cold",
+    "existing": false,
+    "category_number": 27,
+    "index": 227
+  },
+  {
+    "id": "caramel_milk",
+    "name": "キャラメルミルク",
+    "category": "飲み物",
+    "ingredients": "ミルク1・砂糖2・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "caramel milk",
+    "existing": false,
+    "category_number": 28,
+    "index": 228
+  },
+  {
+    "id": "strawberry_yogurt_drink",
+    "name": "いちごヨーグルトドリンク",
+    "category": "飲み物",
+    "ingredients": "イチゴ1・ヨーグルト1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "strawberry yogurt drink",
+    "existing": false,
+    "category_number": 29,
+    "index": 229
+  },
+  {
+    "id": "apple_yogurt_drink",
+    "name": "りんごヨーグルトドリンク",
+    "category": "飲み物",
+    "ingredients": "リンゴ1・ヨーグルト1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "apple yogurt drink",
+    "existing": false,
+    "category_number": 30,
+    "index": 230
+  },
+  {
+    "id": "melon_yogurt_drink",
+    "name": "すいかヨーグルトドリンク",
+    "category": "飲み物",
+    "ingredients": "スイカの薄切り1・ヨーグルト1・ミルク1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "melon yogurt drink",
+    "existing": false,
+    "category_number": 31,
+    "index": 231
+  },
+  {
+    "id": "honey_lassi",
+    "name": "はちみつラッシー",
+    "category": "飲み物",
+    "ingredients": "ヨーグルト1・ミルク1・ハチミツ1・ガラス瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "honey lassi",
+    "existing": false,
+    "category_number": 32,
+    "index": 232
+  },
+  {
+    "id": "green_tea",
+    "name": "緑茶",
+    "category": "飲み物",
+    "ingredients": "茶葉1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "茶葉を蒸す→抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "green tea",
+    "existing": false,
+    "category_number": 33,
+    "index": 233
+  },
+  {
+    "id": "black_tea",
+    "name": "紅茶",
+    "category": "飲み物",
+    "ingredients": "茶葉1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "茶葉を発酵→抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "black tea",
+    "existing": false,
+    "category_number": 34,
+    "index": 234
+  },
+  {
+    "id": "milk_tea",
+    "name": "ミルクティー",
+    "category": "飲み物",
+    "ingredients": "茶葉1・ミルク1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "milk tea",
+    "existing": false,
+    "category_number": 35,
+    "index": 235
+  },
+  {
+    "id": "lemon_tea",
+    "name": "レモンティー",
+    "category": "飲み物",
+    "ingredients": "茶葉1・レモン1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "lemon tea",
+    "existing": false,
+    "category_number": 36,
+    "index": 236
+  },
+  {
+    "id": "apple_tea",
+    "name": "アップルティー",
+    "category": "飲み物",
+    "ingredients": "茶葉1・リンゴ1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "apple tea",
+    "existing": false,
+    "category_number": 37,
+    "index": 237
+  },
+  {
+    "id": "berry_tea",
+    "name": "ベリーティー",
+    "category": "飲み物",
+    "ingredients": "茶葉1・スイートベリー1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "berry tea",
+    "existing": false,
+    "category_number": 38,
+    "index": 238
+  },
+  {
+    "id": "mint_tea",
+    "name": "ミントティー",
+    "category": "飲み物",
+    "ingredients": "ミント1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "mint tea",
+    "existing": false,
+    "category_number": 39,
+    "index": 239
+  },
+  {
+    "id": "honey_mint_tea",
+    "name": "はちみつミントティー",
+    "category": "飲み物",
+    "ingredients": "ミント1・ハチミツ1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 10,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "honey mint tea",
+    "existing": false,
+    "category_number": 40,
+    "index": 240
+  },
+  {
+    "id": "roasted_rice_tea",
+    "name": "玄米風炒り米茶",
+    "category": "飲み物",
+    "ingredients": "米1・茶葉1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "roasted rice tea",
+    "existing": false,
+    "category_number": 41,
+    "index": 241
+  },
+  {
+    "id": "black_coffee",
+    "name": "ブラックコーヒー",
+    "category": "飲み物",
+    "ingredients": "コーヒー豆1・水入り瓶1・共通カップ1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出（空瓶1を調理時返却）",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "black coffee",
+    "existing": false,
+    "category_number": 42,
+    "index": 242
+  },
+  {
+    "id": "cafe_latte",
+    "name": "カフェラテ",
+    "category": "飲み物",
+    "ingredients": "コーヒー豆1・ミルク1・共通カップ1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "cafe latte",
+    "existing": false,
+    "category_number": 43,
+    "index": 243
+  },
+  {
+    "id": "cafe_mocha",
+    "name": "カフェモカ",
+    "category": "飲み物",
+    "ingredients": "コーヒー豆1・ミルク1・カカオパウダー1・共通カップ1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "cafe mocha",
+    "existing": false,
+    "category_number": 44,
+    "index": 244
+  },
+  {
+    "id": "caramel_latte",
+    "name": "キャラメルラテ",
+    "category": "飲み物",
+    "ingredients": "コーヒー豆1・ミルク1・砂糖2・共通カップ1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "抽出",
+    "container": "共通カップ",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "caramel latte",
+    "existing": false,
+    "category_number": 45,
+    "index": 245
+  },
+  {
+    "id": "iced_coffee",
+    "name": "アイスコーヒー",
+    "category": "飲み物",
+    "ingredients": "コーヒー豆1・水入り瓶1",
+    "h": 0,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      0,
+      0,
+      0
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "iced coffee",
+    "existing": false,
+    "category_number": 46,
+    "index": 246
+  },
+  {
+    "id": "lemon_soda",
+    "name": "レモンソーダ",
+    "category": "飲み物",
+    "ingredients": "レモン1・砂糖1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "lemon soda",
+    "existing": false,
+    "category_number": 47,
+    "index": 247
+  },
+  {
+    "id": "grape_soda",
+    "name": "ぶどうソーダ",
+    "category": "飲み物",
+    "ingredients": "ブドウ1・砂糖1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "grape soda",
+    "existing": false,
+    "category_number": 48,
+    "index": 248
+  },
+  {
+    "id": "apple_soda",
+    "name": "アップルソーダ",
+    "category": "飲み物",
+    "ingredients": "リンゴ1・砂糖1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "apple soda",
+    "existing": false,
+    "category_number": 49,
+    "index": 249
+  },
+  {
+    "id": "mint_melon_soda",
+    "name": "ミントすいかソーダ",
+    "category": "飲み物",
+    "ingredients": "ミント1・スイカの薄切り1・砂糖1・水入り瓶1",
+    "h": 1,
+    "s": 6,
+    "hours": 48,
+    "level": 30,
+    "station": "焚火（専用調理UI）",
+    "process": "冷製・搾汁",
+    "container": "ガラス瓶",
+    "yield_count": 1,
+    "stack": 16,
+    "effect": "追加効果なし",
+    "qualityH": [
+      1,
+      1,
+      1
+    ],
+    "qualityS": [
+      6,
+      7,
+      8
+    ],
+    "visual": "mint melon soda",
+    "existing": false,
+    "category_number": 50,
+    "index": 250
+  },
+  {
+    "id": "rice",
+    "name": "米",
+    "category": "新食材",
+    "ingredients": "農家NPCから種もみを購入→専用水田UIで栽培・収穫。初回はNPCから米を購入可",
+    "hours": 720,
+    "level": 1,
+    "visual": "rice",
+    "existing": false,
+    "index": 251
+  },
+  {
+    "id": "tomato",
+    "name": "トマト",
+    "category": "新食材",
+    "ingredients": "農家NPCからトマト種を購入→専用栽培UIで収穫。苗・作物ブロックの実装は別途",
+    "hours": 120,
+    "level": 1,
+    "visual": "tomato",
+    "existing": false,
+    "index": 252
+  },
+  {
+    "id": "onion",
+    "name": "タマネギ",
+    "category": "新食材",
+    "ingredients": "農家NPCから種を購入→専用栽培UIで収穫",
+    "hours": 240,
+    "level": 1,
+    "visual": "onion",
+    "existing": false,
+    "index": 253
+  },
+  {
+    "id": "cabbage",
+    "name": "キャベツ",
+    "category": "新食材",
+    "ingredients": "農家NPCから種を購入→専用栽培UIで収穫",
+    "hours": 120,
+    "level": 1,
+    "visual": "cabbage",
+    "existing": false,
+    "index": 254
+  },
+  {
+    "id": "cucumber",
+    "name": "キュウリ",
+    "category": "新食材",
+    "ingredients": "農家NPCから種を購入→専用栽培UIで収穫",
+    "hours": 96,
+    "level": 1,
+    "visual": "cucumber",
+    "existing": false,
+    "index": 255
+  },
+  {
+    "id": "corn",
+    "name": "トウモロコシ",
+    "category": "新食材",
+    "ingredients": "農家NPCから種を購入→専用栽培UIで収穫",
+    "hours": 168,
+    "level": 1,
+    "visual": "corn",
+    "existing": false,
+    "index": 256
+  },
+  {
+    "id": "lemon",
+    "name": "レモン",
+    "category": "新食材",
+    "ingredients": "農家NPCの果樹苗を専用果樹UIに登録→成長後収穫",
+    "hours": 240,
+    "level": 10,
+    "visual": "lemon",
+    "existing": false,
+    "index": 257
+  },
+  {
+    "id": "grape",
+    "name": "ブドウ",
+    "category": "新食材",
+    "ingredients": "農家NPCの苗を専用果樹UIに登録→成長後収穫",
+    "hours": 120,
+    "level": 10,
+    "visual": "grape",
+    "existing": false,
+    "index": 258
+  },
+  {
+    "id": "strawberry",
+    "name": "イチゴ",
+    "category": "新食材",
+    "ingredients": "農家NPCから種を購入→専用栽培UIで収穫",
+    "hours": 72,
+    "level": 10,
+    "visual": "strawberry",
+    "existing": false,
+    "index": 259
+  },
+  {
+    "id": "tea_leaves",
+    "name": "茶葉",
+    "category": "新食材",
+    "ingredients": "農家NPCから苗を購入→専用栽培UIで収穫・乾燥",
+    "hours": 720,
+    "level": 10,
+    "visual": "tea leaves",
+    "existing": false,
+    "index": 260
+  },
+  {
+    "id": "coffee_beans",
+    "name": "コーヒー豆",
+    "category": "新食材",
+    "ingredients": "交易NPCから購入。果樹栽培は追加候補",
+    "hours": 720,
+    "level": 30,
+    "visual": "coffee beans",
+    "existing": false,
+    "index": 261
+  },
+  {
+    "id": "salt",
+    "name": "塩",
+    "category": "新食材",
+    "ingredients": "食材NPCから購入。海水の採取・蒸発システムは不要",
+    "hours": 0,
+    "level": 1,
+    "visual": "salt",
+    "existing": false,
+    "index": 262
+  },
+  {
+    "id": "mint",
+    "name": "ミント",
+    "category": "新食材",
+    "ingredients": "農家NPCから苗を購入→専用栽培UIで収穫",
+    "hours": 96,
+    "level": 1,
+    "visual": "mint",
+    "existing": false,
+    "index": 263
+  },
+  {
+    "id": "black_pepper",
+    "name": "黒こしょう",
+    "category": "新食材",
+    "ingredients": "交易NPCから購入",
+    "hours": 720,
+    "level": 10,
+    "visual": "black pepper",
+    "existing": false,
+    "index": 264
+  },
+  {
+    "id": "soybeans",
+    "name": "大豆",
+    "category": "新食材",
+    "ingredients": "農家NPCから種を購入→専用栽培UIで収穫",
+    "hours": 720,
+    "level": 10,
+    "visual": "soybeans",
+    "existing": false,
+    "index": 265
+  },
+  {
+    "id": "flour",
+    "name": "小麦粉",
+    "category": "中間素材",
+    "ingredients": "小麦2→小麦粉2／焚火UIの下ごしらえ",
+    "hours": 336,
+    "level": 1,
+    "visual": "flour",
+    "existing": false,
+    "index": 266
+  },
+  {
+    "id": "bread_dough",
+    "name": "パン生地",
+    "category": "中間素材",
+    "ingredients": "小麦粉2・水入り瓶1→パン生地2／こねる。空瓶1返却",
+    "hours": 48,
+    "level": 1,
+    "visual": "bread dough",
+    "existing": false,
+    "index": 267
+  },
+  {
+    "id": "fresh_noodles",
+    "name": "生麺",
+    "category": "中間素材",
+    "ingredients": "小麦粉2・卵1・水入り瓶1→生麺2／製麺。空瓶1返却",
+    "hours": 48,
+    "level": 10,
+    "visual": "fresh noodles",
+    "existing": false,
+    "index": 268
+  },
+  {
+    "id": "cooked_rice",
+    "name": "炊いた米",
+    "category": "中間素材",
+    "ingredients": "米1・水入り瓶1→炊いた米1／炊飯。空瓶1返却",
+    "hours": 48,
+    "level": 1,
+    "visual": "cooked rice",
+    "existing": false,
+    "index": 269
+  },
+  {
+    "id": "butter",
+    "name": "バター",
+    "category": "中間素材",
+    "ingredients": "ミルク1→バター2／攪拌。空バケツ1返却",
+    "hours": 168,
+    "level": 10,
+    "visual": "butter",
+    "existing": false,
+    "index": 270
+  },
+  {
+    "id": "cream",
+    "name": "クリーム",
+    "category": "中間素材",
+    "ingredients": "ミルク1→クリーム2／分離。空バケツ1返却",
+    "hours": 48,
+    "level": 10,
+    "visual": "cream",
+    "existing": false,
+    "index": 271
+  },
+  {
+    "id": "cheese",
+    "name": "チーズ",
+    "category": "中間素材",
+    "ingredients": "ミルク1・酢1・塩1→チーズ2／凝固。空バケツ1返却",
+    "hours": 168,
+    "level": 10,
+    "visual": "cheese",
+    "existing": false,
+    "index": 272
+  },
+  {
+    "id": "yogurt",
+    "name": "ヨーグルト",
+    "category": "中間素材",
+    "ingredients": "ミルク1→ヨーグルト2／発酵UIで10分。空バケツ1返却",
+    "hours": 72,
+    "level": 10,
+    "visual": "yogurt",
+    "existing": false,
+    "index": 273
+  },
+  {
+    "id": "cooking_oil",
+    "name": "食用油",
+    "category": "中間素材",
+    "ingredients": "小麦の種4→食用油1／搾油",
+    "hours": 720,
+    "level": 1,
+    "visual": "cooking oil",
+    "existing": false,
+    "index": 274
+  },
+  {
+    "id": "vinegar",
+    "name": "酢",
+    "category": "中間素材",
+    "ingredients": "リンゴ2・砂糖1→酢2／発酵UIで20分",
+    "hours": 720,
+    "level": 10,
+    "visual": "vinegar",
+    "existing": false,
+    "index": 275
+  },
+  {
+    "id": "soy_sauce",
+    "name": "しょうゆ",
+    "category": "中間素材",
+    "ingredients": "大豆2・小麦1・塩1→しょうゆ2／発酵UIで30分",
+    "hours": 720,
+    "level": 10,
+    "visual": "soy sauce",
+    "existing": false,
+    "index": 276
+  },
+  {
+    "id": "tofu",
+    "name": "豆腐",
+    "category": "中間素材",
+    "ingredients": "大豆2・水入り瓶1・塩1→豆腐2／凝固。空瓶1返却",
+    "hours": 48,
+    "level": 10,
+    "visual": "tofu",
+    "existing": false,
+    "index": 277
+  },
+  {
+    "id": "minced_meat",
+    "name": "ひき肉",
+    "category": "中間素材",
+    "ingredients": "牛肉1・豚肉1→ひき肉2／刻む",
+    "hours": 48,
+    "level": 1,
+    "visual": "minced meat",
+    "existing": false,
+    "index": 278
+  },
+  {
+    "id": "raw_sausage",
+    "name": "生ソーセージ",
+    "category": "中間素材",
+    "ingredients": "ひき肉1・塩1→生ソーセージ1／成形",
+    "hours": 48,
+    "level": 10,
+    "visual": "raw sausage",
+    "existing": false,
+    "index": 279
+  },
+  {
+    "id": "vegetable_stock",
+    "name": "野菜だし",
+    "category": "中間素材",
+    "ingredients": "タマネギ1・ニンジン1・水入り瓶1→野菜だし2／煮出す。空瓶1返却",
+    "hours": 48,
+    "level": 1,
+    "visual": "vegetable stock",
+    "existing": false,
+    "index": 280
+  },
+  {
+    "id": "tomato_sauce",
+    "name": "トマトソース",
+    "category": "中間素材",
+    "ingredients": "トマト2・タマネギ1・塩1→トマトソース2／煮詰める",
+    "hours": 72,
+    "level": 1,
+    "visual": "tomato sauce",
+    "existing": false,
+    "index": 281
+  },
+  {
+    "id": "cocoa_powder",
+    "name": "カカオパウダー",
+    "category": "中間素材",
+    "ingredients": "カカオ豆2→カカオパウダー2／焙煎・粉砕",
+    "hours": 336,
+    "level": 10,
+    "visual": "cocoa powder",
+    "existing": false,
+    "index": 282
+  },
+  {
+    "id": "gelatin",
+    "name": "ゼラチン",
+    "category": "中間素材",
+    "ingredients": "骨2・水入り瓶1→ゼラチン2／ゲーム内専用の煮出しレシピ。空瓶1返却",
+    "hours": 336,
+    "level": 10,
+    "visual": "gelatin",
+    "existing": false,
+    "index": 283
+  },
+  {
+    "id": "cup",
+    "name": "共通カップ",
+    "category": "容器",
+    "ingredients": "レンガ3→共通カップ1／作業台UI",
+    "hours": 0,
+    "level": 1,
+    "visual": "cup",
+    "existing": false,
+    "index": 284
+  }
+]

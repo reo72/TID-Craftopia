@@ -1,0 +1,705 @@
+{
+ "format_version": "1.20.20",
+ "sound_definitions": {
+  "cooptown.town_bgm.sweden": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/sweden",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.an_ordinary_day": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/an_ordinary_day",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.comforting_memories": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/comforting_memories",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.pokopoko": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/pokopoko",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.komorebi": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/komorebi",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.one_more_day": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/one_more_day",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.left_to_bloom": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/left_to_bloom",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.mice_on_venus": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/mice_on_venus",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.home": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/home",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.fireflies": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/music/game/fireflies",
+     "stream": true,
+     "volume": 0.55
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_00": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/00",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_01": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/01",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_02": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/02",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_03": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/03",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_04": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/04",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_05": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/05",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_06": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/06",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_07": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/07",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_08": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/08",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_09": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/09",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_10": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/10",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_11": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/11",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_12": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/12",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_13": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/13",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_14": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/14",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_15": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/15",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_16": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/16",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_17": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/17",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_18": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/18",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_19": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/19",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_20": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/20",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_21": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/21",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_22": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/22",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_23": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/23",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_24": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/24",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_25": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/25",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_26": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/26",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_27": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/27",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_28": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/28",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_29": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/29",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_30": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/30",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_31": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/31",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_32": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/32",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_33": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/33",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_34": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/34",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_35": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/35",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_36": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/36",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_37": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/37",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_38": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/38",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_39": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/39",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_40": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/40",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_41": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/41",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_42": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/42",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_43": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/43",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_44": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/44",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_45": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/45",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_46": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/46",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_47": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/47",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_48": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/48",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_49": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/49",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_50": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/50",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_51": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/51",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_52": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/52",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_53": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/53",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_54": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/54",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_55": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/55",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_56": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/56",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_57": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/57",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_58": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/58",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  },
+  "cooptown.town_bgm.city_59": {
+   "category": "music",
+   "sounds": [
+    {
+     "name": "sounds/cooptown/bgm/city/59",
+     "volume": 1.0,
+     "is3D": false
+    }
+   ]
+  }
+ }
+}

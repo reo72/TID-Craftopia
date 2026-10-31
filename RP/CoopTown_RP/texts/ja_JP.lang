@@ -1,0 +1,7 @@
+entity.cooptown:villager.name=村人
+item.spawn_egg.entity.cooptown:villager.name=村人NPCのスポーンエッグ
+entity.cooptown:deposit_box.name=共有倉庫
+entity.cooptown:warehouse_vault.name=共有倉庫の保管庫
+entity.cooptown:pack_box.name=バックパック
+entity.cooptown:onbu_seat.name=おんぶ
+entity.cooptown:grave.name=お墓

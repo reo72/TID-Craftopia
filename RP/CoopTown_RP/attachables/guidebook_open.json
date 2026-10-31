@@ -1,0 +1,38 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "cooptown:guidebook_open",
+   "materials": {
+    "default": "entity_alphatest",
+    "enchanted": "entity_alphatest_glint"
+   },
+   "textures": {
+    "default": "textures/cooptown/guidebook/book",
+    "enchanted": "textures/misc/enchanted_item_glint"
+   },
+   "geometry": {
+    "default": "geometry.cooptown_guidebook"
+   },
+   "animations": {
+    "hand": "animation.cooptown_guidebook.hand",
+    "hand_fp": "animation.cooptown_guidebook.hand_fp",
+    "open": "animation.cooptown_guidebook.open"
+   },
+   "scripts": {
+    "animate": [
+     {
+      "hand_fp": "c.is_first_person"
+     },
+     {
+      "hand": "!c.is_first_person"
+     },
+     "open"
+    ]
+   },
+   "render_controllers": [
+    "controller.render.cooptown_guidebook"
+   ]
+  }
+ }
+}

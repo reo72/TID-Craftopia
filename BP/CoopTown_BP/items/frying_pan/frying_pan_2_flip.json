@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:frying_pan_2_flip",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "上等なフライパン"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_frying_pan_2"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": {
+        "value": 4
+      },
+      "minecraft:interact_button": "フライパンを振る",
+      "cooptown:frying_pan": {}
+    }
+  }
+}

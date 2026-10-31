@@ -1,0 +1,63 @@
+{
+ "format_version": "1.10.0",
+ "animations": {
+  "animation.cooptown.tool.brush": {
+   "animation_length": 0.8,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.1": [-55, -20, 0], "0.25": [-55, 25, 0], "0.4": [-55, -20, 0], "0.55": [-55, 25, 0], "0.7": [-40, 0, 0], "0.8": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.hammer": {
+   "animation_length": 0.7,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.2": [-160, 10, 0], "0.3": [-35, 0, 0], "0.4": [-55, 0, 0], "0.7": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.slice": {
+   "animation_length": 0.45,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.1": [-110, -35, 0], "0.25": [-45, 45, 0], "0.45": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.inspect": {
+   "animation_length": 1.2,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.2": [-105, -35, 0], "0.6": [-110, -30, 0], "0.9": [-105, -35, 0], "1.2": [0, 0, 0]}},
+    "head": {"rotation": {"0.0": [0, 0, 0], "0.25": [8, 0, 0], "0.9": [8, 0, 0], "1.2": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.drink": {
+   "animation_length": 1.0,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.2": [-95, -30, 0], "0.4": [-110, -30, 0], "0.6": [-95, -30, 0], "0.8": [-110, -30, 0], "1.0": [0, 0, 0]}},
+    "head": {"rotation": {"0.0": [0, 0, 0], "0.25": [-20, 0, 0], "0.8": [-20, 0, 0], "1.0": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.rub": {
+   "animation_length": 0.9,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.15": [-60, -25, 0], "0.3": [-60, 15, 0], "0.45": [-60, -25, 0], "0.6": [-60, 15, 0], "0.75": [-60, -25, 0], "0.9": [0, 0, 0]}},
+    "leftArm": {"rotation": {"0.0": [0, 0, 0], "0.15": [-55, 25, 0], "0.75": [-55, 25, 0], "0.9": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.write": {
+   "animation_length": 0.8,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.15": [-60, -15, 0], "0.3": [-60, -15, 8], "0.45": [-60, -15, -8], "0.6": [-60, -15, 8], "0.8": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.point": {
+   "animation_length": 0.9,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.15": [-95, 0, 0], "0.7": [-95, 0, 0], "0.9": [0, 0, 0]}}
+   }
+  },
+  "animation.cooptown.tool.bag": {
+   "animation_length": 0.6,
+   "bones": {
+    "rightArm": {"rotation": {"0.0": [0, 0, 0], "0.15": [-50, -20, 0], "0.45": [-50, -20, 0], "0.6": [0, 0, 0]}},
+    "leftArm": {"rotation": {"0.0": [0, 0, 0], "0.15": [-50, 20, 0], "0.45": [-50, 20, 0], "0.6": [0, 0, 0]}}
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+  "ui_defs": [
+    "ui/cooptown_bench.json",
+    "ui/cooptown_admin.json",
+    "ui/cooptown_dialog.json",
+    "ui/cooptown_book.json",
+    "ui/cooptown_enchant.json",
+    "ui/cooptown_cook.json",
+    "ui/cooptown_anvil.json",
+    "ui/cooptown_compost.json",
+    "ui/cooptown_brew.json",
+    "ui/cooptown_shelf.json",
+    "ui/cooptown_smoke.json",
+    "ui/cooptown_blast.json",
+    "ui/cooptown_cauldron.json",
+    "ui/cooptown_backpack.json",
+    "ui/cooptown_worldmap.json",
+    "ui/cooptown_rune.json",
+    "ui/cooptown_forge.json",
+    "ui/cooptown_npc.json",
+    "ui/cooptown_lock.json",
+    "ui/cooptown_ranch.json",
+    "ui/cooptown_grind.json",
+    "ui/cooptown_saw.json",
+    "ui/cooptown_party.json",
+    "ui/cooptown_gacha.json"
+  ]
+}

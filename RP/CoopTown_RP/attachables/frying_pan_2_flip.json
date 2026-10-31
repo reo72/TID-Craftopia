@@ -1,0 +1,38 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "cooptown:frying_pan_2_flip",
+   "materials": {
+    "default": "entity_alphatest",
+    "enchanted": "entity_alphatest_glint"
+   },
+   "textures": {
+    "default": "textures/cooptown/frying_pan/pan_2",
+    "enchanted": "textures/misc/enchanted_item_glint"
+   },
+   "geometry": {
+    "default": "geometry.cooptown_frying_pan"
+   },
+   "animations": {
+    "hand": "animation.cooptown_frying_pan.hand",
+    "hand_fp": "animation.cooptown_frying_pan.hand_fp",
+    "flip": "animation.cooptown_frying_pan.flip"
+   },
+   "scripts": {
+    "animate": [
+     {
+      "hand_fp": "c.is_first_person"
+     },
+     {
+      "hand": "!c.is_first_person"
+     },
+     "flip"
+    ]
+   },
+   "render_controllers": [
+    "controller.render.cooptown_frying_pan"
+   ]
+  }
+ }
+}

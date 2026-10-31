@@ -1,0 +1,23 @@
+{
+ "format_version": "1.21.90",
+ "minecraft:item": {
+  "description": {
+   "identifier": "cooptown:minced_meat",
+   "menu_category": {
+    "category": "items",
+    "group": "minecraft:itemGroup.name.miscFood"
+   }
+  },
+  "components": {
+   "minecraft:display_name": {
+    "value": "ひき肉"
+   },
+   "minecraft:icon": {
+    "textures": {
+     "default": "cooptown_food_minced_meat"
+    }
+   },
+   "minecraft:max_stack_size": 16
+  }
+ }
+}

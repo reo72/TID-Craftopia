@@ -1,0 +1,33 @@
+{
+ "format_version": "1.21.90",
+ "minecraft:item": {
+  "description": {
+   "identifier": "cooptown:grilled_corn",
+   "menu_category": {
+    "category": "items",
+    "group": "minecraft:itemGroup.name.miscFood"
+   }
+  },
+  "components": {
+   "minecraft:display_name": {
+    "value": "しょうゆ焼きとうもろこし"
+   },
+   "minecraft:icon": {
+    "textures": {
+     "default": "cooptown_food_grilled_corn"
+    }
+   },
+   "minecraft:max_stack_size": 16,
+   "minecraft:food": {
+    "nutrition": 10,
+    "saturation_modifier": 0.6,
+    "can_always_eat": false
+   },
+   "minecraft:use_modifiers": {
+    "use_duration": 1.6,
+    "movement_modifier": 0.35
+   },
+   "minecraft:use_animation": "eat"
+  }
+ }
+}

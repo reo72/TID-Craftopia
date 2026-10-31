@@ -1,0 +1,16 @@
+{
+ "format_version": "1.20.10",
+ "minecraft:recipe_furnace": {
+  "description": {
+   "identifier": "cooptown:cook_fish_oikawa"
+  },
+  "tags": [
+   "furnace",
+   "smoker",
+   "campfire",
+   "soul_campfire"
+  ],
+  "input": "cooptown:fish_oikawa",
+  "output": "minecraft:cooked_cod"
+ }
+}

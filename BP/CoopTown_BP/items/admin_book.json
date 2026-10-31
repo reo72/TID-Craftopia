@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:admin_book",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "運営の手帳"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_admin_book"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": false,
+      "minecraft:glint": true,
+      "minecraft:interact_button": "運営画面を開く",
+      "cooptown:open_admin": {}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:fish_basket_master",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "名人の魚籠"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_fish_basket_master"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:interact_button": "魚籠を開く",
+      "cooptown:job_tool": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:timber_beam",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "補強木材"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_timber_beam"
+        }
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

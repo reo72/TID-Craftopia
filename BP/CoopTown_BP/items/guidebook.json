@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:guidebook",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "メニュー"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_guidebook"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": false,
+      "minecraft:interact_button": "メニューを開く",
+      "cooptown:open_menu": {}
+    }
+  }
+}

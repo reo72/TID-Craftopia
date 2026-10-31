@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:rune_charm",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "支援の護符"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_rune_charm"
+        }
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:interact_button": "刻印を発動",
+      "cooptown:rune_activate": {}
+    }
+  }
+}

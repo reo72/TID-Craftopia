@@ -1,0 +1,20 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:client_entity": {
+  "description": {
+   "identifier": "cooptown:grave",
+   "materials": {
+    "default": "entity_alphatest"
+   },
+   "textures": {
+    "default": "textures/cooptown/grave"
+   },
+   "geometry": {
+    "default": "geometry.cooptown_grave"
+   },
+   "render_controllers": [
+    "controller.render.default"
+   ]
+  }
+ }
+}

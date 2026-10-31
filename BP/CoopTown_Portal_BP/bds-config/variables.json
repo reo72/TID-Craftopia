@@ -1,0 +1,5 @@
+{
+  "portal_url": "https://xxxx.m-ws.cc",
+  "discord_webhook_url": "https://discord.com/api/webhooks/xxxx/yyyy",
+  "discord_events": ["server", "join", "leave", "death", "chat", "levelup", "quest"]
+}

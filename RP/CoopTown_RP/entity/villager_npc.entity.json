@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "cooptown:villager",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "npc01": "textures/entity/cooptown_npc/npc01",
+        "npc02": "textures/entity/cooptown_npc/npc02",
+        "npc03": "textures/entity/cooptown_npc/npc03",
+        "npc04": "textures/entity/cooptown_npc/npc04",
+        "npc05": "textures/entity/cooptown_npc/npc05",
+        "npc06": "textures/entity/cooptown_npc/npc06",
+        "npc07": "textures/entity/cooptown_npc/npc07",
+        "npc08": "textures/entity/cooptown_npc/npc08",
+        "npc09": "textures/entity/cooptown_npc/npc09"
+      },
+      "geometry": {
+        "wide": "geometry.humanoid.custom",
+        "slim": "geometry.humanoid.customSlim"
+      },
+      "animations": {
+        "look_at_target": "animation.humanoid.look_at_target.default",
+        "move": "animation.humanoid.move",
+        "idle": "animation.cooptown_villager.idle",
+        "hold": "animation.cooptown_villager.hold",
+        "wave": "animation.cooptown_villager.wave"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed) * 57.3;"
+        ],
+        "animate": [
+          "look_at_target",
+          "move",
+          {
+            "idle": "query.modified_move_speed < 0.1 && !query.property('cooptown:talking')"
+          },
+          {
+            "hold": "query.is_item_equipped('main_hand') && !query.property('cooptown:talking')"
+          },
+          {
+            "wave": "query.property('cooptown:talking')"
+          }
+        ]
+      },
+      "enable_attachables": true,
+      "render_controllers": [
+        "controller.render.cooptown_villager"
+      ],
+      "spawn_egg": {
+        "base_color": "#3b6e3b",
+        "overlay_color": "#e8c07a"
+      }
+    }
+  }
+}

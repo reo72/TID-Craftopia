@@ -1,0 +1,30 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:bait_master",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "主の擬似餌"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_bait_master"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:allow_off_hand": true,
+      "minecraft:durability": {
+        "max_durability": 64,
+        "damage_chance": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  }
+}

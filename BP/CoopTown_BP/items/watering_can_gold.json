@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:watering_can_gold",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "金のジョーロ"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_watering_can_gold"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:interact_button": "水をまく",
+      "minecraft:durability": {
+        "max_durability": 120,
+        "damage_chance": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  }
+}

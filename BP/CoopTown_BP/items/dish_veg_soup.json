@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:veg_soup",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "野菜スープ"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_dish_veg_soup"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation_modifier": 0.6,
+        "can_always_eat": false,
+        "using_converts_to": "minecraft:bowl"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

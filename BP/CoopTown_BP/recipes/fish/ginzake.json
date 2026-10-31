@@ -1,0 +1,16 @@
+{
+ "format_version": "1.20.10",
+ "minecraft:recipe_furnace": {
+  "description": {
+   "identifier": "cooptown:cook_fish_ginzake"
+  },
+  "tags": [
+   "furnace",
+   "smoker",
+   "campfire",
+   "soul_campfire"
+  ],
+  "input": "cooptown:fish_ginzake",
+  "output": "minecraft:cooked_salmon"
+ }
+}

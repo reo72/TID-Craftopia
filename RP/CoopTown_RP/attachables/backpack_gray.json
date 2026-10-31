@@ -1,0 +1,41 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "cooptown:backpack_gray",
+   "materials": {
+    "default": "entity_alphatest",
+    "enchanted": "entity_alphatest_glint"
+   },
+   "textures": {
+    "default": "textures/cooptown/backpack/tex_gray",
+    "enchanted": "textures/misc/enchanted_item_glint"
+   },
+   "geometry": {
+    "hand": "geometry.cooptown_backpack_hand",
+    "back": "geometry.cooptown_backpack_back"
+   },
+   "animations": {
+    "hand": "animation.cooptown_backpack.hand",
+    "hand_fp": "animation.cooptown_backpack.hand_fp",
+    "back": "animation.cooptown_backpack.back"
+   },
+   "scripts": {
+    "animate": [
+     {
+      "back": "(c.item_slot == 'off_hand')"
+     },
+     {
+      "hand_fp": "!(c.item_slot == 'off_hand') && c.is_first_person"
+     },
+     {
+      "hand": "!(c.item_slot == 'off_hand') && !c.is_first_person"
+     }
+    ]
+   },
+   "render_controllers": [
+    "controller.render.cooptown_backpack"
+   ]
+  }
+ }
+}

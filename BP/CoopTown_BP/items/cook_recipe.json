@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:cook_recipe",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "料理のレシピ"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_cook_recipe"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:interact_button": "レシピを覚える",
+      "cooptown:learn_cook": {}
+    }
+  }
+}

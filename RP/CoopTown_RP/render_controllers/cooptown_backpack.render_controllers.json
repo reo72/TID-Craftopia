@@ -1,0 +1,24 @@
+{
+ "format_version": "1.8.0",
+ "render_controllers": {
+  "controller.render.cooptown_backpack": {
+   "arrays": {
+    "geometries": {
+     "Array.geo": [
+      "Geometry.hand",
+      "Geometry.back"
+     ]
+    }
+   },
+   "geometry": "Array.geo[(c.item_slot == 'off_hand') ? 1 : 0]",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.default"
+   ]
+  }
+ }
+}

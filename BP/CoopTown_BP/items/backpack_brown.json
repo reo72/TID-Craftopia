@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:backpack_brown",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "バックパック（茶色）"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_backpack_brown"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:allow_off_hand": true,
+      "minecraft:interact_button": "バックパックを開く",
+      "cooptown:open_backpack": {}
+    }
+  }
+}

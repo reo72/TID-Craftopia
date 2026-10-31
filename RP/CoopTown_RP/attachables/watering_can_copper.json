@@ -1,0 +1,36 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "cooptown:watering_can_copper",
+   "materials": {
+    "default": "entity_alphablend",
+    "enchanted": "entity_alphatest_glint"
+   },
+   "textures": {
+    "default": "textures/cooptown/watering_can/copper",
+    "enchanted": "textures/misc/enchanted_item_glint"
+   },
+   "geometry": {
+    "default": "geometry.cooptown_watering_can"
+   },
+   "animations": {
+    "hand": "animation.cooptown_watering_can.hand",
+    "hand_fp": "animation.cooptown_watering_can.hand_fp"
+   },
+   "scripts": {
+    "animate": [
+     {
+      "hand_fp": "c.is_first_person"
+     },
+     {
+      "hand": "!c.is_first_person"
+     }
+    ]
+   },
+   "render_controllers": [
+    "controller.render.cooptown_watering_can"
+   ]
+  }
+ }
+}

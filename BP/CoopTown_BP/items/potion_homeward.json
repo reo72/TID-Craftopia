@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cooptown:potion_homeward",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "帰還の薬"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "cooptown_potion_homeward"
+        }
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": 0,
+        "can_always_eat": true,
+        "using_converts_to": "minecraft:glass_bottle"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.35
+      },
+      "minecraft:use_animation": "drink",
+      "minecraft:max_stack_size": 8,
+      "minecraft:glint": true
+    }
+  }
+}
